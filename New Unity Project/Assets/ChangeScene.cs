@@ -2,8 +2,11 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ChangeScene : MonoBehaviour
-{
+public class ChangeScene : MonoBehaviour{
+    void fix()
+    {
+	Screen.SetResolution(1280, 768, true);
+    }
     void Start()
     {
         
