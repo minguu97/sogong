@@ -1,13 +1,24 @@
 fileFormatVersion: 2
 guid: 4c6c8203063c2e34aac014b20e4df12f
 ScriptedImporter:
-  fileIDToRecycleName:
-    100000: gameObject/japan
-    400000: gameObject/japan/Transform
-    21200000: gameObject/japan/SpriteRenderer
-    21300000: sprite
-    100100000: gameObject
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: gameObject/japan
+  - first:
+      4: 400000
+    second: gameObject/japan/Transform
+  - first:
+      212: 21200000
+    second: gameObject/japan/SpriteRenderer
+  - first:
+      213: 21300000
+    second: sprite
+  - first:
+      1001: 100100000
+    second: gameObject
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -19,6 +30,7 @@ ScriptedImporter:
   alignment: 0
   customPivot: {x: 0, y: 0}
   generatePhysicsShape: 0
+  viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
   predefinedResolutionIndex: 1
@@ -52,4 +64,5 @@ ScriptedImporter:
         width: 0
         height: 0
       spriteID: 8a29af98bc857ec49ac94ed874538c88
+      internalID: 0
     PhysicsOutlines: []
