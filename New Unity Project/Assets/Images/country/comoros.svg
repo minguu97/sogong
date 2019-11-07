@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1.1485082mm"
+   height="1.0269266mm"
+   viewBox="0 0 1.1485081 1.0269267"
+   version="1.1"
+   id="svg7070"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="comoros.svg">
+  <defs
+     id="defs7064" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.9195959"
+     inkscape:cx="10.547647"
+     inkscape:cy="5.6908397"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="958"
+     inkscape:window-height="1008"
+     inkscape:window-x="-7"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7067">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-160.23248,-48.632016)">
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,52.38399,-84.09772)"
+       id="km"
+       style="fill:#ffffff">
+      <path
+         style="fill:#ffffff"
+         inkscape:connector-curvature="0"
+         d="m 408.362,503.818 c 0.195,-0.178 0.074,-0.518 -0.004,-0.715 -0.2,-0.496 -0.073,-0.957 -0.222,-1.447 -0.608,-0.018 -0.341,0.785 -0.478,1.133 -0.212,0.546 0.441,0.693 0.704,1.029 z"
+         id="path5750" />
+      <path
+         style="fill:#ffffff"
+         inkscape:connector-curvature="0"
+         d="m 409.635,505.537 c -0.106,-0.307 -0.389,-0.551 -0.732,-0.482 -0.001,0.441 0.418,0.415 0.732,0.482 z"
+         id="path5752" />
+      <path
+         style="fill:#ffffff"
+         inkscape:connector-curvature="0"
+         d="m 411.856,505.5 c 0.374,-0.969 -0.367,-0.607 -0.951,-0.764 0.328,0.24 0.684,0.451 0.951,0.764 z"
+         id="path5754" />
+    </g>
+  </g>
+</svg>

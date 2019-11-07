@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="3.69838mm"
+   height="4.1455164mm"
+   viewBox="0 0 3.6983799 4.1455164"
+   version="1.1"
+   id="svg7070"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="guatemala.svg">
+  <defs
+     id="defs7064" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="-61.414403"
+     inkscape:cy="-93.016806"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="958"
+     inkscape:window-height="1008"
+     inkscape:window-x="-7"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7067">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-172.01429,-76.413139)">
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke-width:0.26458332"
+       d="m 172.01441,79.743716 c 0.095,-0.11324 0.0788,-0.23257 0.11298,-0.3683 0.0164,-0.0661 0.10927,-0.11192 0.0894,-0.18468 -0.0368,-0.13573 -0.0354,-0.15822 0.0439,-0.29025 0.11906,-0.19817 0.21987,-0.45323 0.30216,-0.6215 0.0836,-0.17119 0.40454,-0.0736 0.57414,-0.0736 0.0976,0 0.60934,0.0611 0.65961,-0.0209 0.0167,-0.0272 0.0606,-0.3429 0.0468,-0.35481 -0.0587,-0.0508 -0.13864,-0.0278 -0.1569,-0.1225 -0.0209,-0.10795 -0.0452,-0.16668 -0.14605,-0.22754 -0.19288,-0.11668 -0.31327,-0.3085 -0.46699,-0.46778 0.11668,0 0.32517,0.0548 0.39529,-0.0751 0.0722,-0.13388 -0.0161,-0.33814 0.0836,-0.45482 0.10689,-0.12515 0.58605,-0.0413 0.73924,-0.0413 0.29422,0 0.5887,0 0.88292,0 -0.0746,0.31777 -0.082,0.64611 -0.14288,0.96626 -0.0624,0.32755 -0.13388,0.65379 -0.18494,0.98346 0.1561,-0.0161 0.48789,-0.0233 0.51276,0.19314 0.0254,-0.0563 0.0513,-0.12356 0.11774,-0.14287 -0.0209,-0.0294 -0.0434,-0.0574 -0.0672,-0.0841 0.11694,0.0423 0.19658,0.14155 0.30268,0.20188 -0.28363,0.11853 -0.45932,0.40402 -0.72046,0.55827 -0.12171,0.0717 -0.27993,0.15743 -0.245,0.32517 0.0246,0.1188 0.0513,0.20003 -0.0463,0.28998 -0.0923,0.0847 -0.35401,0.13679 -0.32861,0.27173 0.0151,0.0799 -0.0442,0.0632 -0.1008,0.11324 -0.0111,0.01 -0.10901,0.1397 -0.0945,0.13335 -0.11509,0.0519 -0.40508,0.0701 -0.34661,0.30851 -0.13705,-0.0601 -0.26035,-0.15981 -0.41089,-0.18548 -0.15373,-0.0265 -0.31671,0.0228 -0.47387,0.004 -0.38841,-0.046 -0.67151,-0.37412 -0.93134,-0.63368 z"
+       id="gt" />
+  </g>
+</svg>

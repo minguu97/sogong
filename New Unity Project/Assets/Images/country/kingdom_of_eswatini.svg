@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1.1821088mm"
+   height="1.4105716mm"
+   viewBox="0 0 1.1821087 1.4105715"
+   version="1.1"
+   id="svg7070"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="kingdom_of_eswatini.svg">
+  <defs
+     id="defs7064" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.9195959"
+     inkscape:cx="-4.1609169"
+     inkscape:cy="-14.405242"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="958"
+     inkscape:window-height="1008"
+     inkscape:window-x="-7"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7067">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-164.12411,-42.931283)">
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke-width:0.26458332"
+       d="m 164.12412,43.814682 c 0.13335,-0.216958 0.26961,-0.791633 0.5805,-0.874977 0.0952,-0.0254 0.19155,0.0098 0.27225,0.0635 0.0783,0.05159 0.0664,0.0635 0.12885,0.116152 0.13441,0.113242 0.21802,0.638704 0.19738,0.795867 -0.0333,-0.01244 -0.11139,0.01455 -0.14525,0.0042 -0.0222,0.134938 -0.11324,0.175684 -0.0998,0.310621 0.0106,0.106363 -0.24183,0.119856 -0.30745,0.108479 -0.12673,-0.02222 -0.22727,-0.148431 -0.29818,-0.2667 -0.0685,-0.1143 -0.11668,-0.194204 -0.23971,-0.257439 m -0.0886,2.64e-4 z"
+       id="sz" />
+  </g>
+</svg>
