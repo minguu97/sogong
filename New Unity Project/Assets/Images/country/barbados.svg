@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -54,7 +54,7 @@
      id="layer1"
      transform="translate(-180.83962,-22.629228)">
     <path
-       style="fill:#ffffff;stroke-width:0.26458332"
+       style="fill:#aaaaaa;stroke-width:0.26458332"
        inkscape:connector-curvature="0"
        id="bb"
        d="m 180.93324,22.881376 c -0.11191,-0.04789 -0.0923,-0.152929 -0.0923,-0.252148 0.0937,0.03466 0.26484,0.190765 0.0923,0.252148 z" />

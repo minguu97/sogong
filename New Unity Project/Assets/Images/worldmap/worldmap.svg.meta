@@ -1,22 +1,7 @@
 fileFormatVersion: 2
-guid: 6555af1ec225b0c40bab801c3f5b1a7a
+guid: 34a439b73ce14b14ab979bd7c4a67d4e
 ScriptedImporter:
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: gameObject/worldmap
-  - first:
-      4: 400000
-    second: gameObject/worldmap/Transform
-  - first:
-      212: 21200000
-    second: gameObject/worldmap/SpriteRenderer
-  - first:
-      213: 21300000
-    second: sprite
-  - first:
-      1001: 100100000
-    second: gameObject
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 2
   userData: 
@@ -63,6 +48,6 @@ ScriptedImporter:
         y: 0
         width: 0
         height: 0
-      spriteID: b5e1126c95afb044b8d844e4bae39046
+      spriteID: f898cc7a79bbc314da42fa05a5853f86
       internalID: 0
     PhysicsOutlines: []

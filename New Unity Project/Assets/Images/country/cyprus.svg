@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -55,7 +55,7 @@
      transform="translate(-158.45094,-43.372355)">
     <path
        inkscape:connector-curvature="0"
-       style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;vector-effect:none;fill:#aaaaaa;fill-opacity:1;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 158.48484,44.053392 c -0.0111,-0.03069 -0.0225,-0.06138 -0.0339,-0.0926 0.11483,0.113242 0.2839,-0.102129 0.41487,-0.0934 0.20214,0.01376 0.0503,-0.189177 0.23759,-0.184414 0.20109,0.005 0.37994,0.04048 0.58129,-0.01376 0.22622,-0.06059 0.42916,-0.296334 0.66649,-0.296863 -0.15002,0.09446 -0.28496,0.315648 -0.45191,0.3683 -0.1823,0.05715 0,0.23204 0.0722,0.312738 -0.0778,0.0095 -0.25506,-0.0058 -0.31459,0.04789 -0.0667,0.06032 -0.0894,0.145256 -0.18045,0.176742 -0.0802,0.02752 -0.39422,0.06085 -0.34528,0.203993 -0.26326,-0.133085 -0.52202,-0.09366 -0.64637,-0.428624 z"
        id="cy" />
   </g>

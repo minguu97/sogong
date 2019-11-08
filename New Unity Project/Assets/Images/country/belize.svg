@@ -15,7 +15,7 @@
    version="1.1"
    id="svg7070"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="belize.svg">
+   sodipodi:docname="guatemala.svg">
   <defs
      id="defs7064" />
   <sodipodi:namedview
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -55,15 +55,14 @@
      transform="translate(-168.94978,-102.88541)">
     <g
        transform="matrix(0.26458333,0,0,0.26458333,178.08717,0.31365684)"
-       id="bz"
-       style="fill:#ffffff">
+       id="bz">
       <path
-         style="fill:#ffffff"
+         style="fill:#aaaaaa"
          inkscape:connector-curvature="0"
          d="m -29.421,391.879 c 0.251,-0.076 0.417,-0.27 0.318,-0.541 -0.109,0.179 -0.215,0.358 -0.318,0.541 z"
          id="path2808" />
       <path
-         style="fill:#ffffff"
+         style="fill:#aaaaaa"
          inkscape:connector-curvature="0"
          d="m -34.535,397.596 c 0.253,-1.646 0.687,-3.199 0.845,-4.862 0.064,-0.671 0.199,-4.052 1.41,-2.729 0.335,-0.63 1.196,-2.514 2.128,-2.318 -0.195,0.18 -0.29,0.401 -0.286,0.667 1.405,-0.712 0.178,2.03 0.042,2.495 -0.165,0.563 -0.265,1.268 -0.363,1.861 -0.071,0.427 0.093,0.745 -0.053,1.181 -0.144,0.432 -0.366,0.832 -0.516,1.26 0.245,-0.879 -0.22,0.242 -0.32,0.368 -0.282,0.353 -0.647,0.483 -0.986,0.761 -0.288,0.233 -0.548,0.534 -0.721,0.863 -0.082,0.141 -0.126,0.292 -0.132,0.454 -0.346,-0.087 -0.7,-0.036 -1.048,-10e-4 z"
          id="path2810" />

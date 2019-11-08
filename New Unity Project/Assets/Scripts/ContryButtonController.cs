@@ -10,12 +10,12 @@ public class ContryButtonController : MonoBehaviour
     void Start()
     {
         // 나라 리스트
-        country = new ArrayList(new string[] { "china", "japan"  });
+        country = new ArrayList(new string[] { "china", "russia", "mongolia", "vietnam", "thailand", "laos", "cambodia" });
 
         foreach (string str in country)
         {
             string btn_name = "btn_" + str;
-            GameObject buttonPrefab = GameObject.Find("btn_country");
+            GameObject buttonPrefab = GameObject.Find("btnInterface_country");
             
             // 리스트마다 버튼 생성
             CreateButton(str, buttonPrefab, GameObject.Find("Content_btnCountry").transform);
@@ -56,8 +56,8 @@ public class ContryButtonController : MonoBehaviour
         {
             svg = GameObject.Find(str).GetComponent<SVGImage>();
             name = svg.name;
-            // 투명
-            svg.color = new Color32(0, 0, 0, 0);
+            // 초록
+            svg.color = new Color32(0, 255, 0, 255);
             state = "not clicked";
         }
 
@@ -70,8 +70,7 @@ public class ContryButtonController : MonoBehaviour
 
         public void AgainClick()
         {
-            // 지도 색(초록)
-            svg.color = new Color32(82, 152, 63, 0);
+            svg.color = new Color32(0, 255, 0, 255);
             state = "not clicked";
         }
     }

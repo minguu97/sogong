@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -55,20 +55,19 @@
      transform="translate(-160.23248,-48.632016)">
     <g
        transform="matrix(0.26458333,0,0,0.26458333,52.38399,-84.09772)"
-       id="km"
-       style="fill:#ffffff">
+       id="km">
       <path
-         style="fill:#ffffff"
+         style="fill:#aaaaaa"
          inkscape:connector-curvature="0"
          d="m 408.362,503.818 c 0.195,-0.178 0.074,-0.518 -0.004,-0.715 -0.2,-0.496 -0.073,-0.957 -0.222,-1.447 -0.608,-0.018 -0.341,0.785 -0.478,1.133 -0.212,0.546 0.441,0.693 0.704,1.029 z"
          id="path5750" />
       <path
-         style="fill:#ffffff"
+         style="fill:#aaaaaa"
          inkscape:connector-curvature="0"
          d="m 409.635,505.537 c -0.106,-0.307 -0.389,-0.551 -0.732,-0.482 -0.001,0.441 0.418,0.415 0.732,0.482 z"
          id="path5752" />
       <path
-         style="fill:#ffffff"
+         style="fill:#aaaaaa"
          inkscape:connector-curvature="0"
          d="m 411.856,505.5 c 0.374,-0.969 -0.367,-0.607 -0.951,-0.764 0.328,0.24 0.684,0.451 0.951,0.764 z"
          id="path5754" />
