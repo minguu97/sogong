@@ -48,6 +48,10 @@ public class ChamggaeGame : MonoBehaviour {
             Array.Resize(ref childObjList, nowObj.transform.childCount);
             childObjList[i] = nowObj.transform.GetChild(i).gameObject;
         }
+
+        //실루엣화
+        SpriteRenderer sr = childObjList[0].GetComponent<SpriteRenderer>();
+        sr.color = new Color(0, 0, 0, 200);
     }
 
     //보여라 참깨
@@ -92,6 +96,10 @@ public class ChamggaeGame : MonoBehaviour {
         for (int i = 0; i < nowObj.transform.childCount; i++) {
             childObjList[i] = nowObj.transform.GetChild(i).gameObject;
         }
+
+        //실루엣화
+        SpriteRenderer sr = childObjList[0].GetComponent<SpriteRenderer>();
+        sr.color = new Color(0, 0, 0, 200);
 
         //답안 초기화
         answer.text = "";
