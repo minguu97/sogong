@@ -159,7 +159,6 @@ saint_lucia 357.280 281.183
 saint_vincent_and_the_grenadines 356.448 278.957
 samoa 1187.580 175.182
 san_marino 601.956 395.400
-sao_tome_and_principe
 saudi_arabia 675.027 291.254
 senegal 503.080 275.869
 serbia 621.373 389.951
