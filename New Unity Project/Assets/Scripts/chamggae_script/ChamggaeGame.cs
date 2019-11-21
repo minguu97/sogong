@@ -68,10 +68,15 @@ public class ChamggaeGame : MonoBehaviour {
         //답안 할당
         answer.text = nowObj.GetComponent<Text>().text;
 
-        //자식객체 전부 활성화
-        for (; cCount < childObjList.Length; cCount++) {
+        //원본을 제외한 자식객체 비활성화
+        for (cCount = 1; cCount < childObjList.Length; cCount++) {
             childObjList[cCount].SetActive(true);
         }
+
+        //원본 색상 초기화
+        SpriteRenderer sr = childObjList[0].GetComponent<SpriteRenderer>();
+        sr.color = new Color(255, 255, 255, 255);
+
         cCount = 0;
     }
 
