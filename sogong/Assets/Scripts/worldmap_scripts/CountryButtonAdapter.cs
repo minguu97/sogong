@@ -25,7 +25,6 @@ public class CountryButtonAdapter : MonoBehaviour
         svgSpriteRenderer = obj.GetComponent<SpriteRenderer>();
         name = obj.name;
         svgSpriteRenderer.material = Resources.Load<Material>("Materials/Surface_green");
-
         state = "not clicked";
     }
 
@@ -38,21 +37,24 @@ public class CountryButtonAdapter : MonoBehaviour
         btn.GetComponent<Image>().color = new Color32(255, 0, 0, 255);
         btn.transform.GetChild(0).GetComponent<Text>().color = new Color32(255, 255, 255, 255);
 
-        // 위치 계산
+        // 해당 위치로 옮기기 위해 위치 저장
         Vector2 contentPos = GameObject.Find("Content").GetComponent<RectTransform>().anchoredPosition;
-        
-        Vector2 lb = contentPos - new Vector2(900, 400);
+        Vector2 objPos = obj.GetComponent<RectTransform>().anchoredPosition;
 
-        Vector2 objPos_ = lb + obj.GetComponent<RectTransform>().anchoredPosition;
+        // 고정 편차 (Viewport의 중심점)
+        Vector2 center = new Vector2(384, 288);
 
-        Vector2 a = contentPos - objPos_;
-        Vector2 b = new Vector2(384, 288) - objPos_;
+        // 위치 계산
+        // GameObject.Find("Content").GetComponent<RectTransform>().position = center - objPos;
 
-        GameObject.Find("Content").GetComponent<RectTransform>().anchoredPosition = objPos_ + (a+b) ;
+        GameObject.Find("Content").GetComponent<RectTransform>().anchoredPosition = objPos - center;
+
+        Vector2 viewPosition = GameObject.Find("Content").GetComponent<RectTransform>().anchoredPosition;
+        Debug.Log("TEST view position: " + viewPosition);
 
         ////////////////////// 국기 등장
         string resourcePath = "flags/" + name.Substring(0, name.Length - 7);
-        Object flagPrefab = Resources.Load<Object>(resourcePath);
+        UnityEngine.Object flagPrefab = Resources.Load<UnityEngine.Object>(resourcePath);
 
         flag = Instantiate(flagPrefab) as GameObject;
         var flagRect = flag.AddComponent<RectTransform>();
