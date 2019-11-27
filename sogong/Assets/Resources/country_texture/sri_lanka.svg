@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2.0362513mm"
+   height="3.9395022mm"
+   viewBox="0 0 2.0362511 3.9395023"
+   version="1.1"
+   id="svg7070"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="sri_lanka.svg">
+  <defs
+     id="defs7064" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="6.2887784"
+     inkscape:cy="3.5972835"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="958"
+     inkscape:window-height="1008"
+     inkscape:window-x="-7"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7067">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-160.31036,-29.178721)">
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,19.958425,-82.154409)"
+       id="lk">
+      <path
+         style="fill:#aaaaaa"
+         inkscape:connector-curvature="0"
+         id="path6496"
+         d="m 530.464,423.515 c 0.097,0.227 0.458,0.365 0.635,0.508 -0.07,-0.301 -0.317,-0.522 -0.635,-0.508 z" />
+      <path
+         style="fill:#aaaaaa"
+         inkscape:connector-curvature="0"
+         id="path6498"
+         d="m 530.938,429.234 c 0.007,1.416 0.533,7.209 3.142,6.357 1.187,-0.389 2.953,-1.201 3.582,-2.334 0.519,-0.934 0.75,-2.582 0.106,-3.516 0,0.166 -0.586,-0.967 -0.729,-1.113 0.82,0.586 -0.188,-0.643 -0.31,-0.84 -0.384,-0.625 -0.393,-1.344 -0.709,-1.986 -0.242,0.205 -0.508,0.133 -0.666,-0.127 0.784,0.062 -0.991,-2.146 -1.087,-2.459 -0.104,-0.336 -2.099,-2.645 -2.47,-2.306 0.411,0.097 0.639,0.49 0.922,0.763 -0.432,-0.252 -1.227,-1.347 -1.747,-0.667 0.239,0.357 0.682,0.392 0.984,0.667 0.055,-0.391 1.09,0.238 1.301,0.539 -0.19,-0.145 -1.238,-0.391 -1.526,-0.381 0.216,0.297 0.01,0.307 -0.142,0.514 -0.21,0.283 0.246,0.748 -0.034,1.209 -0.652,1.072 -0.533,2.963 -0.583,4.219 -0.508,-0.148 -0.273,-0.811 -0.286,-1.176 -0.493,0.764 0.173,1.842 0.252,2.637 z" />
+      <path
+         style="fill:#aaaaaa"
+         inkscape:connector-curvature="0"
+         id="path6500"
+         d="m 530.909,421.263 c 0.058,0.213 0.047,0.303 0.317,0.254 -0.105,-0.085 -0.21,-0.17 -0.317,-0.254 z" />
+    </g>
+  </g>
+</svg>

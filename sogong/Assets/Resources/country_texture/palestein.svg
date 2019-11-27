@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1.1016501mm"
+   height="1.3329543mm"
+   viewBox="0 0 1.1016501 1.3329539"
+   version="1.1"
+   id="svg7070"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="palestein.svg">
+  <defs
+     id="defs7064" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.9195959"
+     inkscape:cx="1.4576835"
+     inkscape:cy="-8.0569201"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="958"
+     inkscape:window-height="1008"
+     inkscape:window-x="-7"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7067">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-156.56721,-32.004076)">
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,57.522821,-56.379208)"
+       id="ps">
+      <path
+         style="fill:#aaaaaa"
+         inkscape:connector-curvature="0"
+         id="path5472"
+         d="m 374.341,338.672 c 0.306,-0.302 0.591,-0.634 0.795,-1.017 0.379,0.24 -0.428,1.245 -0.605,1.43 -0.076,-0.132 -0.139,-0.27 -0.19,-0.413 z" />
+      <path
+         style="fill:#aaaaaa"
+         inkscape:connector-curvature="0"
+         id="path5474"
+         d="m 376.501,335.37 c 0.191,-0.349 0.219,-1.438 0.863,-1.313 0.225,0.043 0.849,0.419 0.941,0.633 0.275,0.641 0.197,1.548 0.163,2.225 -0.049,0.945 -0.169,0.956 -0.882,1.463 -0.396,0.28 -1.016,0.27 -0.828,-0.419 0.05,-0.182 0.539,-1.121 0.632,-1.09 -0.192,-0.065 -0.79,0.144 -0.806,-0.211 -0.018,-0.395 0.107,-0.924 -0.083,-1.288 z" />
+    </g>
+  </g>
+</svg>

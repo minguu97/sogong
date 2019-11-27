@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1.2609569mm"
+   height="1.3025438mm"
+   viewBox="0 0 1.2609566 1.3025439"
+   version="1.1"
+   id="svg7070"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="trinidad_and_tobago.svg">
+  <defs
+     id="defs7064" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="-5.5304353"
+     inkscape:cy="-4.905551"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="958"
+     inkscape:window-height="1008"
+     inkscape:window-x="-7"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7067">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-182.99439,-24.367937)">
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,168.46506,-85.435468)"
+       id="tt">
+      <path
+         style="fill:#aaaaaa"
+         inkscape:connector-curvature="0"
+         id="path6114"
+         d="m 54.914,419.928 c 0.372,-0.555 1.371,-0.497 1.6,-1.15 0.14,-0.401 0.049,-1.329 -0.549,-1.296 0.424,-0.43 1.146,-0.516 1.715,-0.567 1.16,-0.106 0.18,0.62 0.252,1.298 0.068,0.63 0.455,1.208 -0.36,1.508 -0.86,0.313 -1.802,-0.131 -2.658,0.207 z" />
+      <path
+         style="fill:#aaaaaa"
+         inkscape:connector-curvature="0"
+         id="path6120"
+         d="m 58.885,415.734 c 0.067,-0.398 0.425,-0.644 0.794,-0.729 0.025,0.428 -0.527,0.535 -0.794,0.729 z" />
+    </g>
+  </g>
+</svg>
