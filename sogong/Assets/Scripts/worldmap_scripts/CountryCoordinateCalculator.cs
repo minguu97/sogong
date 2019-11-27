@@ -14,7 +14,7 @@ public class CountryCoordinateCalculator
             GameObject worldmap_svg = GameObject.Find("worldmap_svg");
             if (worldmap_svg)
             {
-                childRect = worldmap_svg.transform.Find(countryName).GetComponent<RectTransform>();
+                childRect = worldmap_svg.transform.Find(countryName + "(Clone)").GetComponent<RectTransform>();
             } else
             {
                 Debug.Log("'worldmap_svg'을 찾을 수 없습니다.");

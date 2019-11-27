@@ -38,14 +38,19 @@ public class CountryButtonAdapter : MonoBehaviour
         btn.transform.GetChild(0).GetComponent<Text>().color = new Color32(255, 255, 255, 255);
 
         // 해당 위치로 옮기기 위해 위치 저장
-        Vector3 contentPos = GameObject.Find("Content").GetComponent<RectTransform>().position;
-        Vector3 objPos = obj.GetComponent<RectTransform>().position;
+        Vector2 contentPos = GameObject.Find("Content").GetComponent<RectTransform>().anchoredPosition;
+        Vector2 objPos = obj.GetComponent<RectTransform>().anchoredPosition;
 
         // 고정 편차 (Viewport의 중심점)
-        Vector3 center = new Vector3(507, 230, 0) + contentPos;
+        Vector2 center = new Vector2(384, 288);
 
         // 위치 계산
-        GameObject.Find("Content").GetComponent<RectTransform>().position = center - objPos;
+        // GameObject.Find("Content").GetComponent<RectTransform>().position = center - objPos;
+
+        GameObject.Find("Content").GetComponent<RectTransform>().anchoredPosition = objPos - center;
+
+        Vector2 viewPosition = GameObject.Find("Content").GetComponent<RectTransform>().anchoredPosition;
+        Debug.Log("TEST view position: " + viewPosition);
 
         ////////////////////// 국기 등장
         string resourcePath = "flags/" + name.Substring(0, name.Length - 7);
