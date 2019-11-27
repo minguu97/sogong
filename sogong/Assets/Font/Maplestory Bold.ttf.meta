@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f5eb9eb1b6adf6d468b27fe24eaca1a9
+guid: 0283a9952b8068b49b82c0d88d1fe400
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,9 +8,9 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: SangSangShinb7
+  fontName: Maplestory
   fontNames:
-  - SangSangShinb7
+  - Maplestory
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
