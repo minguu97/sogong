@@ -8,7 +8,6 @@ using UnityEngine.UI;
 /// </summary>
 public class CountryFactory : MonoBehaviour
 {
-    // 지도 만들어
     void Start()
     {
         List<Country> countryList;
@@ -20,13 +19,35 @@ public class CountryFactory : MonoBehaviour
         foreach(Country c in countryList)
         {
             string objName = c.getName();
+            GameObject svgObj = GameObject.Find(objName);
+            if (! svgObj)
+            {
+                Debug.Log("'" + objName + "'을 찾을 수 없습니다.");
+                continue;
+            }
+            Sprite spr = svgObj.GetComponent<SpriteRenderer>().sprite;
+
+            // Image 객체로 만들어서 Set Native Size한 후 width, height 구하기
+            GameObject sizeChecker = GameObject.Find("SizeChecker");
+            Image img = sizeChecker.GetComponent<Image>();
+            img.sprite = spr;
+            img.SetNativeSize();
+
+            Vector2 size = sizeChecker.GetComponent<RectTransform>().sizeDelta;
 
             // 새로운 GameObject 생성
-            Object countryPrefab = Resources.Load<Object>("country_svg/" + objName);
-            GameObject newCountry = Instantiate(countryPrefab) as GameObject;
-
+            GameObject newCountry = new GameObject(objName);
             var rect = newCountry.AddComponent<RectTransform>();
-            var svg = newCountry.GetComponent<SpriteRenderer>();
+            var svg = newCountry.AddComponent<SVGImage>();
+
+            // sprite 설정
+            svg.sprite = spr;
+
+            // color 설정
+            svg.color = new Color32(0, 255, 0, 255);
+
+            // width, height 설정
+            rect.sizeDelta = size;
 
             // AnchorPresets을 bottom, left로 설정
             rect.anchorMin = new Vector2(0, 0);
@@ -35,28 +56,20 @@ public class CountryFactory : MonoBehaviour
             // Pivot 0, 0으로 설정
             rect.pivot = new Vector2(0, 0);
 
-            // Scale 설정
-            rect.localScale = new Vector3(700f, 700f, 1f);
+            // Scale 4, 4로 설정
+            rect.localScale = new Vector3(8f, 8f, 1f);
 
             // location을 x, y좌표 설정
             rect.localPosition = c.getLocation();
 
             // worldmap_svg (0번 자식) 밑으로 위치
             newCountry.transform.SetParent(this.transform.GetChild(0));
-
-            svg.sortingLayerName = "Background";
         }
 
         // 비율 조정
-        CountryCoordinateCalculator calc = new CountryCoordinateCalculator(countryList, 0.54f);
+        CountryCoordinateCalculator calc = new CountryCoordinateCalculator(countryList, 0.6292f);
 
         // 버튼 생성
-        CountryButtonAdapterController controller = new CountryButtonAdapterController();
-        
-        // 위치 이상한 나라들 hard coding
-        var postUpdate = GameObject.Find("worldmap_svg").AddComponent<PostUpdatePosition>();
-
-        // 렌더 모드를 바꿔서 제대로 보여지도록
-        GameObject.Find("Canvas").GetComponent<Canvas>().renderMode = RenderMode.ScreenSpaceCamera;
+        CountryButtonController controller = new CountryButtonController();
     }
 }

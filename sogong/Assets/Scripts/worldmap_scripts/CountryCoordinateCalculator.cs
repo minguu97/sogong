@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CountryCoordinateCalculator 
+public class CountryCoordinateCalculator
 {
     public CountryCoordinateCalculator(List<Country> countryList, float K)
     {
@@ -14,7 +14,7 @@ public class CountryCoordinateCalculator
             GameObject worldmap_svg = GameObject.Find("worldmap_svg");
             if (worldmap_svg)
             {
-                childRect = worldmap_svg.transform.Find(countryName + "(Clone)").GetComponent<RectTransform>();
+                childRect = worldmap_svg.transform.Find(countryName).GetComponent<RectTransform>();
             } else
             {
                 Debug.Log("'worldmap_svg'을 찾을 수 없습니다.");
@@ -22,7 +22,5 @@ public class CountryCoordinateCalculator
             }
             childRect.anchoredPosition = new Vector3(childRect.anchoredPosition.x / K, childRect.anchoredPosition.y / K, 0);
         }
-
-        Debug.Log("TEST: CountryCoordinateCalculator 끝");
     }
 }
