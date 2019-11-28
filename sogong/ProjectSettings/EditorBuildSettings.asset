@@ -5,13 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: "Assets/Scenes/\uC885\uB958.unity"
-    guid: e1962eed947d63342bd211065e670d96
-  - enabled: 0
+  - enabled: 1
     path: "Assets/Scenes/\uC2DC\uC791.unity"
     guid: 2f1a8c4662082614b97d27c414cc032f
-  - enabled: 0
+  - enabled: 1
+    path: "Assets/Scenes/\uC885\uB958.unity"
+    guid: e1962eed947d63342bd211065e670d96
+  - enabled: 1
     path: "Assets/Scenes/\uC9C0\uB3C4.unity"
     guid: 2071af81d61cb57499ba4340806e1964
+  - enabled: 1
+    path: Assets/Scenes/chamggae_scene/chamAnimal.unity
+    guid: a32870dd7210cab45aefd0c118193666
   m_configObjects: {}
