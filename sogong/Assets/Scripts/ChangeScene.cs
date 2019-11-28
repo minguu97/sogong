@@ -34,4 +34,8 @@ public class ChangeScene : MonoBehaviour{
     {
 	Application.Quit();
     }
+
+    public void LoadScene(string sceneName) {
+        SceneManager.LoadScene(sceneName);
+    }
 }
