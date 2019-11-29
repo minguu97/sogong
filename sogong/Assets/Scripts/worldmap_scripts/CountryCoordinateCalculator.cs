@@ -3,9 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CountryCoordinateCalculator
+public class CountryCoordinateCalculator : MonoBehaviour
 {
-    public CountryCoordinateCalculator(List<Country> countryList, float K)
+    List<Country> countryList;
+    float K;
+
+    private void Start()
+    {
+        countryList = CountryFileReader.GetInstance().GetList();
+        K = 0.54f;
+
+        calc();
+    }
+
+    void calc()
     {
         foreach (Country country in countryList)
         {
@@ -15,7 +26,8 @@ public class CountryCoordinateCalculator
             if (worldmap_svg)
             {
                 childRect = worldmap_svg.transform.Find(countryName + "(Clone)").GetComponent<RectTransform>();
-            } else
+            }
+            else
             {
                 Debug.Log("'worldmap_svg'을 찾을 수 없습니다.");
                 continue;

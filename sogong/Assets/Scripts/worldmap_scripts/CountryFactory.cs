@@ -46,13 +46,15 @@ public class CountryFactory : MonoBehaviour
         }
 
         // 비율 조정
-        CountryCoordinateCalculator calc = new CountryCoordinateCalculator(countryList, 0.54f);
+        // CountryCoordinateCalculator calc = new CountryCoordinateCalculator(countryList, 0.54f);
+        GameObject.Find("Canvas").AddComponent<CountryCoordinateCalculator>();
 
         // 버튼 생성
-        CountryButtonAdapterController controller = new CountryButtonAdapterController();
+        // CountryButtonAdapterController controller = new CountryButtonAdapterController();
+        GameObject.Find("Canvas").AddComponent<CountryButtonAdapterController>();
 
         // 위치 이상한 나라들 hard coding
-        var postUpdate = GameObject.Find("worldmap_svg").AddComponent<PostUpdatePosition>();
+        GameObject.Find("Canvas").AddComponent<PostUpdatePosition>();
 
         // 렌더 모드를 바꿔서 제대로 보여지도록
         GameObject.Find("Canvas").GetComponent<Canvas>().renderMode = RenderMode.ScreenSpaceCamera;

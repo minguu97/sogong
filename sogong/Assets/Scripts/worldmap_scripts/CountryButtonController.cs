@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class CountryButtonAdapterController : MonoBehaviour
 {
-    public CountryButtonAdapterController()
+    void Start()
     {
         CreateButtons();
     }
@@ -58,6 +58,6 @@ public class CountryButtonAdapterController : MonoBehaviour
         {
             country.BtnOnClick();
         }
-        Debug.Log("TEST button: " + country.name + " " + country.state);
+        Debug.Log("TEST button: " + country.objName + " " + country.state);
     }
 }

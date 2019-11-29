@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CountryButtonAdapter : MonoBehaviour
+public class CountryButtonAdapter
 {
     GameObject btn;         // 버튼
     GameObject obj;         // 국가
     GameObject flag;        // 국기
 
     public SpriteRenderer svgSpriteRenderer;
-    public string name;
+    public string objName;
     public string state;
 
     /// <summary>
@@ -23,7 +23,7 @@ public class CountryButtonAdapter : MonoBehaviour
         this.btn = btn;
         this.obj = obj;
         svgSpriteRenderer = obj.GetComponent<SpriteRenderer>();
-        name = obj.name;
+        objName = obj.name;
         svgSpriteRenderer.material = Resources.Load<Material>("Materials/Surface_green");
 
         state = "not clicked";
@@ -51,10 +51,10 @@ public class CountryButtonAdapter : MonoBehaviour
         GameObject.Find("Content").GetComponent<RectTransform>().anchoredPosition = objPos_ + (a+b) ;
 
         ////////////////////// 국기 등장
-        string resourcePath = "flags/" + name.Substring(0, name.Length - 7);
+        string resourcePath = "flags/" + objName.Substring(0, objName.Length - 7);
         Object flagPrefab = Resources.Load<Object>(resourcePath);
 
-        flag = Instantiate(flagPrefab) as GameObject;
+        flag = Object.Instantiate(flagPrefab) as GameObject;
         var flagRect = flag.AddComponent<RectTransform>();
         var sriterenderer = flag.GetComponent<SpriteRenderer>();
         var flagButton = flag.AddComponent<Button>();
@@ -84,7 +84,7 @@ public class CountryButtonAdapter : MonoBehaviour
         btn.GetComponent<Image>().color = new Color32(255, 255, 255, 255);
         btn.transform.GetChild(0).GetComponent<Text>().color = new Color32(50, 50, 50, 255);
 
-        Destroy(flag);
+        Object.Destroy(flag);
 
         state = "not clicked";
     }
