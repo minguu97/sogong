@@ -35,10 +35,10 @@ public class CountryButtonAdapter
         svgSpriteRenderer.material = Resources.Load<Material>("Materials/Surface_red");
 
         // 버튼 색 변화
-        btn.GetComponent<Image>().color = new Color32(255, 0, 0, 255);
+        btn.GetComponent<Image>().color = new Color32(255, 30, 0, 255);
         btn.transform.GetChild(0).GetComponent<Text>().color = new Color32(255, 255, 255, 255);
 
-        // 위치 계산
+        ///////////////////////// view 위치 계산
         Vector2 contentPos = GameObject.Find("Content").GetComponent<RectTransform>().anchoredPosition;
         
         Vector2 lb = contentPos - new Vector2(900, 400);
@@ -49,6 +49,7 @@ public class CountryButtonAdapter
         Vector2 b = new Vector2(384, 288) - objPos_;
 
         GameObject.Find("Content").GetComponent<RectTransform>().anchoredPosition = objPos_ + (a+b) ;
+
 
         ////////////////////// 국기 등장
         string resourcePath = "flags/" + objName.Substring(0, objName.Length - 7);
@@ -68,7 +69,7 @@ public class CountryButtonAdapter
 
         GameObject viewport = GameObject.Find("Viewport");
         flag.transform.SetParent(viewport.transform);
-        flagRect.anchoredPosition = new Vector3(155f, 470f, 1);
+        flagRect.anchoredPosition = new Vector3(180f, 470f, 1);
 
         flagRect.localScale = new Vector3(2000, 2000, 1);
 
@@ -81,6 +82,7 @@ public class CountryButtonAdapter
     {
         // 초록
         svgSpriteRenderer.material = Resources.Load<Material>("Materials/Surface_green");
+
         btn.GetComponent<Image>().color = new Color32(255, 255, 255, 255);
         btn.transform.GetChild(0).GetComponent<Text>().color = new Color32(50, 50, 50, 255);
 

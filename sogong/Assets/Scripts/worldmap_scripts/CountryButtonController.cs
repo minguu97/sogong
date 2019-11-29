@@ -16,23 +16,21 @@ public class CountryButtonAdapterController : MonoBehaviour
         List<Country> conutryList = CountryFileReader.GetInstance().GetList();
         foreach (Country c in conutryList)
         {
-            string str = c.getName();
-            string btn_name = "btn_" + str;
             GameObject buttonPrefab = Resources.Load("Prefabs/btnInterface_country") as GameObject; ;
 
             // 리스트마다 버튼 생성. parent: Viewport_CountryList
-            CreateButton(str, buttonPrefab, GameObject.Find("Content_btnCountry").transform);
+            CreateButton(c, buttonPrefab, GameObject.Find("Content_btnCountry").transform);
         }
     }
 
-    public void CreateButton(string name, GameObject prefab, Transform panel)
+    public void CreateButton(Country country, GameObject prefab, Transform panel)
     {
         GameObject button = GameObject.Instantiate(prefab);
 
         // 이름 설정하고 (현재는 영어이름 그대로 씀.)
-        button.transform.GetChild(0).GetComponent<Text>().text = name;
+        button.transform.GetChild(0).GetComponent<Text>().text = country.getKoreanName();
         // id 설정하고
-        button.name = "btn_" + name;
+        button.name = "btn_" + country.getName();
         // 리스너 설정
         setListner(button);
         // parent 정해서 위치 설정
