@@ -63,8 +63,9 @@ public class ChamGameVer2 : MonoBehaviour
     //정답 보기
     public void Answer() {
         animalObj.GetComponent<Image>().sprite = animalImages[0];
-        answerText.GetComponent<Text>().text = 
+        answerText.GetComponent<Text>().text =
             Regex.Replace((string)folderNames[folderIndex], "[0-9]", "");
+        imageIndex = animalImages.Length;
     }
 
 
