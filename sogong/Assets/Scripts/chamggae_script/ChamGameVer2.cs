@@ -8,7 +8,7 @@ using System.Text.RegularExpressions;
 
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.EventSystems;
 using Object = UnityEngine.Object;
 
 public class ChamGameVer2 : MonoBehaviour
@@ -37,6 +37,7 @@ public class ChamGameVer2 : MonoBehaviour
         else {
             animalObj.GetComponent<Image>().sprite = animalImages[0];
         }
+        EventSystem.current.SetSelectedGameObject(null);
     }
 
     //다음 동물로 넘어가기
@@ -58,6 +59,7 @@ public class ChamGameVer2 : MonoBehaviour
             GameObject.Find("nextImg_bt").SetActive(false);
             GameObject.Find("answer_bt").SetActive(false);
         }
+        EventSystem.current.SetSelectedGameObject(null);
     }
 
     //정답 보기
@@ -66,6 +68,7 @@ public class ChamGameVer2 : MonoBehaviour
         answerText.GetComponent<Text>().text =
             Regex.Replace((string)folderNames[folderIndex], "[0-9]", "");
         imageIndex = animalImages.Length;
+        EventSystem.current.SetSelectedGameObject(null);
     }
 
 
