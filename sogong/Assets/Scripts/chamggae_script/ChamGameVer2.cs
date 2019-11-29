@@ -1,4 +1,6 @@
-﻿using System;
+﻿//#define BUILD
+
+using System;
 using System.IO;
 using System.Collections;
 using System.Collections.Generic;
@@ -61,8 +63,9 @@ public class ChamGameVer2 : MonoBehaviour
     //정답 보기
     public void Answer() {
         animalObj.GetComponent<Image>().sprite = animalImages[0];
-        answerText.GetComponent<Text>().text = 
+        answerText.GetComponent<Text>().text =
             Regex.Replace((string)folderNames[folderIndex], "[0-9]", "");
+        imageIndex = animalImages.Length;
     }
 
 
@@ -70,6 +73,9 @@ public class ChamGameVer2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+#if (BUILD)
+        makeFolderListTxt();
+#endif
         animalObj = GameObject.Find("AnimalObj");
         silhouette = GameObject.Find("Silhouette");
         answerText = GameObject.Find("answer_txt");
@@ -117,14 +123,42 @@ public class ChamGameVer2 : MonoBehaviour
 
     //동물 폴더 리스트 로딩
     private void LoadFolders() {
-        string animalFolderPath = "Assets/Resources/Animal";
+        TextAsset data = Resources.Load("Animal/List", typeof(TextAsset)) as TextAsset;
+        StringReader sr = new StringReader(data.text);
 
-        DirectoryInfo di = new DirectoryInfo(animalFolderPath);
-        foreach (DirectoryInfo directory in di.GetDirectories()) {
-            folderNames.Add(directory.Name);
+        string line;
+        line = sr.ReadLine();
+        while(line != null) {
+            folderNames.Add(line);
+            line = sr.ReadLine();
         }
 
         //Test
         Debug.Log("Folder loading complete, First folder name is " + folderNames[0]);
     }
+
+#if (BUILD)
+    //동물 폴더 리스트 TXT 생성 (빌드때만실행)
+    public void makeFolderListTxt() {
+        //존재하는 List 파일 삭제
+        System.IO.FileInfo fi = new System.IO.FileInfo("Assets/Resources/Animal/List.txt");
+        try {
+            fi.Delete();
+        }
+        catch (System.IO.IOException e) {
+            Console.WriteLine(e.Message);
+        }
+
+        //새로 List 파일 생성
+        string savePath = "Assets/Resources/Animal/List.txt";
+        string textValue;
+        string animalFolderPath = "Assets/Resources/Animal";
+
+        DirectoryInfo di = new DirectoryInfo(animalFolderPath);
+        foreach (DirectoryInfo directory in di.GetDirectories()) {
+            textValue = directory.Name;
+            System.IO.File.AppendAllText(savePath, textValue + "\n");
+        } 
+    }
+#endif
 }
