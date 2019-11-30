@@ -38,6 +38,10 @@ public class ChangeScene : MonoBehaviour{
     {
         SceneManager.LoadScene("시작");
     }
+    public void LoadScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
     public void Quit()
     {
 	Application.Quit();
