@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/\uCC38\uAE68-\uACFC\uC77C.unity"
     guid: 93da6c63904d07f4b88562354cfec523
+  - enabled: 1
+    path: Assets/Scenes/chamggae_scene/chamAnimal.unity
+    guid: a32870dd7210cab45aefd0c118193666
   m_configObjects: {}

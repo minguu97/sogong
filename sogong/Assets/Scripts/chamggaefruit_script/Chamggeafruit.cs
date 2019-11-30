@@ -1,4 +1,5 @@
-﻿using System;
+﻿//#define BUILD
+using System;
 using System.IO;
 using System.Collections;
 using System.Collections.Generic;
@@ -25,10 +26,13 @@ public class Chamggeafruit : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+#if (BUILD)
+        makeFolderListTxt();
+#endif
+        ending.gameObject.SetActive(false);
         folderNames = new ArrayList();
         LoadFolders();
         Nextfruit();
-        ending.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -39,17 +43,20 @@ public class Chamggeafruit : MonoBehaviour
 
     private void LoadFolders()
     {
-        string Path = "Assets/Resources/fruit";
+        TextAsset data = Resources.Load("fruit/List", typeof(TextAsset)) as TextAsset;
+        StringReader sr = new StringReader(data.text);
 
-        DirectoryInfo dict = new DirectoryInfo(Path);
-        foreach (DirectoryInfo directory in dict.GetDirectories())
+        string line;
+        line = sr.ReadLine();
+        while (line != null)
         {
-            folderNames.Add(directory.Name);
-            Debug.Log(directory.Name);
+            folderNames.Add(line);
+            line = sr.ReadLine();
         }
+        Debug.Log(folderNames[0]);
     }
 
-    private void LoadAnimalImages(string folderName)
+    private void LoadFruitImages(string folderName)
     {
         string path = "fruit/" + folderName;
         fruitImages = Resources.LoadAll<Sprite>(path);
@@ -69,7 +76,11 @@ public class Chamggeafruit : MonoBehaviour
         }
         else
         {
-            LoadAnimalImages((string)folderNames[folderIndex]);
+            LoadFruitImages((string)folderNames[folderIndex]);
+            if(imageIndex >= 2)
+            {
+                imageIndex = 0;
+            }
             fruit.GetComponent<Image>().sprite = fruitImages[imageIndex];
         }
     }
@@ -100,4 +111,28 @@ public class Chamggeafruit : MonoBehaviour
     {
         SceneManager.LoadScene("종류");
     }
+#if (BUILD)
+    //동물 폴더 리스트 TXT 생성 (빌드때만실행)
+    public void makeFolderListTxt() {
+        //존재하는 List 파일 삭제
+        System.IO.FileInfo fi = new System.IO.FileInfo("Assets/Resources/Fruit/List.txt");
+        try {
+            fi.Delete();
+        }
+        catch (System.IO.IOException e) {
+            Console.WriteLine(e.Message);
+        }
+
+        //새로 List 파일 생성
+        string savePath = "Assets/Resources/Fruit/List.txt";
+        string textValue;
+        string animalFolderPath = "Assets/Resources/Fruit";
+
+        DirectoryInfo di = new DirectoryInfo(animalFolderPath);
+        foreach (DirectoryInfo directory in di.GetDirectories()) {
+            textValue = directory.Name;
+            System.IO.File.AppendAllText(savePath, textValue + "\n");
+        } 
+    }
+#endif
 }

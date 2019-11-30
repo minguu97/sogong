@@ -5,11 +5,11 @@ using UnityEngine.SceneManagement;
 public class ChangeScene : MonoBehaviour{
     void fix()
     {
-	Screen.SetResolution(1280, 768, true);
+	
     }
     void Start()
     {
-        
+        Screen.SetResolution(1024, 768, true);
     }
 
     void Update()
@@ -25,10 +25,18 @@ public class ChangeScene : MonoBehaviour{
     {
 	SceneManager.LoadScene("지도");
     }
-
-    public void Goback()
+    public void Select3()
     {
-	SceneManager.LoadScene("시작");
+        SceneManager.LoadScene("참깨-과일");
+
+    }
+    public void Select4()
+    {
+        SceneManager.LoadScene("chamAnimal");
+    }
+    public void Select5()
+    {
+        SceneManager.LoadScene("시작");
     }
     public void Quit()
     {
