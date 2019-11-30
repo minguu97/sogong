@@ -480,7 +480,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: f83aa42b6bd2e6b40838125551b3bcca, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 9a335f1fedbfed54b838be08ef205868, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.46
   m_Pitch: 1
@@ -727,17 +727,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1302176072}
-        m_MethodName: Answer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1302176071}
         m_MethodName: playSound
         m_Mode: 5
@@ -747,6 +736,17 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: answer_bt
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1302176072}
+        m_MethodName: Answer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &815379459
@@ -795,7 +795,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 12f37011aefdb604bb89de99e954dc31, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 9a335f1fedbfed54b838be08ef205868, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.61
   m_Pitch: 1
@@ -2151,7 +2151,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3e80b7f792dfd5940a009b8c92026119, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 9a335f1fedbfed54b838be08ef205868, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.61
   m_Pitch: 1
