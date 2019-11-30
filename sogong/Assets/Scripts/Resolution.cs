@@ -9,7 +9,7 @@ public class Resolution : MonoBehaviour
     bool fullscreen = true;  // Start is called before the first frame update
     void Start()
     {
-        Screen.SetResolution(1024, 768, true);
+        Screen.SetResolution(SetWidth, SetHeight, true);
     }
 
     // Update is called once per frame
