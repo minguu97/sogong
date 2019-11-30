@@ -18,6 +18,10 @@ public class movieCheck : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.anyKey)
+        {
+            SceneManager.LoadScene("시작");
+        }
         if (test.isPlaying)
         {
             started = true;
