@@ -1403,6 +1403,7 @@ GameObject:
   - component: {fileID: 1663523526}
   - component: {fileID: 1663523525}
   - component: {fileID: 1663523528}
+  - component: {fileID: 1663523529}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1486,6 +1487,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d69c56d6a37dbda41810c3ec9d20d6fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1663523529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663523524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c509b024246434fa173416164563cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1712849077
@@ -1645,8 +1658,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1885094141}
   m_HandleRect: {fileID: 1885094140}
   m_Direction: 2
-  m_Value: -0.0000024523047
-  m_Size: 0.71999997
+  m_Value: -0.0000024523054
+  m_Size: 0.72
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2002,7 +2015,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1617467224}
   m_HandleRect: {fileID: 1617467223}
   m_Direction: 0
-  m_Value: 0
+  m_Value: -0.000000059142593
   m_Size: 0.42666668
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -2114,7 +2127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 2
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1280, y: 768}
