@@ -11,8 +11,8 @@ ScriptedImporter:
   svgType: 0
   texturedSpriteMeshType: 0
   svgPixelsPerUnit: 100
-  gradientResolution: 128
-  alignment: 6
+  gradientResolution: 64
+  alignment: 0
   customPivot: {x: 0, y: 0}
   generatePhysicsShape: 0
   viewportOptions: 0
@@ -49,6 +49,6 @@ ScriptedImporter:
         y: 0
         width: 0
         height: 0
-      spriteID: 9af0368fbdd3c8d43b3d7eb11bdf804c
+      spriteID: b729ecaf01af47c42a93584c60d44f55
       internalID: 0
     PhysicsOutlines: []
