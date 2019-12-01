@@ -194,7 +194,6 @@ uruguay 우루과이
 uzbekistan 우즈베키스탄
 vanuatu 바누아투
 vietnam 베트남
-western_sahara 서사하라
 yemen 예멘
 zambia 잠비아
 zimbabwe 짐바브웨

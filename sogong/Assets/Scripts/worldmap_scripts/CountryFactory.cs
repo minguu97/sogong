@@ -56,9 +56,6 @@ public class CountryFactory : MonoBehaviour
         // CountryButtonAdapterController controller = new CountryButtonAdapterController();
         GameObject.Find("Main Camera").AddComponent<CountryButtonAdapterController>();
 
-        // 위치 이상한 나라들 hard coding
-        GameObject.Find("Main Camera").AddComponent<PostUpdatePosition>();
-
         // 렌더 모드를 바꿔서 제대로 보여지도록
         GameObject.Find("Canvas").GetComponent<Canvas>().renderMode = RenderMode.ScreenSpaceCamera;
     }
