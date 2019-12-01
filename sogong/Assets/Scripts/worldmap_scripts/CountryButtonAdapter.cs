@@ -38,17 +38,19 @@ public class CountryButtonAdapter
         btn.GetComponent<Image>().color = new Color32(255, 30, 0, 255);
         btn.transform.GetChild(0).GetComponent<Text>().color = new Color32(255, 255, 255, 255);
 
-        ///////////////////////// view 위치 계산
+        ///////////////////////// view 위치 계산 (국가를 중심으로 옮기기)
         Vector2 contentPos = GameObject.Find("Content").GetComponent<RectTransform>().anchoredPosition;
         
-        Vector2 lb = contentPos - new Vector2(900, 400);
+                                    // Content 중심
+        Vector2 lb = contentPos - new Vector2(1814, 626);
 
         Vector2 objPos_ = lb + obj.GetComponent<RectTransform>().anchoredPosition;
 
         Vector2 a = contentPos - objPos_;
-        Vector2 b = new Vector2(384, 288) - objPos_;
-
-        //GameObject.Find("Content").GetComponent<RectTransform>().anchoredPosition = objPos_ + (a+b) ;
+                        // Canvas 중심
+        Vector2 b = new Vector2(512, 384) - objPos_;
+                                                                                                        // 실제 중심보다 살짝 오른쪽 위로
+        GameObject.Find("Content").GetComponent<RectTransform>().anchoredPosition = objPos_ + (a + b) + new Vector2(200, 100) ;
 
 
         ////////////////////// 국기 등장
