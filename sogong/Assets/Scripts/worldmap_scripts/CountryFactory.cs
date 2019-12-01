@@ -25,6 +25,9 @@ public class CountryFactory : MonoBehaviour
 
             var rect = newCountry.AddComponent<RectTransform>();
             var svg = newCountry.GetComponent<SpriteRenderer>();
+            //var img = newCountry.AddComponent<Image>();
+            //img.sprite = svg.sprite;
+            //img.alphaHitTestMinimumThreshold = 0.1f;
 
             // AnchorPresets을 bottom, left로 설정
             rect.anchorMin = new Vector2(0, 0);

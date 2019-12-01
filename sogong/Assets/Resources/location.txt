@@ -1,3 +1,4 @@
+new_caledonia 1092.044 142.305
 palestein 672.928 348.016
 afghanistan 755.997 341.117
 albania 623.561 380.119
@@ -84,7 +85,7 @@ ireland 535.929 424.343
 israel 673.114 341.410
 italy 584.656 368.884
 jamaica 301.280 296.458
-japan 960.440 355.557
+japan 968.465 321.483
 jordan 675.810 340.312
 kazakhstan 703.017 383.777
 kenya 675.524 211.008
@@ -115,11 +116,11 @@ mauritania 505.371 285.118
 mauritius 751.626 150.520
 mexico 178.290 284.392
 micronesia 1069.966 263.453
-moldova 625.662 402.016
+moldova 644.116 402.016
 monaco 586.910 395.566
 mongolia 823.804 387.547
 montenegro 620.754 388.484
-morocco 519.344 334.338
+morocco 779.314 378.416
 mozambique 662.347 126.246
 namibia 600.662 118.463
 nauru 1117.011 236.092
@@ -158,6 +159,7 @@ saint_lucia 357.280 281.183
 saint_vincent_and_the_grenadines 356.448 278.957
 samoa 1187.580 175.182
 san_marino 601.956 395.400
+sao_tome_and_principe
 saudi_arabia 675.027 291.254
 senegal 503.080 275.869
 serbia 621.373 389.951
@@ -171,7 +173,7 @@ somalia 699.278 222.448
 spain 503.437 334.355
 sri_lanka 829.051 251.425
 state_della_citta_del_vaticano 602.384 387.954
-sudan 634.461 242.176
+sudan 634.461 261.853
 sweden 598.075 438.604
 switzerland 582.780 403.515
 syria 676.599 352.263
@@ -195,6 +197,7 @@ uruguay 375.485 95.554
 uzbekistan 733.853 370.870
 vanuatu 1117.497 151.551
 vietnam 898.713 261.532
+western_sahara 505.224 308.118
 yemen 703.662 275.210
 zambia 634.875 159.885
 zimbabwe 645.560 143.365
