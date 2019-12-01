@@ -17,7 +17,7 @@ public class CountryFileReader
 
     private void Parse()
     {
-        Debug.Log("File Read Start...");
+        //Debug.Log("File Read Start...");
 
         string readStr;
 
@@ -62,7 +62,7 @@ public class CountryFileReader
             }
         }
 
-        Debug.Log("File Read Complete...");
+        //Debug.Log("File Read Complete...");
         sr.Close();
         // fs.Close();
     }

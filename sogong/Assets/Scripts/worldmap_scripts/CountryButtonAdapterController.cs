@@ -2,11 +2,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 using UnityEngine.UI;
 
 public class CountryButtonAdapterController : MonoBehaviour
 {
-    private CountryButtonAdapter prevButton;
+    public CountryButtonAdapter prevButton;
 
     void Start()
     {
@@ -36,24 +37,30 @@ public class CountryButtonAdapterController : MonoBehaviour
         // 리스너 설정
         setListner(button);
         // parent 정해서 위치 설정
-        button.transform.SetParent(panel);  
+        button.transform.SetParent(panel);
     }
 
     void setListner(GameObject newbutton)
     {
         GameObject worldmap_svg = GameObject.Find("worldmap_svg");
         string name = newbutton.name.Substring(4);
-        CountryButtonAdapter conutryButton = new CountryButtonAdapter(
-            newbutton,
-            worldmap_svg.transform.Find(name + "(Clone)").gameObject);
-        newbutton.GetComponent<Button>().onClick.AddListener(() => { TaskOnClick(conutryButton); });
+        var obj = worldmap_svg.transform.Find(name + "(Clone)").gameObject;
+        CountryButtonAdapter countryButton = new CountryButtonAdapter(newbutton, obj);
+        newbutton.GetComponent<Button>().onClick.AddListener(() => { TaskOnClick(countryButton); });
+
+        
+        obj.AddComponent<PolygonCollider2D>();
+        obj.AddComponent<spriteOnClick>();
+        obj.GetComponent<spriteOnClick>().setButton(countryButton);
+
     }
 
-    void TaskOnClick(CountryButtonAdapter country)
+    public void TaskOnClick(CountryButtonAdapter country)
     {
         if (country.state == "clicked")
         {
             country.AgainClick();
+            prevButton = null;
         } else
         {
             country.BtnOnClick();

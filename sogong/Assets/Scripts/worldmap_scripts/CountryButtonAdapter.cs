@@ -48,7 +48,7 @@ public class CountryButtonAdapter
         Vector2 a = contentPos - objPos_;
         Vector2 b = new Vector2(384, 288) - objPos_;
 
-        GameObject.Find("Content").GetComponent<RectTransform>().anchoredPosition = objPos_ + (a+b) ;
+        //GameObject.Find("Content").GetComponent<RectTransform>().anchoredPosition = objPos_ + (a+b) ;
 
 
         ////////////////////// 국기 등장
