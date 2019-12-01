@@ -14,7 +14,7 @@ ScriptedImporter:
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
-  generatePhysicsShape: 0
+  generatePhysicsShape: 1
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0

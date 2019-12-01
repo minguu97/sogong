@@ -54,7 +54,25 @@ public class CountryButtonAdapterController : MonoBehaviour
 
         country.setAdapter(countryButton);
 
+
         obj.AddComponent<PolygonCollider2D>();
+        var polygonCollider = obj.GetComponent<PolygonCollider2D>();
+        var sprite = obj.GetComponent<SpriteRenderer>().sprite;
+        List<Vector2> test = null;
+        for (int i = 0; i > polygonCollider.pathCount; i++)
+            polygonCollider.SetPath(i, test);
+        polygonCollider.pathCount = sprite.GetPhysicsShapeCount();
+
+        List<Vector2> path = new List<Vector2>();
+        for(int i = 0; i < polygonCollider.pathCount; i++)
+        {
+            path.Clear();
+            sprite.GetPhysicsShape(i, path);
+            polygonCollider.SetPath(i, path.ToArray());
+
+        }
+
+
         obj.AddComponent<spriteOnClick>();
         obj.GetComponent<spriteOnClick>().setButton(countryButton);
 
