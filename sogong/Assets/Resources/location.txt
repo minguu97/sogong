@@ -91,7 +91,7 @@ kingdom_of_eswatini 662.783 124.596
 kiribati 56.851 160.637
 kosovo 625.900 388.260
 kuwait 713.491 337.696
-kyrgyzstan 773.747 369.055
+kyrgyzstan 779.314 378.416
 laos 893.055 282.021
 latvia 625.437 439.683
 lebanon 675.246 355.085
@@ -101,7 +101,6 @@ libya 592.768 303.290
 liechtenstein 593.294 408.033
 lithuania 625.693 433.241
 luxembourg 582.367 416.976
-macau 936.413 313.264
 macedonia 627.123 384.730
 madagascar 704.531 131.119
 malawi 671.057 163.434
@@ -160,7 +159,7 @@ sao_tome_and_principe 583.016 228.932
 saudi_arabia 675.027 291.254
 senegal 503.080 275.869
 serbia 621.373 389.951
-seychelles 787.699 239.086
+seychelles 747.733 210.568
 sierra_leone 516.613 255.423
 singapore 910.837 233.818
 slovakia 615.400 410.563
