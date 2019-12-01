@@ -7,6 +7,7 @@ public class Country
     string name;
     Vector2 location;
     string koreanName;
+    CountryButtonAdapter adapter;
 
     public Country(string n, float x, float y, string ko)
     {
@@ -28,5 +29,15 @@ public class Country
     public string getKoreanName()
     {
         return koreanName;
+    }
+
+    public CountryButtonAdapter getAdapter()
+    {
+        return adapter;
+    }
+
+    public void setAdapter(CountryButtonAdapter adapter)
+    {
+        this.adapter = adapter; 
     }
 }

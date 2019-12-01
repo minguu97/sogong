@@ -4,10 +4,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using UnityEngine.UI;
+using UnityEngine.Events;
+using UnityEngine.EventSystems;
 
 public class CountryButtonAdapterController : MonoBehaviour
 {
     public CountryButtonAdapter prevButton;
+    List<Country> conutryList = CountryFileReader.GetInstance().GetList();
+    public string s = "ho";
 
     void Start()
     {
@@ -16,7 +20,7 @@ public class CountryButtonAdapterController : MonoBehaviour
 
     public void CreateButtons()
     {
-        List<Country> conutryList = CountryFileReader.GetInstance().GetList();
+       
         foreach (Country c in conutryList)
         {
             GameObject buttonPrefab = Resources.Load("Prefabs/btnInterface_country") as GameObject; ;
@@ -35,12 +39,12 @@ public class CountryButtonAdapterController : MonoBehaviour
         // id 설정하고
         button.name = "btn_" + country.getName();
         // 리스너 설정
-        setListner(button);
+        setListner(button, country);
         // parent 정해서 위치 설정
         button.transform.SetParent(panel);
     }
 
-    void setListner(GameObject newbutton)
+    void setListner(GameObject newbutton, Country country)
     {
         GameObject worldmap_svg = GameObject.Find("worldmap_svg");
         string name = newbutton.name.Substring(4);
@@ -48,7 +52,8 @@ public class CountryButtonAdapterController : MonoBehaviour
         CountryButtonAdapter countryButton = new CountryButtonAdapter(newbutton, obj);
         newbutton.GetComponent<Button>().onClick.AddListener(() => { TaskOnClick(countryButton); });
 
-        
+        country.setAdapter(countryButton);
+
         obj.AddComponent<PolygonCollider2D>();
         obj.AddComponent<spriteOnClick>();
         obj.GetComponent<spriteOnClick>().setButton(countryButton);
@@ -70,4 +75,6 @@ public class CountryButtonAdapterController : MonoBehaviour
         }
         //Debug.Log("TEST button: " + country.objName + " " + country.state);
     }
+
+
 }
