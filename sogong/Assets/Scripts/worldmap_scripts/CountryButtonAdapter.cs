@@ -71,11 +71,19 @@ public class CountryButtonAdapter
 
         GameObject viewport = GameObject.Find("Viewport");
         flag.transform.SetParent(viewport.transform);
-        flagRect.anchoredPosition = new Vector3(180f, 470f, 1);
+        flagRect.anchoredPosition = new Vector3(80f, 800f, 1);
 
         flagRect.localScale = new Vector3(2000, 2000, 1);
 
         sriterenderer.sortingLayerName = "UI";
+
+        /////// 국기 밑에 이름 출력
+        GameObject textPrefab = Resources.Load("Prefabs/countryNameText") as GameObject; ;
+        GameObject textObj = GameObject.Instantiate(textPrefab);
+        textObj.transform.SetParent(flag.transform);
+        textObj.GetComponent<Text>().text = btn.transform.GetChild(0).GetComponent<Text>().text;
+        textObj.GetComponent<RectTransform>().localScale = new Vector3(0.0005f, 0.0005f, 1);
+        textObj.GetComponent<RectTransform>().anchoredPosition = new Vector3(0f, -0.04f, 1);
 
         state = "clicked";
     }
