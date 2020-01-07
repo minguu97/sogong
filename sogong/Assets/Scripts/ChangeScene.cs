@@ -4,40 +4,61 @@ using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour{
+    
     void fix()
     {
-	
     }
     void Start()
     {
-        Screen.SetResolution(1024, 768, true);
+
     }
 
     void Update()
     {
         
     }
-    public void Select1()
+    public void Select(int s)
     {
-	SceneManager.LoadScene("종류");
+        switch (s)
+        {
+            case 0:
+                SceneManager.LoadScene("시작");
+                break;
+            case 1:
+                SceneManager.LoadScene("종류");
+                break;
+            case 2:
+                SceneManager.LoadScene("지도");
+                break;
+            case 3:
+                SceneManager.LoadScene("참깨-과일");
+                break;
+            case 4:
+                SceneManager.LoadScene("chamAnimal");
+                break;
+            case 5:
+                Application.Quit();
+                break;
+        }
+	
     }
 
     public void Select2()
     {
-	SceneManager.LoadScene("지도");
+	
     }
     public void Select3()
     {
-        SceneManager.LoadScene("참깨-과일");
+        
 
     }
     public void Select4()
     {
-        SceneManager.LoadScene("chamAnimal");
+        
     }
     public void Select5()
     {
-        SceneManager.LoadScene("시작");
+        
     }
     public void LoadScene(string sceneName)
     {
@@ -46,9 +67,5 @@ public class ChangeScene : MonoBehaviour{
 
     public void unSelectButton() {
         EventSystem.current.SetSelectedGameObject(null);
-    }
-    public void Quit()
-    {
-	Application.Quit();
     }
 }

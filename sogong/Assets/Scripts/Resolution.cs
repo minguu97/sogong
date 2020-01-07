@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class Resolution : MonoBehaviour
 {
-    int SetWidth = 1024;
-    int SetHeight = 768;
-    bool fullscreen = true;  // Start is called before the first frame update
+    int Width = 1024;
+    int Height = 768;
+    bool fullscreen = true;
     void Start()
     {
-        Screen.SetResolution(SetWidth, SetHeight, true);
+        Screen.SetResolution(Width, Height, true);
     }
 
-    // Update is called once per frame
     void Update()
     {
         

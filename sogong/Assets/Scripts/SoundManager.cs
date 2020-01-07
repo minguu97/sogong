@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-    AudioSource audioSource;
+    private static AudioSource audioSource;
 
-    public void playSound(string objectName) {
-        audioSource = GameObject.Find(objectName).GetComponent<AudioSource> ();
+
+    public void playSound() {
         audioSource.Play();
+    }
+    public void setSound(string sound)
+    {
+        audioSource.clip = Resources.Load<AudioClip>("sound/"+sound);
     }
 
     void Start() {
-        
+        audioSource = this.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
