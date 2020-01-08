@@ -12,11 +12,6 @@ public class ChangeScene : MonoBehaviour{
     {
 
     }
-
-    void Update()
-    {
-        
-    }
     public void Select(int s)
     {
         switch (s)
@@ -34,31 +29,13 @@ public class ChangeScene : MonoBehaviour{
                 SceneManager.LoadScene("참깨-과일");
                 break;
             case 4:
-                SceneManager.LoadScene("chamAnimal");
+                SceneManager.LoadScene("참깨-동물");
                 break;
             case 5:
                 Application.Quit();
                 break;
         }
 	
-    }
-
-    public void Select2()
-    {
-	
-    }
-    public void Select3()
-    {
-        
-
-    }
-    public void Select4()
-    {
-        
-    }
-    public void Select5()
-    {
-        
     }
     public void LoadScene(string sceneName)
     {
