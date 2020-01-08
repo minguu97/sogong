@@ -100,4 +100,9 @@ public class CountryButtonAdapter
 
         state = "not clicked";
     }
+    
+    public GameObject getCountryobj()
+    {
+        return obj;
+    }
 }

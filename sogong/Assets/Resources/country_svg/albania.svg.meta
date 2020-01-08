@@ -38,17 +38,29 @@ ScriptedImporter:
   spriteData:
     TessellationDetail: 0
     SpriteRect:
-      name: 
+      name: albaniaSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
+        width: 1
+        height: 3
       spriteID: b9b9ed7821cd9e047a015531aae91d66
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: -0.26666668, y: -1.2777781}
+      - {x: -0.36428577, y: -0.24337375}
+      - {x: -0.3592149, y: 0.7151022}
+      - {x: -0.47494018, y: 1.2019942}
+      - {x: -0.40000004, y: 1.5}
+      - {x: 0.22222221, y: 1.0333328}
+      - {x: 0.1584, y: 0.08648896}
+      - {x: 0.47676212, y: -0.26866972}
+      - {x: 0.4413799, y: -0.70003283}
+      - {x: 0.32471365, y: -1.0623032}
+      - {x: -0.02222225, y: -1.2777781}

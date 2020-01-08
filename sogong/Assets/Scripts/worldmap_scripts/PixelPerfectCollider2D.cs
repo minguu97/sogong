@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using System;
+using Unity.VectorGraphics.Editor;
 
 [RequireComponent(typeof(PolygonCollider2D))]
 public class PixelPerfectCollider2D : MonoBehaviour
@@ -27,7 +28,7 @@ public class PixelPerfectCollider2D : MonoBehaviour
         }
         //If the execution got this far then all the references are good so we can assign them.
         SpriteRenderer spriterenderer = GetComponent<SpriteRenderer>();
-        Sprite sprite = spriterenderer.sprite;
+        Sprite sprite = spriterenderer.sprite; Debug.Log(sprite.vertices);
         //Here we make a rendertexture copy of our texture to make it readable.
         Texture2D texture = ForceReadable(sprite.texture);
         List<ColliderSegment> segments;

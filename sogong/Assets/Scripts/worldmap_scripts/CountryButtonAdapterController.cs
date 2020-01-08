@@ -54,24 +54,42 @@ public class CountryButtonAdapterController : MonoBehaviour
 
         country.setAdapter(countryButton);
 
-
+        /* SVG image to collider start */
         obj.AddComponent<PolygonCollider2D>();
         var polygonCollider = obj.GetComponent<PolygonCollider2D>();
         var sprite = obj.GetComponent<SpriteRenderer>().sprite;
+
+        /***** sprite vertices to physical shape part *****/
+        Vector2[] originalvertices = sprite.vertices;
+        int len = originalvertices.Length;
+
+        int scaler = len > 10000 ? 1000 : (len > 1000 ? 100 : (len > 100 ? 10 : 1));
+
+        int target = len / scaler;
+        Vector2[] filtered = new Vector2[target];
+        
+        for (int i = 0; i < target; i++)
+        {
+            filtered[i] = originalvertices[i*scaler];
+            filtered[i].x *= 100;
+            filtered[i].y *= 100;
+        }
+        //sprite.OverridePhysicsShape(new List<Vector2[]> {filtered });
+        
+        /***** physical shape to collider2d part *****/
         List<Vector2> test = null;
         for (int i = 0; i > polygonCollider.pathCount; i++)
             polygonCollider.SetPath(i, test);
         polygonCollider.pathCount = sprite.GetPhysicsShapeCount();
 
         List<Vector2> path = new List<Vector2>();
-        for(int i = 0; i < polygonCollider.pathCount; i++)
+        for (int i = 0; i < polygonCollider.pathCount; i++)
         {
             path.Clear();
             sprite.GetPhysicsShape(i, path);
             polygonCollider.SetPath(i, path.ToArray());
 
         }
-
 
         obj.AddComponent<spriteOnClick>();
         obj.GetComponent<spriteOnClick>().setButton(countryButton);
