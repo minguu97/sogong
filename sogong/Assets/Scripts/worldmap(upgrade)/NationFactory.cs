@@ -89,14 +89,29 @@ public class NationFactory : MonoBehaviour
     {
         Debug.Log(n.getKoreanName() + " is clicked");
 
-        // 전에 선택 중이던 버튼이 있으면 되돌려 놓고
-        if (clickedButton != null)
+        // 같은 버튼을 두번 클릭한 경우
+        if (clickedButton && clickedButton.name == nation.name)
+        {
             clickedButton.GetComponent<SpriteRenderer>().color = NATION_DEFAULT;
+            clickedButton = null;
+        }
+        else
+        {
+            // 전에 선택 중이던 버튼이 있으면 되돌려 놓고
+            if (clickedButton != null)
+                clickedButton.GetComponent<SpriteRenderer>().color = NATION_DEFAULT;
 
-        // 색깔 변화
-        var sprite = nation.GetComponent<SpriteRenderer>();
-        sprite.color = NATION_CLICKED;
-        clickedButton = nation;
+            // 색깔 변화
+            var sprite = nation.GetComponent<SpriteRenderer>();
+            sprite.color = NATION_CLICKED;
+            clickedButton = nation;
+        }
 
+        // 카메라 위치 이동
+        Vector3 nationPos = nation.GetComponent<RectTransform>().anchoredPosition;
+        nationPos.x -= 15; 
+        nationPos.y -= 7;
+        nationPos.z = -10;
+        GameObject.Find("Main Camera").transform.position = nationPos;
     }
 }
