@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,68 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.26
     SpriteRect:
-      name: 
+      name: belizeSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: e344775bba1a54144bd973a5534ff9af
+        width: 144
+        height: 263
+      spriteID: afd913a9fb6b5fc4dad6121ac23cbb8d
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: -32, y: -109.41603}
+      - {x: -21, y: -98.37405}
+      - {x: 2, y: -82.31298}
+      - {x: 7, y: -76.29008}
+      - {x: 13, y: -63.24046}
+      - {x: 18, y: -62.23664}
+      - {x: 25, y: -42.160305}
+      - {x: 29, y: -31.11832}
+      - {x: 30, y: 0}
+      - {x: 32, y: 12.045802}
+      - {x: 36, y: 34.129772}
+      - {x: 42, y: 57.21756}
+      - {x: 44, y: 60.229008}
+      - {x: 48, y: 68.259544}
+      - {x: 55, y: 91.34733}
+      - {x: 55, y: 112.42748}
+      - {x: 49, y: 119.4542}
+      - {x: 40, y: 118.450386}
+      - {x: 44, y: 129.49237}
+      - {x: 44, y: 131.5}
+      - {x: 29, y: 131.5}
+      - {x: 16, y: 119.4542}
+      - {x: 11, y: 114.43512}
+      - {x: 2, y: 101.3855}
+      - {x: -5, y: 89.3397}
+      - {x: -13, y: 73.278625}
+      - {x: -19, y: 79.30153}
+      - {x: -23, y: 80.30534}
+      - {x: -33, y: 79.30153}
+      - {x: -42, y: 65.24809}
+      - {x: -46, y: 47.17939}
+      - {x: -48, y: 35.133587}
+      - {x: -50, y: 19.07252}
+      - {x: -52, y: -4.0152674}
+      - {x: -61, y: -55.209923}
+      - {x: -70, y: -107.4084}
+      - {x: -72, y: -119.4542}
+      - {x: -72, y: -131.5}
+      - {x: -44, y: -131.5}
+      - {x: -43, y: -130.49619}
+      - {x: -38, y: -118.450386}
+    - Vertices:
+      - {x: 69, y: 34.129772}
+      - {x: 62, y: 27.103054}
+      - {x: 62, y: 19.07252}
+      - {x: 68, y: 19.07252}
+      - {x: 72, y: 24.091604}
+      - {x: 72, y: 34.129772}

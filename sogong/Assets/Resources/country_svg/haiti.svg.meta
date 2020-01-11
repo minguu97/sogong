@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,93 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.21
     SpriteRect:
-      name: 
+      name: haitiSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 288c4c1027f71b6429c25f9f21c97d08
+        width: 256
+        height: 204
+      spriteID: a22fc631a3ff45b4c89bdad25b51fe2a
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 116, y: -36}
+      - {x: 119, y: -28}
+      - {x: 118, y: -16}
+      - {x: 110, y: -7}
+      - {x: 122, y: 0}
+      - {x: 128, y: 8}
+      - {x: 128, y: 62}
+      - {x: 122, y: 69}
+      - {x: 115, y: 73}
+      - {x: 71, y: 80}
+      - {x: 42, y: 88}
+      - {x: 33, y: 90}
+      - {x: 27, y: 91}
+      - {x: 10, y: 91}
+      - {x: 1, y: 89}
+      - {x: -14, y: 80}
+      - {x: -27, y: 70}
+      - {x: -22, y: 59}
+      - {x: 7, y: 56}
+      - {x: 29, y: 44}
+      - {x: 30, y: 28}
+      - {x: 27, y: -1}
+      - {x: 33, y: -12}
+      - {x: 56, y: -34}
+      - {x: 54, y: -48}
+      - {x: 33, y: -49}
+      - {x: 18, y: -59}
+      - {x: -45, y: -52}
+      - {x: -54, y: -46}
+      - {x: -91, y: -40}
+      - {x: -108, y: -34}
+      - {x: -124, y: -46}
+      - {x: -128, y: -53}
+      - {x: -128, y: -71}
+      - {x: -121, y: -76}
+      - {x: -114, y: -77}
+      - {x: -87, y: -100}
+      - {x: -79, y: -102}
+      - {x: -75, y: -101}
+      - {x: -64, y: -88}
+      - {x: -53, y: -82}
+      - {x: -33, y: -82}
+      - {x: 9, y: -89}
+      - {x: 34, y: -90}
+      - {x: 71, y: -86}
+      - {x: 93, y: -96}
+      - {x: 100, y: -102}
+      - {x: 107, y: -102}
+      - {x: 109, y: -93}
+      - {x: 110, y: -72}
+      - {x: 100, y: -50}
+    - Vertices:
+      - {x: -63, y: -95}
+      - {x: -65, y: -96}
+      - {x: -65, y: -98}
+      - {x: -63, y: -101}
+      - {x: -58, y: -101}
+      - {x: -56, y: -100}
+      - {x: -56, y: -98}
+      - {x: -58, y: -95}
+    - Vertices:
+      - {x: 11, y: -37}
+      - {x: 22, y: -37}
+      - {x: 22, y: -17}
+      - {x: 19, y: -8}
+      - {x: -20, y: -8}
+      - {x: -20, y: -19}
+    - Vertices:
+      - {x: 33, y: 102}
+      - {x: 33, y: 94}
+      - {x: 55, y: 94}
+      - {x: 55, y: 97}
+      - {x: 52, y: 102}

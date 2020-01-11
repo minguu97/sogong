@@ -10,16 +10,16 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
-  generatePhysicsShape: 0
+  generatePhysicsShape: 1
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -38,17 +38,29 @@ ScriptedImporter:
   spriteData:
     TessellationDetail: 0
     SpriteRect:
-      name: 
+      name: commonwealth_of_dominicaSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 2db7cc1609a36fe468dd2226dadd510e
+        width: 20
+        height: 43
+      spriteID: 4af7617995172d947b9e51beea1d0d07
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: -2.5426416, y: -18.369795}
+      - {x: -2.2583666, y: -21.5}
+      - {x: 2.690094, y: -20.06091}
+      - {x: 6.8340015, y: -15.854656}
+      - {x: 10, y: -8.496199}
+      - {x: 10, y: -0.1685791}
+      - {x: 5.664237, y: 10.591637}
+      - {x: 0.12918282, y: 18.046185}
+      - {x: -7.9339547, y: 21.5}
+      - {x: -10, y: 16.175365}
+      - {x: -10, y: 6.98164}

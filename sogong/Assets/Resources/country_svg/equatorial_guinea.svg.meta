@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,53 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.24
     SpriteRect:
-      name: 
+      name: equatorial_guineaSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 7115634e196fd82438f35b1c7057b68a
+        width: 263
+        height: 281
+      spriteID: ee2c49bae06b0494994b6b2a6e0e3125
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 127.5, y: -17.5}
+      - {x: 72.5, y: -18.5}
+      - {x: 27.5, y: -21.5}
+      - {x: -3.5, y: -4.5}
+      - {x: -7.5, y: -4.5}
+      - {x: -10.5, y: -10.5}
+      - {x: -10.5, y: -47.5}
+      - {x: -22.5, y: -71.5}
+      - {x: -43.5, y: -103.5}
+      - {x: -48.5, y: -111.5}
+      - {x: -48.5, y: -123.5}
+      - {x: -47.5, y: -127.5}
+      - {x: -37.5, y: -132.5}
+      - {x: -18.5, y: -131.5}
+      - {x: -8.5, y: -140.5}
+      - {x: 50.5, y: -140.5}
+      - {x: 71.5, y: -139.5}
+      - {x: 96.5, y: -140.5}
+      - {x: 123.5, y: -140.5}
+      - {x: 131.5, y: -136.5}
+      - {x: 131.5, y: -22.5}
+    - Vertices:
+      - {x: -84.5, y: 140.5}
+      - {x: -105.5, y: 140.5}
+      - {x: -111.5, y: 132.5}
+      - {x: -131.5, y: 111.5}
+      - {x: -131.5, y: 92.5}
+      - {x: -127.5, y: 83.5}
+      - {x: -115.5, y: 82.5}
+      - {x: -102.5, y: 82.5}
+      - {x: -96.5, y: 91.5}
+      - {x: -83.5, y: 120.5}
+      - {x: -83.5, y: 138.5}

@@ -10,16 +10,16 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
-  generatePhysicsShape: 0
+  generatePhysicsShape: 1
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -38,17 +38,25 @@ ScriptedImporter:
   spriteData:
     TessellationDetail: 0
     SpriteRect:
-      name: 
+      name: monacoSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: c0750bca39fda17438ef4293975649c9
+        width: 3
+        height: 4
+      spriteID: 491427438f16c8c4c9a1fb073c8ee1d3
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 0.56666684, y: 1.2222221}
+      - {x: -0.6333333, y: -0.3111111}
+      - {x: -1.5, y: -2}
+      - {x: -0.14519083, y: -1.7142437}
+      - {x: 0.9940388, y: -0.8472742}
+      - {x: 1.5, y: 0.66666675}
+      - {x: 1.5, y: 2}

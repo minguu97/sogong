@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,85 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: guineaSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 7f69224a93f65e944adb8ad4806c9ea5
+        width: 654
+        height: 555
+      spriteID: 30c7e3402f3f8074bbc176f4bfd71f35
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 303, y: -196.35379}
+      - {x: 279, y: -156.28159}
+      - {x: 327, y: -160.2888}
+      - {x: 327, y: -141.25452}
+      - {x: 321, y: -123.22202}
+      - {x: 322, y: -88.158844}
+      - {x: 313, y: -51.092056}
+      - {x: 288, y: -32.057762}
+      - {x: 298, y: 12.021661}
+      - {x: 310, y: 37.066788}
+      - {x: 284, y: 55.099277}
+      - {x: 276, y: 106.19134}
+      - {x: 264, y: 117.21119}
+      - {x: 254, y: 114.20577}
+      - {x: 267, y: 130.23465}
+      - {x: 274, y: 144.25993}
+      - {x: 230, y: 206.37184}
+      - {x: 222, y: 244.44043}
+      - {x: 192, y: 267.48193}
+      - {x: 181, y: 259.4675}
+      - {x: 162, y: 229.41336}
+      - {x: 133, y: 219.39531}
+      - {x: 91, y: 233.42058}
+      - {x: 67, y: 211.38086}
+      - {x: 36, y: 240.43321}
+      - {x: 12, y: 211.38086}
+      - {x: 4, y: 249.44945}
+      - {x: -1, y: 258.4657}
+      - {x: -104, y: 251.45306}
+      - {x: -141, y: 276.4982}
+      - {x: -153, y: 277.5}
+      - {x: -201, y: 277.5}
+      - {x: -229, y: 223.40253}
+      - {x: -210, y: 187.33754}
+      - {x: -251, y: 176.31769}
+      - {x: -301, y: 161.29062}
+      - {x: -327, y: 109.19675}
+      - {x: -327, y: 86.155235}
+      - {x: -319, y: 81.14621}
+      - {x: -304, y: 71.12816}
+      - {x: -290, y: 76.137184}
+      - {x: -298, y: 54.097473}
+      - {x: -288, y: 37.066788}
+      - {x: -187, y: -65.117325}
+      - {x: -183, y: -84.15163}
+      - {x: -175, y: -93.16787}
+      - {x: -152, y: -90.16245}
+      - {x: -121, y: -62.11191}
+      - {x: -89, y: -9.016246}
+      - {x: -71, y: -11.0198555}
+      - {x: -1, y: 2.0036101}
+      - {x: 15, y: -2.0036101}
+      - {x: 66, y: -112.20216}
+      - {x: 52, y: -162.29242}
+      - {x: 54, y: -169.30505}
+      - {x: 57, y: -168.30325}
+      - {x: 98, y: -145.26173}
+      - {x: 121, y: -151.27257}
+      - {x: 163, y: -192.34657}
+      - {x: 158, y: -262.47293}
+      - {x: 182, y: -277.5}
+      - {x: 210, y: -277.5}
+      - {x: 240, y: -251.45306}
+      - {x: 277, y: -241.43501}
+      - {x: 288, y: -227.40974}

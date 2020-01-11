@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,56 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: czech_republicSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 0e989464fd90c4345b623da6d97837c4
+        width: 531
+        height: 245
+      spriteID: 0ec07065563137b4e88df57bdc98fa6e
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 115.21699, y: -122.5}
+      - {x: 120.22642, y: -122.5}
+      - {x: 138.26038, y: -101.41393}
+      - {x: 170.32076, y: -99.40574}
+      - {x: 206.38869, y: -79.32377}
+      - {x: 228.43019, y: -45.184425}
+      - {x: 261.49246, y: -32.131145}
+      - {x: 265.5, y: -30.12295}
+      - {x: 265.5, y: -14.057377}
+      - {x: 240.45284, y: 17.069672}
+      - {x: 187.35283, y: 29.118853}
+      - {x: 177.33397, y: 54.22131}
+      - {x: 116.21887, y: 68.27869}
+      - {x: 102.19246, y: 67.27459}
+      - {x: 107.20189, y: 51.209015}
+      - {x: 89.16793, y: 36.14754}
+      - {x: 77.14529, y: 75.30737}
+      - {x: 63.11887, y: 93.38114}
+      - {x: -41.07736, y: 121.495895}
+      - {x: -46.086792, y: 122.5}
+      - {x: -107.20189, y: 122.5}
+      - {x: -127.239624, y: 102.41803}
+      - {x: -161.30377, y: 88.36066}
+      - {x: -232.43774, y: 62.254097}
+      - {x: -265.5, y: 58.237705}
+      - {x: -265.5, y: 41.168034}
+      - {x: -236.4453, y: 10.040983}
+      - {x: -246.46416, y: -2.0081966}
+      - {x: -219.41321, y: -43.176228}
+      - {x: -199.37547, y: -54.22131}
+      - {x: -160.3019, y: -83.340164}
+      - {x: -101.19057, y: -122.5}
+      - {x: -52.098114, y: -122.5}
+      - {x: -32.06038, y: -103.42213}
+      - {x: 58.109436, y: -108.44262}
+      - {x: 106.200005, y: -107.43852}

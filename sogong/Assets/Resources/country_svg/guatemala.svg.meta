@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,51 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: guatemalaSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 40b5d4ccdbb971f4f9827d3c98f968bc
+        width: 370
+        height: 415
+      spriteID: 5695f99adc1979c4e8313d355716c898
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 79.71545, y: -133.32126}
+      - {x: 93.75339, y: -117.28261}
+      - {x: 185, y: -10.024155}
+      - {x: 185, y: -5.0120773}
+      - {x: 166.95122, y: 9.021739}
+      - {x: 154.9187, y: 17.041063}
+      - {x: 103.78049, y: 14.033816}
+      - {x: 135.8672, y: 205.49516}
+      - {x: 131.85637, y: 206.49759}
+      - {x: 109.796745, y: 207.5}
+      - {x: -26.571815, y: 207.5}
+      - {x: -39.607048, y: 199.48068}
+      - {x: -43.617886, y: 156.37682}
+      - {x: -86.73442, y: 150.36232}
+      - {x: -26.571815, y: 81.195656}
+      - {x: -15.542006, y: 66.159424}
+      - {x: -7.520325, y: 32.077293}
+      - {x: -121.82927, y: 33.079712}
+      - {x: -131.85637, y: 24.05797}
+      - {x: -170.96207, y: -54.130436}
+      - {x: -185, y: -109.26328}
+      - {x: -185, y: -133.32126}
+      - {x: -126.84282, y: -183.44203}
+      - {x: -103.78049, y: -192.46376}
+      - {x: -34.593494, y: -194.4686}
+      - {x: -16.544716, y: -204.49275}
+      - {x: -8.523035, y: -207.5}
+      - {x: -1.504065, y: -207.5}
+      - {x: -1.504065, y: -206.49759}
+      - {x: 30.582657, y: -180.43478}
+      - {x: 52.642277, y: -160.38647}

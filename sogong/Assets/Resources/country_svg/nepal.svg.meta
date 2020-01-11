@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,64 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: nepalSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: e301e3413f9b904468dbbd0389ba1f01
+        width: 736
+        height: 406
+      spriteID: 39da9e932d3baa34789e191412c7d546
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 353.98096, y: -61.65185}
+      - {x: 347.97278, y: -47.617283}
+      - {x: 283.8857, y: -50.62469}
+      - {x: 208.78368, y: -25.562963}
+      - {x: 169.7306, y: -20.550617}
+      - {x: 156.71292, y: -37.59259}
+      - {x: 128.67484, y: -4.5111113}
+      - {x: 81.610886, y: -4.5111113}
+      - {x: 79.60816, y: 14.535802}
+      - {x: 78.606804, y: 17.54321}
+      - {x: 75.60272, y: 20.550617}
+      - {x: 70.59592, y: 23.558025}
+      - {x: 39.55374, y: 24.560493}
+      - {x: -20.527891, y: 82.703705}
+      - {x: -36.54966, y: 94.73333}
+      - {x: -91.62449, y: 107.765434}
+      - {x: -118.661224, y: 128.81728}
+      - {x: -183.74966, y: 159.89383}
+      - {x: -221.80136, y: 199.99258}
+      - {x: -237.82312, y: 203}
+      - {x: -273.8721, y: 203}
+      - {x: -281.883, y: 196.98518}
+      - {x: -310.92245, y: 187.96297}
+      - {x: -336.95782, y: 170.92099}
+      - {x: -354.9823, y: 139.84444}
+      - {x: -365.99728, y: 105.76049}
+      - {x: -368, y: 80.69876}
+      - {x: -368, y: 43.607407}
+      - {x: -354.9823, y: 29.57284}
+      - {x: -326.9442, y: 17.54321}
+      - {x: -275.87482, y: -0.5012346}
+      - {x: -244.83266, y: -28.57037}
+      - {x: -197.7687, y: -54.634567}
+      - {x: -77.60544, y: -108.7679}
+      - {x: -14.519728, y: -110.772835}
+      - {x: 23.531973, y: -101.75062}
+      - {x: 71.597275, y: -149.86914}
+      - {x: 110.65034, y: -170.92099}
+      - {x: 167.72789, y: -184.95555}
+      - {x: 255.84761, y: -203}
+      - {x: 363.99457, y: -203}
+      - {x: 368, y: -198.99013}
+      - {x: 368, y: -158.89136}
+      - {x: 352.97958, y: -119.79506}

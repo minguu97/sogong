@@ -10,16 +10,16 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
-  generatePhysicsShape: 0
+  generatePhysicsShape: 1
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -38,17 +38,30 @@ ScriptedImporter:
   spriteData:
     TessellationDetail: 0
     SpriteRect:
-      name: 
+      name: barbadosSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: d4f8fcedb71334d47ba802a47f9f47da
+        width: 17
+        height: 25
+      spriteID: 3c92086d96c727f4a9d536bcf3d1ef56
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: -8.5, y: 12.5}
+      - {x: -8.5, y: 0.38085747}
+      - {x: -7.0117993, y: -5.863436}
+      - {x: -3.7684937, y: -10.050051}
+      - {x: 0.29325676, y: -12.5}
+      - {x: 2.2106066, y: -12.5}
+      - {x: 6.4082985, y: -9.655288}
+      - {x: 8.5, y: -6.250384}
+      - {x: 8.5, y: -3.0301208}
+      - {x: 6.0166445, y: 2.0025606}
+      - {x: 1.2936964, y: 6.76915}
+      - {x: -3.3637886, y: 10.240965}

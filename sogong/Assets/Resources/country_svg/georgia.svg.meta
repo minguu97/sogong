@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,89 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.19
     SpriteRect:
-      name: 
+      name: georgiaSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: be6ad7f6a5459ae4f9e97f90a6e4a604
+        width: 577
+        height: 246
+      spriteID: 8f1661c9270076f4fb5a310ed4bc74b8
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 244.42361, y: -69}
+      - {x: 244.42361, y: -63}
+      - {x: 256.44446, y: -46}
+      - {x: 256.44446, y: -40}
+      - {x: 244.42361, y: -30}
+      - {x: 210.3646, y: -24}
+      - {x: 189.32812, y: -10}
+      - {x: 192.33334, y: 11}
+      - {x: 191.3316, y: 17}
+      - {x: 183.31772, y: 23}
+      - {x: 170.29514, y: 23}
+      - {x: 157.27257, y: 22}
+      - {x: 143.24826, y: 38}
+      - {x: 123.21355, y: 44}
+      - {x: 102.177086, y: 44}
+      - {x: 85.14757, y: 45}
+      - {x: 57.09896, y: 36}
+      - {x: 33.057293, y: 31}
+      - {x: 27.046875, y: 43}
+      - {x: 23.03993, y: 49}
+      - {x: -3.0052085, y: 61}
+      - {x: -20.034723, y: 63}
+      - {x: -48.083336, y: 86}
+      - {x: -74.12847, y: 85}
+      - {x: -88.15278, y: 91}
+      - {x: -104.18056, y: 92}
+      - {x: -133.23091, y: 89}
+      - {x: -147.25522, y: 92}
+      - {x: -199.34549, y: 112}
+      - {x: -238.4132, y: 123}
+      - {x: -280.4861, y: 123}
+      - {x: -288.5, y: 118}
+      - {x: -288.5, y: 102}
+      - {x: -275.47745, y: 97}
+      - {x: -258.44794, y: 81}
+      - {x: -249.4323, y: 76}
+      - {x: -213.3698, y: 70}
+      - {x: -195.33855, y: 53}
+      - {x: -169.29341, y: 39}
+      - {x: -158.2743, y: 28}
+      - {x: -143.24826, y: -14}
+      - {x: -134.23264, y: -28}
+      - {x: -129.22397, y: -50}
+      - {x: -139.24132, y: -72}
+      - {x: -139.24132, y: -82}
+      - {x: -131.22743, y: -88}
+      - {x: -112.19445, y: -91}
+      - {x: -107.18577, y: -84}
+      - {x: -79.13715, y: -88}
+      - {x: -60.104168, y: -89}
+      - {x: -38.06597, y: -76}
+      - {x: -36.0625, y: -84}
+      - {x: -22.038195, y: -88}
+      - {x: 2.0034723, y: -113}
+      - {x: 27.046875, y: -121}
+      - {x: 62.10764, y: -120}
+      - {x: 98.17014, y: -113}
+      - {x: 139.24132, y: -114}
+      - {x: 154.26736, y: -102}
+      - {x: 173.30035, y: -91}
+      - {x: 187.32466, y: -92}
+      - {x: 220.38194, y: -115}
+      - {x: 237.41147, y: -117}
+      - {x: 242.42015, y: -114}
+      - {x: 265.46008, y: -123}
+      - {x: 285.4948, y: -123}
+      - {x: 288.5, y: -119}
+      - {x: 288.5, y: -103}
+      - {x: 274.4757, y: -90}

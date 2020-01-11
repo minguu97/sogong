@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,73 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: burkina_fasoSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 7da9458423360d84d94f72f5d270b55b
+        width: 702
+        height: 574
+      spriteID: 197f1014b6cab9c43be71d6836215347
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 48.569187, y: -127}
+      - {x: 88.62624, y: -135}
+      - {x: 122.67475, y: -115}
+      - {x: 193.77603, y: -130}
+      - {x: 220.81454, y: -130}
+      - {x: 267.8816, y: -89}
+      - {x: 315.95007, y: -89}
+      - {x: 335.9786, y: -76}
+      - {x: 351, y: -53}
+      - {x: 351, y: -12}
+      - {x: 345.99286, y: 19}
+      - {x: 335.9786, y: 46}
+      - {x: 324.96292, y: 56}
+      - {x: 286.9087, y: 43}
+      - {x: 233.8331, y: 96}
+      - {x: 260.8716, y: 110}
+      - {x: 233.8331, y: 139}
+      - {x: 200.78601, y: 150}
+      - {x: 168.74037, y: 228}
+      - {x: 175.75035, y: 268}
+      - {x: 144.70613, y: 287}
+      - {x: 78.611984, y: 287}
+      - {x: 20.529243, y: 249}
+      - {x: -29.542082, y: 227}
+      - {x: -47.56776, y: 202}
+      - {x: -68.59772, y: 213}
+      - {x: -106.651924, y: 197}
+      - {x: -122.67475, y: 149}
+      - {x: -155.72182, y: 153}
+      - {x: -150.71469, y: 121}
+      - {x: -189.77032, y: 113}
+      - {x: -205.79315, y: 133}
+      - {x: -246.85164, y: 98}
+      - {x: -239.84166, y: 61}
+      - {x: -258.86874, y: 49}
+      - {x: -275.893, y: -19}
+      - {x: -315.95007, y: -26}
+      - {x: -340.98572, y: -40}
+      - {x: -328.96863, y: -97}
+      - {x: -346.9943, y: -120}
+      - {x: -351, y: -145}
+      - {x: -351, y: -197}
+      - {x: -316.9515, y: -215}
+      - {x: -286.9087, y: -263}
+      - {x: -241.84451, y: -273}
+      - {x: -222.8174, y: -247}
+      - {x: -146.70898, y: -243}
+      - {x: -118.669044, y: -283}
+      - {x: -110.65763, y: -287}
+      - {x: -99.64194, y: -287}
+      - {x: -97.639084, y: -284}
+      - {x: -109.656204, y: -140}
+      - {x: -83.61912, y: -132}

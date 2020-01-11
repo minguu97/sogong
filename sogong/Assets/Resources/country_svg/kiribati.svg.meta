@@ -10,16 +10,16 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
-  generatePhysicsShape: 0
+  generatePhysicsShape: 1
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,31 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 1
     SpriteRect:
-      name: 
+      name: kiribatiSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 945ee8a742f3dd9459a24318550a0e56
+        width: 7
+        height: 8
+      spriteID: 384bcc80f34108c42b5ae270068e7e7b
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: -3.5, y: 4}
+      - {x: -3.5, y: 2.5857668}
+      - {x: -2.6717863, y: 0.19921589}
+      - {x: -1.5011116, y: -1.4863987}
+      - {x: 0.5630479, y: -2.977729}
+      - {x: 2.1901646, y: -3.7314534}
+      - {x: 3.5, y: -4}
+      - {x: 2.8554883, y: -2.0695236}
+      - {x: 1.5396109, y: 0.006378174}
+      - {x: -0.32747245, y: 2.0630865}
+      - {x: -1.9872439, y: 3.2212148}

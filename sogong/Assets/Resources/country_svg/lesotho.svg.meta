@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,74 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.47
     SpriteRect:
-      name: 
+      name: lesothoSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: d8214a9560a067e4ca382e47c5bdc3c0
+        width: 217
+        height: 214
+      spriteID: 6d59b1e187c2307428b3537ff3a78ab2
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 3.0138888, y: -72.84038}
+      - {x: 10.046296, y: -61.78873}
+      - {x: 19.087963, y: -56.76526}
+      - {x: 23.106482, y: -56.76526}
+      - {x: 41.189816, y: -53.751175}
+      - {x: 53.24537, y: -50.737087}
+      - {x: 70.32407, y: -40.69014}
+      - {x: 79.36574, y: -30.643192}
+      - {x: 82.37963, y: -23.610329}
+      - {x: 86.39815, y: -12.558685}
+      - {x: 91.421295, y: -1.5070423}
+      - {x: 103.47685, y: 12.558685}
+      - {x: 108.5, y: 20.596245}
+      - {x: 108.5, y: 37.676056}
+      - {x: 105.48611, y: 44.70892}
+      - {x: 100.46296, y: 50.737087}
+      - {x: 92.42593, y: 58.774647}
+      - {x: 83.384254, y: 66.8122}
+      - {x: 67.31018, y: 82.88732}
+      - {x: 66.30556, y: 82.88732}
+      - {x: 47.21759, y: 101.976524}
+      - {x: 47.21759, y: 102.98122}
+      - {x: 42.194443, y: 107}
+      - {x: 26.120369, y: 107}
+      - {x: 23.106482, y: 105.9953}
+      - {x: 13.0601845, y: 98.96244}
+      - {x: 0, y: 92.93427}
+      - {x: -4.0185184, y: 89.92019}
+      - {x: -13.0601845, y: 83.89202}
+      - {x: -22.10185, y: 79.87324}
+      - {x: -35.162037, y: 75.85446}
+      - {x: -42.194443, y: 72.84038}
+      - {x: -51.23611, y: 63.798122}
+      - {x: -56.25926, y: 55.760563}
+      - {x: -70.32407, y: 27.629108}
+      - {x: -72.33333, y: 24.615023}
+      - {x: -85.39352, y: 13.56338}
+      - {x: -100.46296, y: 6.530516}
+      - {x: -108.5, y: 1.5070423}
+      - {x: -108.5, y: -5.5258217}
+      - {x: -107.49537, y: -7.535211}
+      - {x: -101.46759, y: -16.577465}
+      - {x: -96.44444, y: -30.643192}
+      - {x: -85.39352, y: -50.737087}
+      - {x: -81.375, y: -64.80282}
+      - {x: -77.35648, y: -72.84038}
+      - {x: -51.23611, y: -97.95775}
+      - {x: -47.21759, y: -100.97183}
+      - {x: -41.189816, y: -104.99061}
+      - {x: -37.171295, y: -107}
+      - {x: -19.087963, y: -107}
+      - {x: -16.074074, y: -105.9953}
+      - {x: -10.046296, y: -99.96713}
+      - {x: -1.0046296, y: -81.88263}

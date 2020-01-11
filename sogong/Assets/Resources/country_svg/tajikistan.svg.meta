@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,87 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: tajikistanSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 78b7ce671439b474f87ee5178ad25627
+        width: 688
+        height: 432
+      spriteID: 78103825f64042a459b9f9e6b562cad6
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 249.86316, y: -172}
+      - {x: 279.90683, y: -149}
+      - {x: 339.99417, y: -170}
+      - {x: 344, y: -159}
+      - {x: 344, y: -136}
+      - {x: 326.97525, y: -110}
+      - {x: 295.9301, y: -30}
+      - {x: 232.83842, y: -15}
+      - {x: 211.80786, y: -29}
+      - {x: 203.7962, y: 14}
+      - {x: 168.74527, y: 60}
+      - {x: 159.73216, y: 61}
+      - {x: 71.60407, y: 53}
+      - {x: 20.529839, y: 51}
+      - {x: -8.512372, y: 83}
+      - {x: -53.577873, y: 61}
+      - {x: -113.66521, y: 82}
+      - {x: -184.76855, y: 101}
+      - {x: -159.73216, y: 131}
+      - {x: -98.64337, y: 101}
+      - {x: -67.59825, y: 132}
+      - {x: -68.59971, y: 137}
+      - {x: -71.60407, y: 139}
+      - {x: -96.640465, y: 177}
+      - {x: -97.64192, y: 189}
+      - {x: -128.68704, y: 216}
+      - {x: -138.7016, y: 216}
+      - {x: -161.73508, y: 190}
+      - {x: -202.79475, y: 199}
+      - {x: -225.82823, y: 186}
+      - {x: -211.80786, y: 138}
+      - {x: -258.87625, y: 136}
+      - {x: -266.8879, y: 125}
+      - {x: -247.86026, y: 119}
+      - {x: -262.88208, y: 71}
+      - {x: -324.97232, y: 78}
+      - {x: -338.9927, y: 69}
+      - {x: -344, y: 55}
+      - {x: -344, y: 34}
+      - {x: -341.99707, y: 30}
+      - {x: -304.94324, y: 9}
+      - {x: -275.901, y: 7}
+      - {x: -272.89664, y: -34}
+      - {x: -241.85152, y: -78}
+      - {x: -268.8908, y: -136}
+      - {x: -264.885, y: -173}
+      - {x: -240.85007, y: -201}
+      - {x: -216.81512, y: -192}
+      - {x: -169.74672, y: -160}
+      - {x: -145.71179, y: -177}
+      - {x: -125.68268, y: -182}
+      - {x: -121.67685, y: -166}
+      - {x: -128.68704, y: -139}
+      - {x: -89.63027, y: -142}
+      - {x: -56.58224, y: -135}
+      - {x: -71.60407, y: -95}
+      - {x: -42.561863, y: -50}
+      - {x: 10.515284, y: -68}
+      - {x: 0.5007278, y: -99}
+      - {x: 30.544395, y: -110}
+      - {x: 31.54585, y: -136}
+      - {x: 43.563316, y: -191}
+      - {x: 63.59243, y: -216}
+      - {x: 97.64192, y: -216}
+      - {x: 147.71469, y: -188}
+      - {x: 189.77583, y: -152}
+      - {x: 220.82095, y: -167}

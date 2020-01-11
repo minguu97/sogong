@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,62 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: uruguaySprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: b03537f9f1c3ef04bae1708965649523
+        width: 446
+        height: 488
+      spriteID: 44a1eb1c41aa8c2499da0cd717d4487d
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 218.99101, y: -169}
+      - {x: 223, y: -144}
+      - {x: 223, y: -116}
+      - {x: 204.95955, y: -85}
+      - {x: 223, y: -39}
+      - {x: 223, y: -16}
+      - {x: 220.9955, y: -9}
+      - {x: 164.86966, y: 37}
+      - {x: 148.83371, y: 55}
+      - {x: 79.67865, y: 102}
+      - {x: 40.59101, y: 124}
+      - {x: 23.552809, y: 130}
+      - {x: -24.555056, y: 171}
+      - {x: -48.60899, y: 146}
+      - {x: -52.617977, y: 173}
+      - {x: -65.647194, y: 193}
+      - {x: -136.80675, y: 244}
+      - {x: -160.86067, y: 244}
+      - {x: -179.90337, y: 227}
+      - {x: -206.96405, y: 237}
+      - {x: -223, y: 204}
+      - {x: -223, y: 178}
+      - {x: -217.98877, y: 160}
+      - {x: -221.99776, y: 108}
+      - {x: -223, y: 96}
+      - {x: -223, y: 43}
+      - {x: -214.98203, y: 5}
+      - {x: -194.93707, y: -40}
+      - {x: -215.98427, y: -81}
+      - {x: -204.95955, y: -141}
+      - {x: -178.90112, y: -166}
+      - {x: -133.8, y: -202}
+      - {x: -93.71011, y: -198}
+      - {x: -53.620224, y: -222}
+      - {x: -4.5101123, y: -236}
+      - {x: 1.5033708, y: -244}
+      - {x: 38.586517, y: -244}
+      - {x: 60.635956, y: -240}
+      - {x: 112.75281, y: -244}
+      - {x: 133.8, y: -244}
+      - {x: 163.86742, y: -230}
+      - {x: 183.91235, y: -219}

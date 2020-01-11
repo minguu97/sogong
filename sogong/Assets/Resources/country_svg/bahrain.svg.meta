@@ -10,16 +10,16 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
-  generatePhysicsShape: 0
+  generatePhysicsShape: 1
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,35 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 1
     SpriteRect:
-      name: 
+      name: bahrainSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 2c22657f37c157f428afed1b417a6595
+        width: 15
+        height: 43
+      spriteID: ca57423081f97a244859c298503e78fc
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 5.348728, y: 15.102219}
+      - {x: 2.6365461, y: 21.5}
+      - {x: -2.6218204, y: 21.5}
+      - {x: -7.5, y: 18.30111}
+      - {x: -7.212182, y: 15.435268}
+      - {x: -5.348728, y: 11.533276}
+      - {x: -4.9170012, y: 9.021036}
+      - {x: -5.356091, y: 5.119047}
+      - {x: -4.492637, y: -7.0227585}
+      - {x: -1.6291833, y: -10.669822}
+      - {x: 2.385542, y: -15.916332}
+      - {x: 4.6659966, y: -19.995125}
+      - {x: 5.5, y: -21.5}
+      - {x: 7.5, y: -19.452381}
+      - {x: 7.5, y: 4.9299107}

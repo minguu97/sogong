@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,62 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: united_arab_emiratesSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 0db3d5687fae10c40add0c7a272b5b8f
+        width: 412
+        height: 346
+      spriteID: 904ce8d50c8e3094eab560bf0a3d21cd
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 163.89781, y: 8}
+      - {x: 167.90753, y: 62}
+      - {x: 181.9416, y: 40}
+      - {x: 193.9708, y: 38}
+      - {x: 206, y: 59}
+      - {x: 206, y: 101}
+      - {x: 202.99269, y: 119}
+      - {x: 181.9416, y: 173}
+      - {x: 167.90753, y: 173}
+      - {x: 150.86618, y: 144}
+      - {x: 115.78102, y: 113}
+      - {x: 67.66423, y: 48}
+      - {x: 40.598537, y: 3}
+      - {x: 8.520681, y: -6}
+      - {x: -5.513382, y: -24}
+      - {x: -90.72019, y: -18}
+      - {x: -115.78102, y: -9}
+      - {x: -140.84184, y: -30}
+      - {x: -182.94403, y: -32}
+      - {x: -186.95377, y: -11}
+      - {x: -189.96106, y: -6}
+      - {x: -196.9781, y: -2}
+      - {x: -206, y: -3}
+      - {x: -206, y: -15}
+      - {x: -190.9635, y: -45}
+      - {x: -122.79805, y: -134}
+      - {x: -99.74209, y: -150}
+      - {x: 26.564476, y: -173}
+      - {x: 118.788315, y: -173}
+      - {x: 135.82968, y: -165}
+      - {x: 149.86374, y: -59}
+      - {x: 173.92213, y: -38}
+      - {x: 185.95134, y: -19}
+    - Vertices:
+      - {x: -13.532846, y: -11}
+      - {x: -21.55231, y: -14}
+      - {x: -21.55231, y: -20}
+      - {x: -14.535279, y: -24}
+      - {x: -3.5085158, y: -24}
+      - {x: 2.5060828, y: -19}
+      - {x: 2.5060828, y: -14}
+      - {x: 0.50121653, y: -11}

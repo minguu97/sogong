@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,111 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.42
     SpriteRect:
-      name: 
+      name: belgiumSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: ba4d08469cdc5c24489a9377d36d296d
+        width: 294
+        height: 193
+      spriteID: 876e9aeae5d521549b58a80331f5beff
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 108, y: -75.390625}
+      - {x: 99, y: -65.33855}
+      - {x: 103, y: -51.265625}
+      - {x: 115, y: -35.182293}
+      - {x: 127, y: -36.1875}
+      - {x: 137, y: -24.125}
+      - {x: 147, y: -17.088543}
+      - {x: 147, y: -10.052084}
+      - {x: 145, y: -3.015625}
+      - {x: 141, y: 3.015625}
+      - {x: 137, y: 6.03125}
+      - {x: 137, y: 13.067709}
+      - {x: 133, y: 18.09375}
+      - {x: 130, y: 21.109375}
+      - {x: 121, y: 26.135418}
+      - {x: 114, y: 28.145834}
+      - {x: 99, y: 30.15625}
+      - {x: 95, y: 34.177086}
+      - {x: 96, y: 44.229168}
+      - {x: 107, y: 61.31771}
+      - {x: 108, y: 65.33855}
+      - {x: 106, y: 67.34896}
+      - {x: 96, y: 70.364586}
+      - {x: 68, y: 77.40105}
+      - {x: 59, y: 82.427086}
+      - {x: 53, y: 87.453125}
+      - {x: 50, y: 95.4948}
+      - {x: 48, y: 96.5}
+      - {x: 41, y: 96.5}
+      - {x: 34, y: 91.47396}
+      - {x: 28, y: 92.47917}
+      - {x: 23, y: 96.5}
+      - {x: 19, y: 96.5}
+      - {x: 11, y: 93.484375}
+      - {x: 6, y: 96.5}
+      - {x: 1, y: 96.5}
+      - {x: -2, y: 95.4948}
+      - {x: -5, y: 87.453125}
+      - {x: -15, y: 88.458336}
+      - {x: -17, y: 84.4375}
+      - {x: -21, y: 83.4323}
+      - {x: -31, y: 77.40105}
+      - {x: -39, y: 73.38021}
+      - {x: -56, y: 76.395836}
+      - {x: -74, y: 77.40105}
+      - {x: -81, y: 80.41667}
+      - {x: -81, y: 85.44271}
+      - {x: -83, y: 87.453125}
+      - {x: -90, y: 86.44792}
+      - {x: -100, y: 83.4323}
+      - {x: -109, y: 79.41146}
+      - {x: -147, y: 60.3125}
+      - {x: -147, y: 53.276043}
+      - {x: -141, y: 39.203125}
+      - {x: -139, y: 36.1875}
+      - {x: -132, y: 30.15625}
+      - {x: -127, y: 28.145834}
+      - {x: -113, y: 28.145834}
+      - {x: -104, y: 29.151043}
+      - {x: -101, y: 26.135418}
+      - {x: -94, y: 12.0625}
+      - {x: -86, y: 4.0208335}
+      - {x: -79, y: 1.0052084}
+      - {x: -64, y: -8.041667}
+      - {x: -64, y: -15.078125}
+      - {x: -63, y: -18.09375}
+      - {x: -51, y: -16.083334}
+      - {x: -40, y: -15.078125}
+      - {x: -29, y: -20.104168}
+      - {x: -26, y: -27.140625}
+      - {x: -26, y: -34.177086}
+      - {x: -29, y: -50.260418}
+      - {x: -25, y: -53.276043}
+      - {x: -12, y: -55.28646}
+      - {x: -2, y: -54.28125}
+      - {x: 5, y: -52.270836}
+      - {x: 13, y: -46.239586}
+      - {x: 23, y: -36.1875}
+      - {x: 23, y: -39.203125}
+      - {x: 24, y: -60.3125}
+      - {x: 24, y: -65.33855}
+      - {x: 34, y: -72.375}
+      - {x: 49, y: -75.390625}
+      - {x: 59, y: -79.41146}
+      - {x: 67, y: -87.453125}
+      - {x: 78, y: -95.4948}
+      - {x: 80, y: -96.5}
+      - {x: 98, y: -96.5}
+      - {x: 101, y: -95.4948}
+      - {x: 107, y: -88.458336}
+      - {x: 110, y: -84.4375}

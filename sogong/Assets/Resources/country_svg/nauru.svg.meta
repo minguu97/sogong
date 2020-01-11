@@ -10,16 +10,16 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
-  generatePhysicsShape: 0
+  generatePhysicsShape: 1
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -38,17 +38,27 @@ ScriptedImporter:
   spriteData:
     TessellationDetail: 0
     SpriteRect:
-      name: 
+      name: nauruSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: c9fac563814841c43bb071e137a62b6b
+        width: 15
+        height: 11
+      spriteID: f3fd656efddb87747ad3b3910864735e
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 2.9086561, y: 4.3369007}
+      - {x: -0.042531013, y: 5.5}
+      - {x: -2.2566295, y: 5.5}
+      - {x: -4.7744584, y: 4.7941275}
+      - {x: -7.5, y: 2.9695206}
+      - {x: -2.7984228, y: -2.9152398}
+      - {x: -0.014264584, y: -5.5}
+      - {x: 7.5, y: -2.0659616}
+      - {x: 5.764518, y: 1.4382339}

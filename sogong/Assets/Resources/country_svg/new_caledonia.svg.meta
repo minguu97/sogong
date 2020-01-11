@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,82 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: new_caledoniaSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 55ebc1f8a021f08459bd315e305b708b
+        width: 667
+        height: 354
+      spriteID: ee595c496cb91d14383535a53af9e8b1
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 251.37688, y: -164.966}
+      - {x: 240.36035, y: -164.966}
+      - {x: 239.35886, y: -168.97734}
+      - {x: 239.35886, y: -175.99716}
+      - {x: 241.36186, y: -177}
+      - {x: 248.37238, y: -177}
+      - {x: 253.37988, y: -169.98016}
+      - {x: 253.37988, y: -165.96884}
+    - Vertices:
+      - {x: 103.154655, y: 8.524079}
+      - {x: 43.064564, y: 68.69405}
+      - {x: 11.016517, y: 84.73937}
+      - {x: 2.003003, y: 84.73937}
+      - {x: 2.003003, y: 72.70538}
+      - {x: 5.0075073, y: 41.61756}
+      - {x: 33.04955, y: -8.524079}
+      - {x: 76.11411, y: -67.691216}
+      - {x: 119.17868, y: -96.77337}
+      - {x: 140.2102, y: -122.84702}
+      - {x: 162.24324, y: -142.90369}
+      - {x: 178.26726, y: -147.91785}
+      - {x: 203.3048, y: -147.91785}
+      - {x: 211.31682, y: -146.91501}
+      - {x: 217.32582, y: -138.89235}
+      - {x: 217.32582, y: -113.821526}
+      - {x: 160.24023, y: -60.671387}
+    - Vertices:
+      - {x: 310.46545, y: -43.62323}
+      - {x: 305.45795, y: -46.63173}
+      - {x: 305.45795, y: -63.679886}
+      - {x: 310.46545, y: -75.71388}
+      - {x: 327.491, y: -75.71388}
+      - {x: 333.5, y: -64.68272}
+      - {x: 333.5, y: -50.64306}
+      - {x: 322.4835, y: -43.62323}
+    - Vertices:
+      - {x: 271.4069, y: 23.566572}
+      - {x: 252.37837, y: 23.566572}
+      - {x: 250.37537, y: 13.538243}
+      - {x: 250.37537, y: -17.549574}
+      - {x: 269.4039, y: -27.577904}
+      - {x: 278.41742, y: -27.577904}
+      - {x: 280.4204, y: -19.55524}
+      - {x: 280.4204, y: 10.529745}
+      - {x: 278.41742, y: 20.558073}
+    - Vertices:
+      - {x: 222.33333, y: 41.61756}
+      - {x: 218.32733, y: 41.61756}
+      - {x: 209.31381, y: 30.586401}
+      - {x: 209.31381, y: 20.558073}
+      - {x: 212.31831, y: 20.558073}
+      - {x: 219.32883, y: 25.572237}
+      - {x: 220.33032, y: 30.586401}
+      - {x: 222.33333, y: 37.60623}
+    - Vertices:
+      - {x: -329.494, y: 177}
+      - {x: -333.5, y: 172.98866}
+      - {x: -333.5, y: 158.949}
+      - {x: -331.49698, y: 158.949}
+      - {x: -326.48947, y: 164.966}
+      - {x: -325.48798, y: 171.98584}
+      - {x: -325.48798, y: 177}

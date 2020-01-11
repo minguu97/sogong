@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,146 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: ecuadorSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: f2927ce3a6ae80844a8436821645b69d
+        width: 1464
+        height: 646
+      spriteID: b044c17209fea004683355424f27bb7c
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 453, y: -205}
+      - {x: 472, y: -180}
+      - {x: 503, y: -128}
+      - {x: 582, y: -100}
+      - {x: 632, y: -68}
+      - {x: 654, y: -43}
+      - {x: 683, y: -8}
+      - {x: 709, y: 46}
+      - {x: 732, y: 76}
+      - {x: 732, y: 96}
+      - {x: 728, y: 128}
+      - {x: 726, y: 170}
+      - {x: 653, y: 218}
+      - {x: 643, y: 222}
+      - {x: 625, y: 223}
+      - {x: 622, y: 207}
+      - {x: 550, y: 217}
+      - {x: 540, y: 241}
+      - {x: 513, y: 266}
+      - {x: 415, y: 323}
+      - {x: 407, y: 323}
+      - {x: 376, y: 298}
+      - {x: 319, y: 277}
+      - {x: 291, y: 256}
+      - {x: 297, y: 190}
+      - {x: 265, y: 155}
+      - {x: 258, y: 130}
+      - {x: 249, y: 92}
+      - {x: 220, y: 84}
+      - {x: 220, y: 75}
+      - {x: 232, y: 46}
+      - {x: 227, y: 23}
+      - {x: 237, y: -24}
+      - {x: 220, y: -38}
+      - {x: 220, y: -50}
+      - {x: 233, y: -69}
+      - {x: 280, y: -99}
+      - {x: 288, y: -98}
+      - {x: 321, y: -92}
+      - {x: 324, y: -88}
+      - {x: 325, y: -84}
+      - {x: 325, y: -78}
+      - {x: 322, y: -71}
+      - {x: 327, y: -81}
+      - {x: 308, y: -147}
+      - {x: 277, y: -161}
+      - {x: 279, y: -219}
+      - {x: 261, y: -228}
+      - {x: 264, y: -275}
+      - {x: 293, y: -272}
+      - {x: 346, y: -279}
+      - {x: 373, y: -323}
+      - {x: 406, y: -323}
+      - {x: 407, y: -321}
+      - {x: 414, y: -305}
+      - {x: 434, y: -276}
+    - Vertices:
+      - {x: 307, y: -89}
+      - {x: 296, y: -89}
+      - {x: 283, y: -98}
+      - {x: 283, y: -129}
+      - {x: 286, y: -130}
+      - {x: 298, y: -130}
+      - {x: 318, y: -99}
+      - {x: 318, y: -93}
+      - {x: 317, y: -91}
+    - Vertices:
+      - {x: -629, y: 55}
+      - {x: -632, y: 52}
+      - {x: -633, y: 50}
+      - {x: -633, y: 44}
+      - {x: -630, y: 40}
+      - {x: -625, y: 40}
+      - {x: -618, y: 48}
+      - {x: -618, y: 53}
+      - {x: -624, y: 55}
+    - Vertices:
+      - {x: -731, y: 78}
+      - {x: -723, y: 72}
+      - {x: -676, y: 72}
+      - {x: -655, y: 82}
+      - {x: -655, y: 128}
+      - {x: -691, y: 186}
+      - {x: -727, y: 186}
+      - {x: -731, y: 182}
+    - Vertices:
+      - {x: -541, y: 110}
+      - {x: -549, y: 96}
+      - {x: -549, y: 80}
+      - {x: -535, y: 80}
+      - {x: -523, y: 94}
+      - {x: -523, y: 110}
+    - Vertices:
+      - {x: -627, y: 129}
+      - {x: -635, y: 124}
+      - {x: -635, y: 102}
+      - {x: -625, y: 98}
+      - {x: -607, y: 98}
+      - {x: -603, y: 101}
+      - {x: -603, y: 128}
+      - {x: -604, y: 129}
+    - Vertices:
+      - {x: -732, y: 153}
+      - {x: -732, y: 136}
+      - {x: -724, y: 127}
+      - {x: -718, y: 127}
+      - {x: -710, y: 134}
+      - {x: -710, y: 148}
+      - {x: -715, y: 153}
+    - Vertices:
+      - {x: -664, y: 162}
+      - {x: -667, y: 159}
+      - {x: -667, y: 156}
+      - {x: -661, y: 145}
+      - {x: -645, y: 139}
+      - {x: -637, y: 139}
+      - {x: -636, y: 142}
+      - {x: -636, y: 155}
+      - {x: -647, y: 162}
+    - Vertices:
+      - {x: -637, y: 215}
+      - {x: -637, y: 212}
+      - {x: -633, y: 204}
+      - {x: -626, y: 204}
+      - {x: -625, y: 207}
+      - {x: -625, y: 215}

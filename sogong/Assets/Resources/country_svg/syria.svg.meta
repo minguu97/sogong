@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,63 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: syriaSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: f8ff2e83e88c20043b2b456ae643f772
+        width: 535
+        height: 499
+      spriteID: 866bc99186d5163469a038499d5c35d9
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 175.5, y: -46.5}
+      - {x: 197.5, y: -16.5}
+      - {x: 199.5, y: 1.5}
+      - {x: 197.5, y: 56.5}
+      - {x: 205.5, y: 97.5}
+      - {x: 190.5, y: 164.5}
+      - {x: 224.5, y: 177.5}
+      - {x: 267.5, y: 211.5}
+      - {x: 267.5, y: 246.5}
+      - {x: 263.5, y: 249.5}
+      - {x: 247.5, y: 249.5}
+      - {x: 238.5, y: 245.5}
+      - {x: 209.5, y: 233.5}
+      - {x: 162.5, y: 237.5}
+      - {x: 124.5, y: 233.5}
+      - {x: 18.5, y: 191.5}
+      - {x: -13.5, y: 191.5}
+      - {x: -51.5, y: 211.5}
+      - {x: -85.5, y: 213.5}
+      - {x: -164.5, y: 191.5}
+      - {x: -203.5, y: 210.5}
+      - {x: -213.5, y: 196.5}
+      - {x: -211.5, y: 161.5}
+      - {x: -223.5, y: 147.5}
+      - {x: -225.5, y: 134.5}
+      - {x: -234.5, y: 109.5}
+      - {x: -267.5, y: 116.5}
+      - {x: -267.5, y: 69.5}
+      - {x: -255.5, y: 42.5}
+      - {x: -259.5, y: 6.5}
+      - {x: -237.5, y: -29.5}
+      - {x: -194.5, y: -48.5}
+      - {x: -235.5, y: -100.5}
+      - {x: -235.5, y: -121.5}
+      - {x: -262.5, y: -154.5}
+      - {x: -260.5, y: -213.5}
+      - {x: -253.5, y: -215.5}
+      - {x: -242.5, y: -215.5}
+      - {x: -181.5, y: -249.5}
+      - {x: -142.5, y: -249.5}
+      - {x: -73.5, y: -202.5}
+      - {x: -14.5, y: -168.5}
+      - {x: 70.5, y: -103.5}

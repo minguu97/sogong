@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,67 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.35
     SpriteRect:
-      name: 
+      name: kuwaitSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: cb5ef2a799f8df24f8bd423b05545a4b
+        width: 165
+        height: 158
+      spriteID: efc443ef8ef31dd489e8c2faf20dcd03
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 82.5, y: -70}
+      - {x: 74.5, y: -53}
+      - {x: 61.5, y: -31}
+      - {x: 54.5, y: -12}
+      - {x: 50.5, y: -3}
+      - {x: 41.5, y: 6}
+      - {x: 31.5, y: 10}
+      - {x: 16.5, y: 11}
+      - {x: 31.5, y: 27}
+      - {x: 38.5, y: 29}
+      - {x: 47.5, y: 24}
+      - {x: 50.5, y: 29}
+      - {x: 62.5, y: 31}
+      - {x: 68.5, y: 38}
+      - {x: 67.5, y: 47}
+      - {x: 51.5, y: 69}
+      - {x: 48.5, y: 70}
+      - {x: 43.5, y: 60}
+      - {x: 42.5, y: 51}
+      - {x: 32.5, y: 69}
+      - {x: 25.5, y: 75}
+      - {x: 18.5, y: 78}
+      - {x: 15.5, y: 79}
+      - {x: -25.5, y: 79}
+      - {x: -34.5, y: 75}
+      - {x: -44.5, y: 65}
+      - {x: -54.5, y: 43}
+      - {x: -56.5, y: 38}
+      - {x: -63.5, y: 15}
+      - {x: -65.5, y: 11}
+      - {x: -66.5, y: 6}
+      - {x: -74.5, y: -7}
+      - {x: -82.5, y: -18}
+      - {x: -82.5, y: -20}
+      - {x: -77.5, y: -23}
+      - {x: -53.5, y: -23}
+      - {x: -35.5, y: -24}
+      - {x: -14.5, y: -28}
+      - {x: -1.5, y: -38}
+      - {x: 2.5, y: -50}
+      - {x: 8.5, y: -67}
+      - {x: 11.5, y: -71}
+      - {x: 16.5, y: -78}
+      - {x: 20.5, y: -79}
+      - {x: 68.5, y: -79}
+      - {x: 80.5, y: -78}
+      - {x: 82.5, y: -76}

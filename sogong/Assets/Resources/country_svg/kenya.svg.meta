@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,79 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: kenyaSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 1521475863776f942aa03b6ac74b8851
+        width: 709
+        height: 940
+      spriteID: 8ea86ef5158cfe44e8dd710f8f833835
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 220.5, y: -260.77744}
+      - {x: 249.5, y: -253.76997}
+      - {x: 272.5, y: -234.74973}
+      - {x: 277.5, y: -217.73163}
+      - {x: 292.5, y: -206.71991}
+      - {x: 328.5, y: -180.69223}
+      - {x: 331.5, y: -153.66347}
+      - {x: 295.5, y: -103.61022}
+      - {x: 277.5, y: -41.544197}
+      - {x: 277.5, y: 271.78912}
+      - {x: 282.5, y: 289.80832}
+      - {x: 324.5, y: 343.8658}
+      - {x: 354.5, y: 395.9212}
+      - {x: 354.5, y: 406.9329}
+      - {x: 316.5, y: 409.9361}
+      - {x: 296.5, y: 402.92865}
+      - {x: 263.5, y: 433.96167}
+      - {x: 243.5, y: 434.96274}
+      - {x: 200.5, y: 415.94247}
+      - {x: 167.5, y: 389.9148}
+      - {x: 149.5, y: 359.88284}
+      - {x: 129.5, y: 358.88177}
+      - {x: 68.5, y: 370.89456}
+      - {x: 6.5, y: 377.902}
+      - {x: -16.5, y: 399.92545}
+      - {x: -53.5, y: 429.9574}
+      - {x: -89.5, y: 449.9787}
+      - {x: -161.5, y: 455.98508}
+      - {x: -175.5, y: 470}
+      - {x: -309.5, y: 470}
+      - {x: -320.5, y: 463.99362}
+      - {x: -347.5, y: 437.9659}
+      - {x: -353.5, y: 430.95847}
+      - {x: -345.5, y: 391.91693}
+      - {x: -314.5, y: 364.88818}
+      - {x: -317.5, y: 343.8658}
+      - {x: -297.5, y: 296.81577}
+      - {x: -268.5, y: 241.75719}
+      - {x: -255.5, y: 218.7327}
+      - {x: -262.5, y: 171.68263}
+      - {x: -281.5, y: 143.65282}
+      - {x: -306.5, y: 111.618744}
+      - {x: -349.5, y: 36.53887}
+      - {x: -354.5, y: 13.514377}
+      - {x: -354.5, y: -101.60809}
+      - {x: -325.5, y: -111.618744}
+      - {x: -273.5, y: -150.66028}
+      - {x: -95.5, y: -260.77744}
+      - {x: -57.5, y: -283.8019}
+      - {x: -19.5, y: -323.8445}
+      - {x: -35.5, y: -340.8626}
+      - {x: -9.5, y: -377.902}
+      - {x: 18.5, y: -396.92224}
+      - {x: 99.5, y: -463.99362}
+      - {x: 107.5, y: -470}
+      - {x: 131.5, y: -470}
+      - {x: 148.5, y: -440.96912}
+      - {x: 209.5, y: -306.82642}
+      - {x: 207.5, y: -277.79553}

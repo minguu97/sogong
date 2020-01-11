@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,80 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: eritreaSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 4a05c722d70702f4a9d8fcf04910d70f
+        width: 596
+        height: 566
+      spriteID: 52b25ac16f509a2448286e25d0b47c8b
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 289.98657, y: -232.91151}
+      - {x: 221.87227, y: -154.77345}
+      - {x: 187.81512, y: -130.73097}
+      - {x: 122.70589, y: -56.600002}
+      - {x: 107.68067, y: -50.589382}
+      - {x: 73.62353, y: -21.538054}
+      - {x: 31.552942, y: -7.5132747}
+      - {x: 13.522689, y: 33.55929}
+      - {x: -11.519328, y: 42.575222}
+      - {x: -2.5042017, y: 31.555752}
+      - {x: -36.561344, y: 57.601772}
+      - {x: -55.593277, y: 127.72566}
+      - {x: -87.647064, y: 229.9062}
+      - {x: -116.6958, y: 283}
+      - {x: -119.70084, y: 283}
+      - {x: -125.71093, y: 276.98938}
+      - {x: -129.71765, y: 270.97876}
+      - {x: -132.72269, y: 266.97168}
+      - {x: -211.85547, y: 215.88142}
+      - {x: -248.91765, y: 190.83717}
+      - {x: -263.94287, y: 172.80531}
+      - {x: -264.94455, y: 97.67257}
+      - {x: -289.98657, y: 26.546904}
+      - {x: -298, y: 2.5044248}
+      - {x: -298, y: -39.569912}
+      - {x: -294.99496, y: -95.66903}
+      - {x: -239.90253, y: -97.67257}
+      - {x: -223.87564, y: -77.63717}
+      - {x: -197.83194, y: -111.69735}
+      - {x: -191.82185, y: -109.69381}
+      - {x: -172.78992, y: -59.605312}
+      - {x: -169.78488, y: -46.582302}
+      - {x: -116.6958, y: -78.63894}
+      - {x: -90.6521, y: -77.63717}
+      - {x: -64.608406, y: -61.608852}
+      - {x: -47.579834, y: -83.64779}
+      - {x: -27.546219, y: -69.62301}
+      - {x: 9.515966, y: -76.6354}
+      - {x: 74.62521, y: -104.68496}
+      - {x: 131.72101, y: -160.78407}
+      - {x: 211.85547, y: -249.9416}
+      - {x: 232.89076, y: -269.977}
+      - {x: 239.90253, y: -273.98407}
+      - {x: 257.93277, y: -283}
+      - {x: 271.9563, y: -283}
+      - {x: 298, y: -253.94867}
+      - {x: 298, y: -236.9186}
+      - {x: 291.98993, y: -232.91151}
+    - Vertices:
+      - {x: 26.544538, y: 67.61947}
+      - {x: 19.532774, y: 70.62478}
+      - {x: 11.519328, y: 70.62478}
+      - {x: 10.517647, y: 68.62124}
+      - {x: 8.514286, y: 54.596462}
+      - {x: 8.514286, y: 45.580532}
+      - {x: 19.532774, y: 36.5646}
+      - {x: 52.588238, y: 36.5646}
+      - {x: 53.589916, y: 37.566372}
+      - {x: 53.589916, y: 41.573452}
+      - {x: 45.576473, y: 47.584072}

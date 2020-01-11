@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,102 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: turkmenistanSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 67c92e44570cb15459efd940e414bf35
+        width: 1249
+        height: 762
+      spriteID: 370d5670630d0ee4f9021628a06b9a63
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 487.39023, y: -255}
+      - {x: 519.4159, y: -174}
+      - {x: 540.4327, y: -172}
+      - {x: 549.43994, y: -170}
+      - {x: 592.47437, y: -160}
+      - {x: 622.4984, y: -163}
+      - {x: 624.5, y: -161}
+      - {x: 624.5, y: -118}
+      - {x: 622.4984, y: -96}
+      - {x: 615.4928, y: -86}
+      - {x: 571.4575, y: -66}
+      - {x: 520.4167, y: -63}
+      - {x: 452.36218, y: -13}
+      - {x: 386.3093, y: 15}
+      - {x: 317.25403, y: 58}
+      - {x: 237.18991, y: 106}
+      - {x: 217.17389, y: 148}
+      - {x: 151.121, y: 232}
+      - {x: 132.10577, y: 245}
+      - {x: 25.020033, y: 240}
+      - {x: 10.008013, y: 255}
+      - {x: 14.011218, y: 287}
+      - {x: -16.012821, y: 330}
+      - {x: -34.027245, y: 343}
+      - {x: -75.0601, y: 342}
+      - {x: -87.06972, y: 358}
+      - {x: -118.09455, y: 381}
+      - {x: -181.14503, y: 381}
+      - {x: -194.15546, y: 351}
+      - {x: -194.15546, y: 334}
+      - {x: -233.1867, y: 332}
+      - {x: -263.21075, y: 295}
+      - {x: -240.19232, y: 238}
+      - {x: -351.28125, y: 242}
+      - {x: -381.3053, y: 251}
+      - {x: -410.32855, y: 287}
+      - {x: -448.35898, y: 322}
+      - {x: -477.38223, y: 337}
+      - {x: -539.4319, y: 344}
+      - {x: -586.46954, y: 330}
+      - {x: -624.5, y: 290}
+      - {x: -624.5, y: 271}
+      - {x: -586.46954, y: 224}
+      - {x: -573.45917, y: 188}
+      - {x: -578.46313, y: 131}
+      - {x: -575.46075, y: 111}
+      - {x: -551.4415, y: 94}
+      - {x: -506.40546, y: 97}
+      - {x: -528.4231, y: 66}
+      - {x: -529.4239, y: 47}
+      - {x: -521.4175, y: 34}
+      - {x: -479.38382, y: 17}
+      - {x: -454.3638, y: -13}
+      - {x: -451.3614, y: -104}
+      - {x: -434.34778, y: -155}
+      - {x: -418.33496, y: -166}
+      - {x: -365.29248, y: -157}
+      - {x: -356.28528, y: -142}
+      - {x: -355.28445, y: -123}
+      - {x: -297.23798, y: -86}
+      - {x: -257.20593, y: -91}
+      - {x: -233.1867, y: -86}
+      - {x: -231.1851, y: -72}
+      - {x: -155.1242, y: -93}
+      - {x: -134.10738, y: -107}
+      - {x: -67.05369, y: -130}
+      - {x: 17.013622, y: -144}
+      - {x: 36.028847, y: -170}
+      - {x: 54.04327, y: -183}
+      - {x: 107.08574, y: -217}
+      - {x: 127.10177, y: -234}
+      - {x: 184.14745, y: -230}
+      - {x: 201.16106, y: -299}
+      - {x: 215.17229, y: -336}
+      - {x: 243.19472, y: -348}
+      - {x: 261.20914, y: -353}
+      - {x: 309.24762, y: -381}
+      - {x: 317.25403, y: -381}
+      - {x: 366.29327, y: -360}
+      - {x: 385.3085, y: -327}
+      - {x: 409.32773, y: -306}
+      - {x: 474.37982, y: -271}

@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,75 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.42
     SpriteRect:
-      name: 
+      name: el_salvadorSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 90936c1113bd97948a8de66010362d32
+        width: 211
+        height: 129
+      spriteID: 5e5fe80ec653d6440b9fbd491be33414
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 91.433334, y: -44.34375}
+      - {x: 97.46191, y: -36.28125}
+      - {x: 103.49048, y: -21.164062}
+      - {x: 105.5, y: -10.078125}
+      - {x: 105.5, y: 7.0546875}
+      - {x: 103.49048, y: 11.0859375}
+      - {x: 96.457146, y: 14.109375}
+      - {x: 83.39524, y: 12.09375}
+      - {x: 78.37143, y: 19.148438}
+      - {x: 68.32381, y: 21.164062}
+      - {x: 63.3, y: 19.148438}
+      - {x: 49.233334, y: 14.109375}
+      - {x: 40.190475, y: 10.078125}
+      - {x: 41.19524, y: 13.1015625}
+      - {x: 36.17143, y: 22.171875}
+      - {x: 20.095238, y: 35.273438}
+      - {x: 16.07619, y: 39.304688}
+      - {x: -3.0142858, y: 52.40625}
+      - {x: -15.071428, y: 59.460938}
+      - {x: -26.12381, y: 64.5}
+      - {x: -48.228573, y: 64.5}
+      - {x: -50.238094, y: 63.492188}
+      - {x: -52.24762, y: 58.453125}
+      - {x: -52.24762, y: 51.398438}
+      - {x: -51.24286, y: 49.382812}
+      - {x: -64.30476, y: 36.28125}
+      - {x: -71.3381, y: 28.21875}
+      - {x: -80.38095, y: 26.203125}
+      - {x: -88.419044, y: 24.1875}
+      - {x: -98.46667, y: 16.125}
+      - {x: -105.5, y: 9.0703125}
+      - {x: -105.5, y: -7.0546875}
+      - {x: -92.438095, y: -18.140625}
+      - {x: -93.442856, y: -20.15625}
+      - {x: -84.4, y: -27.210938}
+      - {x: -77.36667, y: -30.234375}
+      - {x: -72.34286, y: -31.242188}
+      - {x: -45.214287, y: -31.242188}
+      - {x: -44.209522, y: -32.25}
+      - {x: -34.161903, y: -34.265625}
+      - {x: -25.119047, y: -40.3125}
+      - {x: -14.066667, y: -47.367188}
+      - {x: -2.0095239, y: -54.421875}
+      - {x: 5.0238094, y: -57.445312}
+      - {x: 25.119047, y: -58.453125}
+      - {x: 26.12381, y: -55.429688}
+      - {x: 25.119047, y: -53.414062}
+      - {x: 39.185715, y: -57.445312}
+      - {x: 48.228573, y: -61.476562}
+      - {x: 53.25238, y: -63.492188}
+      - {x: 56.266666, y: -64.5}
+      - {x: 80.38095, y: -64.5}
+      - {x: 83.39524, y: -63.492188}
+      - {x: 86.40952, y: -61.476562}
+      - {x: 91.433334, y: -56.4375}

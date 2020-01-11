@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,48 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: taiwanSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: ede0eb718587c5c49a0ded649480145f
+        width: 303
+        height: 334
+      spriteID: 77c6f7d0cd180f241b943c02879f7d42
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 150.5, y: -29.588589}
+      - {x: 151.5, y: -2.5075076}
+      - {x: 151.5, y: 148.94594}
+      - {x: 126.5, y: 167}
+      - {x: 106.5, y: 167}
+      - {x: 76.5, y: 152.95796}
+      - {x: 64.5, y: 132.8979}
+      - {x: 40.5, y: 74.723724}
+      - {x: 21.5, y: 25.576576}
+      - {x: 21.5, y: -53.66066}
+      - {x: 51.5, y: -101.8048}
+      - {x: 65.5, y: -116.849846}
+      - {x: 99.5, y: -162.98799}
+      - {x: 102.5, y: -167}
+      - {x: 115.5, y: -167}
+      - {x: 117.5, y: -165.997}
+      - {x: 119.5, y: -159.97897}
+      - {x: 116.5, y: -115.84685}
+      - {x: 139.5, y: -72.71772}
+    - Vertices:
+      - {x: -142.5, y: 91.77477}
+      - {x: -151.5, y: 86.75976}
+      - {x: -151.5, y: 82.74775}
+      - {x: -146.5, y: 79.73874}
+      - {x: -134.5, y: 79.73874}
+      - {x: -133.5, y: 81.74474}
+      - {x: -133.5, y: 85.75675}
+      - {x: -140.5, y: 91.77477}

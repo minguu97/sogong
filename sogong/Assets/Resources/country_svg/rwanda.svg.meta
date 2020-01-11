@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,85 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.52
     SpriteRect:
-      name: 
+      name: rwandaSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: ec36fce92f1a90f4aa0b75bfeb3bbc04
+        width: 178
+        height: 177
+      spriteID: 517fdf33123b2084bb4b5d02263b99b2
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 2, y: -75.42614}
+      - {x: 6, y: -63.357956}
+      - {x: 7, y: -57.323864}
+      - {x: 8, y: -49.27841}
+      - {x: 12, y: -44.25}
+      - {x: 17, y: -46.261364}
+      - {x: 28, y: -46.261364}
+      - {x: 32, y: -45.255684}
+      - {x: 36, y: -43.24432}
+      - {x: 49, y: -44.25}
+      - {x: 59, y: -47.267048}
+      - {x: 63, y: -48.272728}
+      - {x: 75, y: -48.272728}
+      - {x: 80, y: -46.261364}
+      - {x: 86, y: -40.227272}
+      - {x: 88, y: -35.198864}
+      - {x: 89, y: -33.1875}
+      - {x: 89, y: 0}
+      - {x: 88, y: 4.0227275}
+      - {x: 86, y: 10.056818}
+      - {x: 83, y: 18.102274}
+      - {x: 81, y: 23.130682}
+      - {x: 76, y: 34.193184}
+      - {x: 73, y: 39.221592}
+      - {x: 68, y: 47.267048}
+      - {x: 60, y: 62.352276}
+      - {x: 59, y: 67.380684}
+      - {x: 56, y: 75.42614}
+      - {x: 56, y: 88.5}
+      - {x: 45, y: 88.5}
+      - {x: 43, y: 87.49432}
+      - {x: 28, y: 73.41477}
+      - {x: 11, y: 51.289776}
+      - {x: 7, y: 50.284092}
+      - {x: 3, y: 58.329548}
+      - {x: -2, y: 62.352276}
+      - {x: -7, y: 62.352276}
+      - {x: -14, y: 58.329548}
+      - {x: -26, y: 47.267048}
+      - {x: -32, y: 44.25}
+      - {x: -38, y: 39.221592}
+      - {x: -49, y: 29.164774}
+      - {x: -52, y: 23.130682}
+      - {x: -55, y: 14.079546}
+      - {x: -56, y: 8.045455}
+      - {x: -56, y: -13.073864}
+      - {x: -62, y: -22.125}
+      - {x: -67, y: -27.15341}
+      - {x: -74, y: -33.1875}
+      - {x: -83, y: -40.227272}
+      - {x: -89, y: -46.261364}
+      - {x: -89, y: -65.36932}
+      - {x: -88, y: -68.38637}
+      - {x: -85, y: -75.42614}
+      - {x: -77, y: -83.471596}
+      - {x: -74, y: -82.46591}
+      - {x: -72, y: -75.42614}
+      - {x: -67, y: -71.40341}
+      - {x: -60, y: -70.39773}
+      - {x: -52, y: -77.4375}
+      - {x: -50, y: -82.46591}
+      - {x: -45, y: -87.49432}
+      - {x: -42, y: -88.5}
+      - {x: -16, y: -88.5}
+      - {x: -8, y: -85.482956}

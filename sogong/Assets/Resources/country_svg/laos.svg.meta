@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,97 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: laosSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: dcc3bec2ac72cae48aeb45dfa9ded2e8
+        width: 733
+        height: 865
+      spriteID: e6c67da73d5faa943a7974e2ad4002bd
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 300.5, y: -397.5}
+      - {x: 360.5, y: -372.5}
+      - {x: 366.5, y: -356.5}
+      - {x: 366.5, y: -290.5}
+      - {x: 356.5, y: -271.5}
+      - {x: 321.5, y: -249.5}
+      - {x: 345.5, y: -219.5}
+      - {x: 284.5, y: -173.5}
+      - {x: 248.5, y: -122.5}
+      - {x: 229.5, y: -98.5}
+      - {x: 195.5, y: -75.5}
+      - {x: 146.5, y: -6.5}
+      - {x: 105.5, y: 20.5}
+      - {x: 107.5, y: 45.5}
+      - {x: 104.5, y: 51.5}
+      - {x: 26.5, y: 89.5}
+      - {x: 2.5, y: 120.5}
+      - {x: -6.5, y: 142.5}
+      - {x: 37.5, y: 139.5}
+      - {x: 58.5, y: 157.5}
+      - {x: 68.5, y: 185.5}
+      - {x: 61.5, y: 201.5}
+      - {x: 31.5, y: 223.5}
+      - {x: 27.5, y: 247.5}
+      - {x: -0.5, y: 273.5}
+      - {x: -18.5, y: 282.5}
+      - {x: -50.5, y: 269.5}
+      - {x: -78.5, y: 264.5}
+      - {x: -130.5, y: 303.5}
+      - {x: -126.5, y: 348.5}
+      - {x: -146.5, y: 367.5}
+      - {x: -157.5, y: 357.5}
+      - {x: -175.5, y: 389.5}
+      - {x: -224.5, y: 431.5}
+      - {x: -227.5, y: 432.5}
+      - {x: -258.5, y: 432.5}
+      - {x: -269.5, y: 401.5}
+      - {x: -240.5, y: 344.5}
+      - {x: -237.5, y: 306.5}
+      - {x: -265.5, y: 311.5}
+      - {x: -289.5, y: 347.5}
+      - {x: -332.5, y: 302.5}
+      - {x: -366.5, y: 256.5}
+      - {x: -366.5, y: 199.5}
+      - {x: -343.5, y: 215.5}
+      - {x: -323.5, y: 188.5}
+      - {x: -332.5, y: 147.5}
+      - {x: -318.5, y: 128.5}
+      - {x: -304.5, y: 123.5}
+      - {x: -260.5, y: 130.5}
+      - {x: -247.5, y: 43.5}
+      - {x: -256.5, y: 30.5}
+      - {x: -261.5, y: -64.5}
+      - {x: -234.5, y: -82.5}
+      - {x: -214.5, y: -63.5}
+      - {x: -161.5, y: -4.5}
+      - {x: -110.5, y: -40.5}
+      - {x: -66.5, y: -25.5}
+      - {x: -15.5, y: 3.5}
+      - {x: 4.5, y: -2.5}
+      - {x: 79.5, y: -83.5}
+      - {x: 87.5, y: -152.5}
+      - {x: 93.5, y: -173.5}
+      - {x: 109.5, y: -201.5}
+      - {x: 149.5, y: -226.5}
+      - {x: 151.5, y: -239.5}
+      - {x: 169.5, y: -291.5}
+      - {x: 172.5, y: -314.5}
+      - {x: 182.5, y: -367.5}
+      - {x: 158.5, y: -390.5}
+      - {x: 159.5, y: -403.5}
+      - {x: 174.5, y: -416.5}
+      - {x: 222.5, y: -432.5}
+      - {x: 244.5, y: -432.5}
+      - {x: 251.5, y: -414.5}
+      - {x: 236.5, y: -394.5}
+      - {x: 271.5, y: -377.5}

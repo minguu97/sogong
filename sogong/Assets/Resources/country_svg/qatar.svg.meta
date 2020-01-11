@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,74 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.47
     SpriteRect:
-      name: 
+      name: qatarSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 4948fd9038071424d945a896950cbec4
+        width: 111
+        height: 166
+      spriteID: cb318a541369af94487f006a675458d7
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 44.4, y: -69}
+      - {x: 47.427273, y: -62}
+      - {x: 52.47273, y: -47}
+      - {x: 55.5, y: -41}
+      - {x: 55.5, y: -16}
+      - {x: 46.418182, y: -8}
+      - {x: 45.409092, y: 0}
+      - {x: 43.390907, y: 9}
+      - {x: 45.409092, y: 24}
+      - {x: 48.436363, y: 30}
+      - {x: 49.445454, y: 40}
+      - {x: 48.436363, y: 43}
+      - {x: 46.418182, y: 48}
+      - {x: 37.336365, y: 56}
+      - {x: 33.3, y: 59}
+      - {x: 20.181818, y: 71}
+      - {x: 15.136364, y: 74}
+      - {x: 8.072727, y: 74}
+      - {x: 4.0363636, y: 73}
+      - {x: -4.0363636, y: 64}
+      - {x: -8.072727, y: 56}
+      - {x: -11.1, y: 41}
+      - {x: -12.109091, y: 35}
+      - {x: -13.118182, y: 27}
+      - {x: -16.145454, y: 26}
+      - {x: -20.181818, y: 24}
+      - {x: -19.172728, y: 14}
+      - {x: -23.209091, y: 13}
+      - {x: -25.227272, y: 11}
+      - {x: -25.227272, y: -3}
+      - {x: -23.209091, y: -15}
+      - {x: -22.2, y: -19}
+      - {x: -18.163637, y: -39}
+      - {x: -16.145454, y: -47}
+      - {x: -14.127273, y: -54}
+      - {x: -11.1, y: -63}
+      - {x: -7.0636363, y: -74}
+      - {x: 1.0090909, y: -83}
+      - {x: 18.163637, y: -83}
+      - {x: 23.209091, y: -81}
+      - {x: 34.30909, y: -77}
+      - {x: 42.381817, y: -71}
+    - Vertices:
+      - {x: -43.390907, y: 83}
+      - {x: -53.48182, y: 83}
+      - {x: -55.5, y: 81}
+      - {x: -55.5, y: 70}
+      - {x: -54.49091, y: 67}
+      - {x: -54.49091, y: 54}
+      - {x: -43.390907, y: 40}
+      - {x: -41.372726, y: 40}
+      - {x: -39.354546, y: 41}
+      - {x: -38.345455, y: 45}
+      - {x: -38.345455, y: 78}

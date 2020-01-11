@@ -10,16 +10,16 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
-  gradientResolution: 64
-  alignment: 0
+  svgPixelsPerUnit: 10000
+  gradientResolution: 128
+  alignment: 6
   customPivot: {x: 0, y: 0}
-  generatePhysicsShape: 0
+  generatePhysicsShape: 1
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -38,17 +38,28 @@ ScriptedImporter:
   spriteData:
     TessellationDetail: 0
     SpriteRect:
-      name: 
+      name: marshall_islandSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: b729ecaf01af47c42a93584c60d44f55
+        width: 7
+        height: 8
+      spriteID: 3b26153c67e424640b3246ef03835953
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: -3.5, y: 4}
+      - {x: -3.5, y: 2.8006043}
+      - {x: -2.777946, y: 0.21617985}
+      - {x: -0.86928296, y: -2.1153605}
+      - {x: 1.4345961, y: -3.3544917}
+      - {x: 3.5, y: -4}
+      - {x: 2.7212148, y: -1.8817606}
+      - {x: 1.1636457, y: 0.531507}
+      - {x: -0.8504534, y: 2.4232965}
+      - {x: -2.4437735, y: 3.4629073}

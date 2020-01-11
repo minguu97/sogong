@@ -10,16 +10,16 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
-  generatePhysicsShape: 0
+  generatePhysicsShape: 1
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,70 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 1
     SpriteRect:
-      name: 
+      name: puerto_ricoSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 7fe3c7681a441894fbdd4e018b13a002
+        width: 142
+        height: 60
+      spriteID: 5bfadf948de43b14cabd39d728a646aa
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 24, y: -29}
+      - {x: 25, y: -28}
+      - {x: 37, y: -28}
+      - {x: 38, y: -29}
+      - {x: 40, y: -29}
+      - {x: 47, y: -26}
+      - {x: 49, y: -24}
+      - {x: 53, y: -22}
+      - {x: 64, y: -11}
+      - {x: 64, y: -10}
+      - {x: 70, y: -4}
+      - {x: 71, y: -1}
+      - {x: 71, y: 14}
+      - {x: 68, y: 17}
+      - {x: 67, y: 17}
+      - {x: 65, y: 19}
+      - {x: 59, y: 20}
+      - {x: 58, y: 21}
+      - {x: 38, y: 21}
+      - {x: 37, y: 22}
+      - {x: 34, y: 22}
+      - {x: 33, y: 23}
+      - {x: 27, y: 24}
+      - {x: 26, y: 25}
+      - {x: 22, y: 25}
+      - {x: 21, y: 26}
+      - {x: 17, y: 26}
+      - {x: 16, y: 27}
+      - {x: 12, y: 27}
+      - {x: 11, y: 28}
+      - {x: -2, y: 29}
+      - {x: -3, y: 30}
+      - {x: -55, y: 30}
+      - {x: -56, y: 29}
+      - {x: -61, y: 28}
+      - {x: -66, y: 26}
+      - {x: -71, y: 21}
+      - {x: -71, y: 8}
+      - {x: -66, y: 1}
+      - {x: -64, y: -3}
+      - {x: -65, y: -4}
+      - {x: -66, y: -10}
+      - {x: -70, y: -18}
+      - {x: -70, y: -22}
+      - {x: -68, y: -26}
+      - {x: -63, y: -28}
+      - {x: -52, y: -28}
+      - {x: -48, y: -30}
+      - {x: 9, y: -30}
+      - {x: 10, y: -29}

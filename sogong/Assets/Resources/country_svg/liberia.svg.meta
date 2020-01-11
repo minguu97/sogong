@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,71 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.17
     SpriteRect:
-      name: 
+      name: liberiaSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: ac5fccd6784a06848920e9a0e9ad2ad8
+        width: 363
+        height: 423
+      spriteID: ec4efc22a1663534692056b988403057
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 181.5, y: -74.175354}
+      - {x: 177.48895, y: -63.14929}
+      - {x: 167.46132, y: -53.12559}
+      - {x: 159.43922, y: -49.11611}
+      - {x: 145.40054, y: -28.066349}
+      - {x: 137.37845, y: -18.042654}
+      - {x: 127.35083, y: -15.035544}
+      - {x: 119.32873, y: -13.030806}
+      - {x: 97.26795, y: -7.0165873}
+      - {x: 94.25967, y: 1.0023696}
+      - {x: 82.22652, y: 9.021327}
+      - {x: 102.28177, y: 38.090046}
+      - {x: 103.28453, y: 75.17773}
+      - {x: 88.243095, y: 116.27488}
+      - {x: 79.21823, y: 130.30806}
+      - {x: 65.17956, y: 126.29858}
+      - {x: 61.168507, y: 112.265396}
+      - {x: 42.11602, y: 83.19668}
+      - {x: 31.085634, y: 87.20616}
+      - {x: 19.052486, y: 98.23222}
+      - {x: 8.0220995, y: 97.22986}
+      - {x: 8.0220995, y: 125.2962}
+      - {x: 7.0193367, y: 162.38388}
+      - {x: 0, y: 194.45972}
+      - {x: -18.049723, y: 211.5}
+      - {x: -47.129833, y: 211.5}
+      - {x: -63.174034, y: 210.49762}
+      - {x: -73.20166, y: 205.48578}
+      - {x: -78.21547, y: 183.43364}
+      - {x: -104.28729, y: 165.39099}
+      - {x: -111.306625, y: 133.31516}
+      - {x: -157.4337, y: 89.2109}
+      - {x: -168.46408, y: 75.17773}
+      - {x: -181.5, y: 51.120853}
+      - {x: -181.5, y: 46.109005}
+      - {x: -167.46132, y: 26.061611}
+      - {x: -157.4337, y: 16.037914}
+      - {x: -121.33425, y: -13.030806}
+      - {x: -111.306625, y: -23.054502}
+      - {x: -100.276245, y: -29.06872}
+      - {x: -66.18232, y: -46.109005}
+      - {x: -15.041436, y: -104.246445}
+      - {x: 15.041436, y: -135.3199}
+      - {x: 23.063536, y: -141.33412}
+      - {x: 61.168507, y: -163.38625}
+      - {x: 96.26519, y: -187.44313}
+      - {x: 107.29558, y: -190.45023}
+      - {x: 148.40884, y: -211.5}
+      - {x: 172.47513, y: -211.5}
+      - {x: 169.46684, y: -175.41469}
+      - {x: 181.5, y: -108.25592}

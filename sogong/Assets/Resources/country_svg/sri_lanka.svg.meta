@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,62 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: sri_lankaSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: cf82dac564a73c54a8e3bfe60c0807cb
+        width: 204
+        height: 394
+      spriteID: 8211369fc1722654b8b07fdaf40c2b59
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 102, y: -107.77354}
+      - {x: 102, y: -47.620865}
+      - {x: 82.9064, y: -9.524173}
+      - {x: 46.729065, y: 67.67175}
+      - {x: -7.536946, y: 147.87532}
+      - {x: -19.596058, y: 159.90585}
+      - {x: -44.71921, y: 185.97202}
+      - {x: -58.788177, y: 197}
+      - {x: -87.93103, y: 197}
+      - {x: -91.95074, y: 188.97964}
+      - {x: -66.82758, y: 172.93893}
+      - {x: -69.84236, y: 172.93893}
+      - {x: -75.87192, y: 155.89568}
+      - {x: -91.95074, y: 80.704834}
+      - {x: -100.99507, y: 41.6056}
+      - {x: -102, y: 36.592876}
+      - {x: -102, y: -2.5063612}
+      - {x: -78.886696, y: -133.83969}
+      - {x: -64.81773, y: -174.94402}
+      - {x: -36.679802, y: -197}
+      - {x: 1.5073892, y: -197}
+      - {x: 61.802956, y: -168.92876}
+      - {x: 91.95074, y: -136.84734}
+      - {x: 97.98029, y: -120.80662}
+    - Vertices:
+      - {x: -102, y: 121.80916}
+      - {x: -96.975365, y: 116.79644}
+      - {x: -88.93596, y: 110.78117}
+      - {x: -83.91133, y: 110.78117}
+      - {x: -83.91133, y: 115.79389}
+      - {x: -90.94581, y: 126.821884}
+      - {x: -100.99507, y: 126.821884}
+      - {x: -102, y: 125.81934}
+    - Vertices:
+      - {x: -88.93596, y: 184.96947}
+      - {x: -90.94581, y: 183.96692}
+      - {x: -90.94581, y: 179.95674}
+      - {x: -87.93103, y: 175.94656}
+      - {x: -82.9064, y: 175.94656}
+      - {x: -80.89655, y: 177.95166}
+      - {x: -81.901474, y: 180.95929}
+      - {x: -85.92118, y: 184.96947}

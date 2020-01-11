@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,39 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: sloveniaSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: ec8c1e6560efb9e41ae5f90d0678ff91
+        width: 254
+        height: 143
+      spriteID: 19bbb1a60dc6292479e6d67cc6affc5a
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 52, y: -1.5}
+      - {x: 89, y: 15.5}
+      - {x: 127, y: 30.5}
+      - {x: 102, y: 71.5}
+      - {x: 83, y: 71.5}
+      - {x: 38, y: 48.5}
+      - {x: -4, y: 49.5}
+      - {x: -35, y: 22.5}
+      - {x: -102, y: 40.5}
+      - {x: -110, y: 39.5}
+      - {x: -121, y: 21.5}
+      - {x: -127, y: 15.5}
+      - {x: -127, y: 2.5}
+      - {x: -113, y: -32.5}
+      - {x: -90, y: -48.5}
+      - {x: -115, y: -71.5}
+      - {x: 28.612648, y: -71.5}
+      - {x: 35, y: -41.5}
+      - {x: 61, y: -28.5}

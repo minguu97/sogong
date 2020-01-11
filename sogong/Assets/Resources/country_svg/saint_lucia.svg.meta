@@ -10,16 +10,16 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
-  generatePhysicsShape: 0
+  generatePhysicsShape: 1
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,31 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: saint_luciaSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 45077aceebe46c449be8544bd9d2632f
+        width: 17
+        height: 33
+      spriteID: 23fbc9b479bb7d040b54703a09b4fced
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: -5.534051, y: 8.191841}
+      - {x: -8.5, y: -1.063097}
+      - {x: -8.5, y: -6.566037}
+      - {x: -7.5030212, y: -9.853474}
+      - {x: -3.2654233, y: -14.727593}
+      - {x: 1.2340765, y: -16.5}
+      - {x: 5.858473, y: -10.165311}
+      - {x: 8.5, y: -2.1071568}
+      - {x: 8.5, y: 6.4098225}
+      - {x: 4.40131, y: 14.769827}
+      - {x: 0.2823515, y: 16.5}

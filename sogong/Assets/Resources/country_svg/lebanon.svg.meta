@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,61 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.47
     SpriteRect:
-      name: 
+      name: lebanonSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: c286c63c383dd5a45b4215cdfc4ddfb4
+        width: 117
+        height: 162
+      spriteID: b6b6dad5c4cf49743836a6b6d820121e
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: -7.0603447, y: -54}
+      - {x: 9.077586, y: -38}
+      - {x: 20.172413, y: -31}
+      - {x: 20.172413, y: -29}
+      - {x: 14.120689, y: -21}
+      - {x: 18.155172, y: -10}
+      - {x: 28.241379, y: -6}
+      - {x: 40.344826, y: -6}
+      - {x: 46.396553, y: -5}
+      - {x: 42.36207, y: 4}
+      - {x: 45.38793, y: 12}
+      - {x: 57.49138, y: 24}
+      - {x: 58.5, y: 27}
+      - {x: 58.5, y: 43}
+      - {x: 52.448277, y: 57}
+      - {x: 47.405174, y: 62}
+      - {x: 36.310345, y: 67}
+      - {x: 38.327587, y: 81}
+      - {x: 27.23276, y: 81}
+      - {x: 22.189655, y: 78}
+      - {x: 4.034483, y: 80}
+      - {x: 2.0172415, y: 78}
+      - {x: 1.0086207, y: 69}
+      - {x: -1.0086207, y: 65}
+      - {x: -19.163794, y: 46}
+      - {x: -21.181034, y: 43}
+      - {x: -23.198277, y: 36}
+      - {x: -23.198277, y: 13}
+      - {x: -34.293102, y: -9}
+      - {x: -39.33621, y: -21}
+      - {x: -43.37069, y: -40}
+      - {x: -46.396553, y: -50}
+      - {x: -49.422413, y: -59}
+      - {x: -55.474136, y: -72}
+      - {x: -58.5, y: -75}
+      - {x: -58.5, y: -80}
+      - {x: -57.49138, y: -81}
+      - {x: -27.23276, y: -81}
+      - {x: -23.198277, y: -78}
+      - {x: -16.137932, y: -65}
+      - {x: -11.094828, y: -63}

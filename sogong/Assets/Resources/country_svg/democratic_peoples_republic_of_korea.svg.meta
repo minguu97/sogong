@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,69 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: democratic_peoples_republic_of_koreaSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 3fdb301af6157e64fb48717e06d07df1
+        width: 404
+        height: 530
+      spriteID: 46a3c89db18a7a74fa0f42fb9ff675ee
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 88, y: -254}
+      - {x: 95, y: -244}
+      - {x: 121, y: -204}
+      - {x: 197, y: -209}
+      - {x: 202, y: -188}
+      - {x: 202, y: -172}
+      - {x: 182, y: -152}
+      - {x: 122, y: -117}
+      - {x: 91, y: -108}
+      - {x: 96, y: -81}
+      - {x: 79, y: -61}
+      - {x: 131, y: -29}
+      - {x: 169, y: 17}
+      - {x: 195, y: 46}
+      - {x: 202, y: 65}
+      - {x: 202, y: 66}
+      - {x: 191, y: 84}
+      - {x: 179, y: 197}
+      - {x: 193, y: 192}
+      - {x: 202, y: 193}
+      - {x: 202, y: 202}
+      - {x: 193, y: 215}
+      - {x: 129, y: 265}
+      - {x: 94, y: 265}
+      - {x: 108, y: 217}
+      - {x: 81, y: 216}
+      - {x: 66, y: 180}
+      - {x: 3, y: 172}
+      - {x: -3, y: 161}
+      - {x: 42, y: 119}
+      - {x: -33, y: 122}
+      - {x: -80, y: 152}
+      - {x: -97, y: 137}
+      - {x: -106, y: 84}
+      - {x: -193, y: 4}
+      - {x: -202, y: -13}
+      - {x: -202, y: -40}
+      - {x: -159, y: -76}
+      - {x: -109, y: -82}
+      - {x: -82, y: -102}
+      - {x: -85, y: -149}
+      - {x: -84, y: -174}
+      - {x: -91, y: -224}
+      - {x: -48, y: -251}
+      - {x: -19, y: -265}
+      - {x: -5, y: -265}
+      - {x: 34, y: -253}
+      - {x: 51, y: -259}
+      - {x: 53, y: -256}

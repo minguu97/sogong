@@ -10,16 +10,16 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
-  generatePhysicsShape: 0
+  generatePhysicsShape: 1
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,36 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: sao_tome_and_principeSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 3727974412f6966408e61c71e1b788d8
+        width: 84
+        height: 170
+      spriteID: 34b71b9db0cdc624b91d68549fc8545b
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: -34.915665, y: -44.763313}
+      - {x: -42, y: -49.7929}
+      - {x: -42, y: -85}
+      - {x: -31.879519, y: -85}
+      - {x: -28.843374, y: -83.99409}
+      - {x: -17.710844, y: -67.899414}
+      - {x: -17.710844, y: -45.769234}
+      - {x: -21.759037, y: -44.763313}
+    - Vertices:
+      - {x: 35.92771, y: 85}
+      - {x: 32.891567, y: 82.98817}
+      - {x: 32.891567, y: 72.92899}
+      - {x: 35.92771, y: 65.88757}
+      - {x: 38.963856, y: 65.88757}
+      - {x: 42, y: 66.89349}
+      - {x: 42, y: 85}

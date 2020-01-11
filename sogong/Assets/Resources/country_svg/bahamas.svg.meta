@@ -10,16 +10,16 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
-  generatePhysicsShape: 0
+  generatePhysicsShape: 1
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,43 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 1
     SpriteRect:
-      name: 
+      name: bahamasSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 3c7d25a805dc27647b089b9d2e449fd3
+        width: 73
+        height: 17
+      spriteID: 7ef697e9b5e83d44f94cb07f76a05c39
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 32.696167, y: -0.57764244}
+      - {x: 29.865463, y: -0.26372147}
+      - {x: 27.955154, y: -0.3052206}
+      - {x: 36.5, y: -8.5}
+      - {x: 36.5, y: -7.5}
+      - {x: 35.30522, y: -3.3206158}
+      - {x: 34.4672, y: -1.5722895}
+    - Vertices:
+      - {x: -32.14324, y: 5.9966526}
+      - {x: -36.5, y: 7.8741627}
+      - {x: -32.320618, y: -0.4759035}
+      - {x: -24.093039, y: 4.0120487}
+      - {x: -19.119144, y: 7.0120487}
+      - {x: -26.062248, y: 5.053548}
+    - Vertices:
+      - {x: 19.517403, y: 8.5}
+      - {x: 17.889557, y: 7.9879513}
+      - {x: 12.784473, y: 4.70348}
+      - {x: 21.263721, y: -0.3621149}
+      - {x: 22.353413, y: 2.3119144}
+      - {x: 22.646587, y: 5.2791166}
+      - {x: 22.508705, y: 7.3119144}
+      - {x: 21.02945, y: 8.5}

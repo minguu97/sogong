@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,64 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.19
     SpriteRect:
-      name: 
+      name: moldovaSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 606f042cabd3ee04fbaa22d7437b8cf8
+        width: 292
+        height: 300
+      spriteID: 57d384c946f46274f97753c31c48febc
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 58, y: -56}
+      - {x: 69, y: -46}
+      - {x: 76, y: -59}
+      - {x: 78, y: -57}
+      - {x: 122, y: -61}
+      - {x: 140, y: -62}
+      - {x: 146, y: -58}
+      - {x: 146, y: -52}
+      - {x: 136, y: -43}
+      - {x: 133, y: -23}
+      - {x: 126, y: -13}
+      - {x: 116, y: -3}
+      - {x: 105, y: 6}
+      - {x: 92, y: 22}
+      - {x: 86, y: 31}
+      - {x: 75, y: 35}
+      - {x: 58, y: 78}
+      - {x: 42, y: 102}
+      - {x: 33, y: 98}
+      - {x: 15, y: 116}
+      - {x: 2, y: 118}
+      - {x: -17, y: 116}
+      - {x: -47, y: 137}
+      - {x: -61, y: 150}
+      - {x: -81, y: 150}
+      - {x: -95, y: 146}
+      - {x: -133, y: 142}
+      - {x: -146, y: 132}
+      - {x: -146, y: 126}
+      - {x: -136, y: 119}
+      - {x: -112, y: 106}
+      - {x: -88, y: 65}
+      - {x: -64, y: 37}
+      - {x: -23, y: -2}
+      - {x: -7, y: -35}
+      - {x: -14, y: -71}
+      - {x: -15, y: -94}
+      - {x: -5, y: -144}
+      - {x: 0, y: -150}
+      - {x: 10, y: -150}
+      - {x: 27, y: -144}
+      - {x: 35, y: -122}
+      - {x: 53, y: -97}
+      - {x: 58, y: -84}

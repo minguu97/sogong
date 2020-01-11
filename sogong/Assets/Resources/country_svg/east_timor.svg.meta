@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,70 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.29
     SpriteRect:
-      name: 
+      name: east_timorSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 6e75bed4f329c2248a4c10a5602468bb
+        width: 306
+        height: 119
+      spriteID: 3691d9f0f6f787545822196b7d9baab8
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: -110, y: -24.20339}
+      - {x: -145, y: -36.305084}
+      - {x: -153, y: -45.381355}
+      - {x: -153, y: -52.440678}
+      - {x: -139, y: -58.491524}
+      - {x: -129, y: -56.474575}
+      - {x: -125, y: -59.5}
+      - {x: -115, y: -59.5}
+      - {x: -99, y: -38.322033}
+      - {x: -99, y: -25.211864}
+      - {x: -100, y: -24.20339}
+    - Vertices:
+      - {x: -5, y: -29.245762}
+      - {x: 3, y: -26.220339}
+      - {x: 38, y: -14.118644}
+      - {x: 77, y: 0}
+      - {x: 90, y: 5.0423727}
+      - {x: 100, y: 9.076271}
+      - {x: 111, y: 14.118644}
+      - {x: 123, y: 20.16949}
+      - {x: 128, y: 23.194916}
+      - {x: 140, y: 32.271187}
+      - {x: 150, y: 42.35593}
+      - {x: 153, y: 47.398304}
+      - {x: 153, y: 57.48305}
+      - {x: 150, y: 59.5}
+      - {x: 119, y: 59.5}
+      - {x: 111, y: 57.48305}
+      - {x: 77, y: 50.42373}
+      - {x: 46, y: 45.381355}
+      - {x: 25, y: 43.364407}
+      - {x: 8, y: 41.347458}
+      - {x: -20, y: 37.31356}
+      - {x: -30, y: 35.29661}
+      - {x: -37, y: 32.271187}
+      - {x: -41, y: 28.237288}
+      - {x: -46, y: 20.16949}
+      - {x: -54, y: 9.076271}
+      - {x: -54, y: 6.0508475}
+      - {x: -52, y: 2.0169492}
+      - {x: -46, y: 0}
+      - {x: -41, y: -6.0508475}
+      - {x: -42, y: -13.110169}
+      - {x: -52, y: -28.237288}
+      - {x: -51, y: -45.381355}
+      - {x: -46, y: -50.42373}
+      - {x: -41, y: -50.42373}
+      - {x: -36, y: -48.40678}
+      - {x: -26, y: -41.347458}
+      - {x: -20, y: -36.305084}

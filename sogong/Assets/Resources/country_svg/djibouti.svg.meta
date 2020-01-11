@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,66 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.35
     SpriteRect:
-      name: 
+      name: djiboutiSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 5c2caa2b0eac2fb4dabe497b089d40df
+        width: 144
+        height: 178
+      spriteID: 16818fb3554db50429971197fecc28c9
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: -2, y: -77}
+      - {x: 7, y: -78}
+      - {x: 22, y: -83}
+      - {x: 31, y: -83}
+      - {x: 37, y: -79}
+      - {x: 49, y: -59}
+      - {x: 52, y: -55}
+      - {x: 55, y: -48}
+      - {x: 58, y: -42}
+      - {x: 57, y: -32}
+      - {x: 50, y: -26}
+      - {x: 45, y: -23}
+      - {x: 26, y: -24}
+      - {x: 8, y: -30}
+      - {x: 2, y: -28}
+      - {x: 20, y: -10}
+      - {x: 33, y: -6}
+      - {x: 59, y: 8}
+      - {x: 70, y: 19}
+      - {x: 72, y: 23}
+      - {x: 72, y: 46}
+      - {x: 62, y: 64}
+      - {x: 50, y: 82}
+      - {x: 44, y: 89}
+      - {x: 37, y: 89}
+      - {x: 25, y: 83}
+      - {x: 18, y: 74}
+      - {x: 16, y: 69}
+      - {x: 12, y: 60}
+      - {x: 0, y: 63}
+      - {x: -10, y: 67}
+      - {x: -17, y: 68}
+      - {x: -27, y: 59}
+      - {x: -36, y: 44}
+      - {x: -66, y: -3}
+      - {x: -70, y: -12}
+      - {x: -72, y: -18}
+      - {x: -72, y: -63}
+      - {x: -71, y: -75}
+      - {x: -70, y: -82}
+      - {x: -65, y: -88}
+      - {x: -62, y: -89}
+      - {x: -36, y: -89}
+      - {x: -28, y: -87}
+      - {x: -22, y: -85}
+      - {x: -6, y: -79}

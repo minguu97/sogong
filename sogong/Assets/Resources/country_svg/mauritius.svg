@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="5.4195485mm"
-   height="0.85187387mm"
-   viewBox="0 0 5.4195479 0.85187392"
+   width="542mm"
+   height="85.199997mm"
+   viewBox="0 0 541.99994 85.200001"
    version="1.1"
    id="svg7070"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="7.9195959"
-     inkscape:cx="16.721353"
-     inkscape:cy="-13.213479"
+     inkscape:cx="0.11695544"
+     inkscape:cy="-13.213478"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -52,16 +52,16 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-158.59902,-45.015322)">
+     transform="translate(-158.59902,39.332804)">
     <path
        inkscape:connector-curvature="0"
-       style="fill:#aaaaaa;stroke-width:0.26458332"
-       d="m 158.82097,45.342876 c -0.0614,0.06509 -0.35507,0.497681 -0.15055,0.522552 0.32465,0.03863 0.36566,-0.569118 0.15055,-0.522552 z"
+       style="fill:#ffffff;stroke-width:26.46139336"
+       d="m 180.79543,-6.5725546 c -6.14051,6.50996365 -35.50996,49.7754686 -15.05625,52.2629366 32.4677,3.863572 36.56904,-56.920226 15.05625,-52.2629366 z"
        id="mu" />
     <path
        inkscape:connector-curvature="0"
-       style="fill:#999999;stroke-width:0.26458332"
-       d="m 164.01554,45.015322 c -0.0278,0.0026 -0.0558,0.0056 -0.0839,0.0082 0.0685,0.05794 0.0968,0.0553 0.0839,-0.0082 z"
+       style="fill:#ffffff;stroke-width:26.46139336"
+       d="m 700.29568,-39.332804 c -2.78023,0.260038 -5.58046,0.560083 -8.3907,0.820121 6.85058,5.794858 9.68081,5.530819 8.3907,-0.820121 z"
        id="path3788" />
   </g>
 </svg>

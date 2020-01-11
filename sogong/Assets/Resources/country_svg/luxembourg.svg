@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="0.59401619mm"
-   height="0.6968593mm"
-   viewBox="0 0 0.59401615 0.69685938"
+   width="59.400002mm"
+   height="69.699997mm"
+   viewBox="0 0 59.399997 69.700005"
    version="1.1"
    id="svg7070"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="7.9195959"
-     inkscape:cx="7.6919386"
-     inkscape:cy="-5.5520214"
+     inkscape:cx="-8.912444"
+     inkscape:cy="-5.5520225"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -52,11 +52,11 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-160.98804,-48.533778)">
+     transform="translate(-160.98804,20.469363)">
     <path
        inkscape:connector-curvature="0"
-       style="fill:#aaaaaa;stroke-width:0.26458332"
-       d="m 160.99604,48.844079 c -0.001,-0.0254 0.0569,-0.0164 -0.008,-0.0336 0.0825,-0.06959 0.0794,-0.231775 0.19368,-0.269081 0.13096,-0.0426 0.0902,0.104246 0.13414,0.172243 0.059,0.09102 0.18256,0.12118 0.24924,0.20664 0.0722,0.0926 -0.11034,0.203465 -0.0974,0.310356 -0.0738,-0.06271 -0.3175,-0.03757 -0.42968,-0.07567 0.14181,-0.102922 -10e-4,-0.19976 -0.0418,-0.310885 z"
+       style="fill:#ffffff;stroke-width:26.46064186"
+       d="m 161.78802,10.567032 c -0.1,-2.5405132 5.68984,-1.6403315 -0.79998,-3.3606788 8.24978,-6.96040518 7.93978,-23.1821802 19.36747,-26.9135332 13.09564,-4.26086 9.01976,10.4267048 13.41364,17.2277778 5.89984,9.1038379 18.2555,12.1204469 24.92332,20.6681722 7.2198,9.26187 -11.0337,20.350609 -9.73974,31.041867 -7.3798,-6.272266 -31.74913,-3.757759 -42.96683,-7.568528 14.18062,-10.294278 -0.1,-19.980033 -4.17988,-31.094777 z"
        id="lu" />
   </g>
 </svg>
