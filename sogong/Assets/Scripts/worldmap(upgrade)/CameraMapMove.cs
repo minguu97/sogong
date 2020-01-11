@@ -13,10 +13,10 @@ public class CameraMapMove : MonoBehaviour
     public float orthographicSizeMax = 12f;
 
     // 카메라 이동 제한
-    private float outerLeft = -10f;
-    private float outerRight = 10f;
-    private float outerBottom = -1.85f;
-    private float outerTop = 1.85f;
+    private float outerLeft = -13f;
+    private float outerRight = 13f;
+    private float outerBottom = -5f;
+    private float outerTop = 5f;
 
     // 카메라 z좌표 고정
     private float z = -10;
@@ -31,7 +31,7 @@ public class CameraMapMove : MonoBehaviour
 
     void Update()
     {
-        // 마우스가 UI(scroll view) 위이면 클릭, 휠 등 작동 안되게
+        // 마우스가 UI(scroll view 등) 위이면 클릭, 휠 등 작동 안되게
         if (EventSystem.current.IsPointerOverGameObject())
         {
             return;
@@ -43,7 +43,6 @@ public class CameraMapMove : MonoBehaviour
             MouseStart = new Vector3(Input.mousePosition.x, Input.mousePosition.y, z);
             MouseStart = Camera.main.ScreenToWorldPoint(MouseStart);
             MouseStart.z = transform.position.z;
-
         }
         else if (Input.GetMouseButton(0))
         {
