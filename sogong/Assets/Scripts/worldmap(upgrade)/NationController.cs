@@ -85,6 +85,14 @@ public class NationController : MonoBehaviour
             // 버튼 OnclickListner 설정
             button.GetComponent<Button>().onClick.AddListener(() => { taskOnClick(n, newCountry); });
 
+            // 지도 맵 Collider, ClickEvent 설정
+            newCountry.AddComponent<PolygonCollider2D>();
+            newCountry.GetComponent<PolygonCollider2D>().isTrigger = true;
+            newCountry.AddComponent<MapCallbackListener>();
+            newCountry.GetComponent<MapCallbackListener>().setTarget(button);
+            //newCountry.AddComponent<Button>();
+            //newCountry.GetComponent<Button>().onClick.AddListener(() => { taskOnClick(n, newCountry); });
+
         }
 
 
@@ -101,6 +109,8 @@ public class NationController : MonoBehaviour
     // 같은 버튼 두 번 클릭에 대한 처리를 추가함.
     GameObject clickedNation = null;    // 전에 클릭 중이던 국가
     bool againClick = false;
+
+    //taskOnClickMap(Nation n, GameObject nation)
 
     // n : 선택된 국가 클래스
     // nation : n에 해당하는 unity GameObject
