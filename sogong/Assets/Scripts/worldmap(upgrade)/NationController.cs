@@ -14,7 +14,7 @@ static class Constants
  */
 public class NationController : MonoBehaviour
 {
-    Color NATION_DEFAULT = new Color(0, 1, 0.7342434f, 1);             // 국가 색 기본값
+    Color NATION_DEFAULT = new Color(0, 0.6603774f, 0.4322661f, 1);             // 국가 색 기본값
     Color NATION_CLICKED = new Color(1, 0.1745283f, 0.3235905f, 1);    // 국가 선택시 색
 
     // "앉아서 세계속으로"의 전반적인 기능을 맡음.
