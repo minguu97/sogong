@@ -140,7 +140,7 @@ poland 606.764 415.291
 portugal 473.386 353.431
 qatar 728.402 322.642
 republic_of_cote_divoire 532.275 245.531
-republic_of_korea 960.440 355.557
+republic_of_korea 958 355.557
 republic_of_south_africa 615.974 96.065
 republic_of_south_sudan 642.425 242.176
 republic_of_suriname 366.056 235.965
