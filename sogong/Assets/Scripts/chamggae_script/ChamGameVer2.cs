@@ -24,9 +24,23 @@ public class ChamGameVer2 : MonoBehaviour
     int imageIndex = 1;
     int folderIndex = 0;
 
-    //실루엣
-    public void GetSilhouette() {
-        silhouette.GetComponent<Image>().sprite = animalImages[0];
+    // Start is called before the first frame update
+    void Awake()
+    {
+#if (BUILD)
+        makeFolderListTxt();
+#endif
+        animalObj = GameObject.Find("AnimalObj");
+        silhouette = GameObject.Find("Silhouette");
+        answerText = GameObject.Find("answer_txt");
+
+        folderNames = new ArrayList();
+
+        LoadFolders();
+        folderNames = ShuffleArrayList(folderNames);
+        Debug.Log("Array shuffle complete, First folder name is " + folderNames[0]);
+
+        GetNextAnimal();
     }
 
     //동물 다음 부분 이미지 가져오기
@@ -37,14 +51,14 @@ public class ChamGameVer2 : MonoBehaviour
         else {
             animalObj.GetComponent<Image>().sprite = animalImages[0];
         }
-        EventSystem.current.SetSelectedGameObject(null);
+        UnSelectButton();
     }
 
     //다음 동물로 넘어가기
     public void GetNextAnimal() {
         imageIndex = 1;
-        if (folderNames.Count - 1 > folderIndex) {
-            LoadAnimalImages((string)folderNames[++folderIndex]);
+        if (folderNames.Count > folderIndex) {
+            LoadAnimalImages((string)folderNames[folderIndex++]);
             answerText.GetComponent<Text>().text = "";
             animalObj.GetComponent<Image>().sprite =
                 GameObject.Find("Empty").GetComponent<SpriteRenderer>().sprite;
@@ -59,44 +73,16 @@ public class ChamGameVer2 : MonoBehaviour
             GameObject.Find("nextImg_bt").SetActive(false);
             GameObject.Find("answer_bt").SetActive(false);
         }
-        EventSystem.current.SetSelectedGameObject(null);
+        UnSelectButton();
     }
 
     //정답 보기
     public void Answer() {
         animalObj.GetComponent<Image>().sprite = animalImages[0];
         answerText.GetComponent<Text>().text =
-            Regex.Replace((string)folderNames[folderIndex], "[0-9]", "");
+            Regex.Replace((string)folderNames[folderIndex - 1], "[0-9]", "");
         imageIndex = animalImages.Length;
-        EventSystem.current.SetSelectedGameObject(null);
-    }
-
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-#if (BUILD)
-        makeFolderListTxt();
-#endif
-        animalObj = GameObject.Find("AnimalObj");
-        silhouette = GameObject.Find("Silhouette");
-        answerText = GameObject.Find("answer_txt");
-
-        folderNames = new ArrayList();
-
-        LoadFolders();
-        folderNames = ShuffleArrayList(folderNames);
-
-        GetNextAnimal();
-        //Test
-        Debug.Log("Array shuffle complete, First folder name is " + folderNames[0]);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        UnSelectButton();
     }
 
     //배열 셔플
@@ -138,6 +124,37 @@ public class ChamGameVer2 : MonoBehaviour
 
         //Test
         Debug.Log("Folder loading complete, First folder name is " + folderNames[0]);
+    }
+
+    //버튼 선택 해제
+    public void UnSelectButton()
+    {
+        EventSystem.current.SetSelectedGameObject(null);
+    }
+
+    //실루엣
+    public void GetSilhouette()
+    {
+        silhouette.GetComponent<Image>().sprite = animalImages[0];
+    }
+
+    public ArrayList GetFolderNames()
+    {
+        return folderNames;
+    }
+
+    public void DisableButtons()
+    {
+        GameObject.Find("nextPart_bt").SetActive(false);
+        GameObject.Find("nextImg_bt").SetActive(false);
+        GameObject.Find("answer_bt").SetActive(false);
+    }
+
+    public void EnableButtons()
+    {
+        GameObject.Find("UI").transform.Find("nextPart_bt").gameObject.SetActive(true);
+        GameObject.Find("UI").transform.Find("nextImg_bt").gameObject.SetActive(true);
+        GameObject.Find("UI").transform.Find("answer_bt").gameObject.SetActive(true);
     }
 
 #if (BUILD)
