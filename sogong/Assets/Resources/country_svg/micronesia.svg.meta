@@ -10,16 +10,16 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
-  generatePhysicsShape: 0
+  generatePhysicsShape: 1
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,33 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 1
     SpriteRect:
-      name: 
+      name: micronesiaSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 739b0ee48541c534aa1ad277b70b2238
+        width: 13
+        height: 5
+      spriteID: 645b8d44c4f25b94793e53d83fd46eae
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 4.2147465, y: 2.5}
+      - {x: -0.34897566, y: 1.6960382}
+      - {x: -5.416667, y: 0.14444447}
+      - {x: -6.5, y: -0.70000005}
+      - {x: -6.3526697, y: -1.400497}
+      - {x: -5.5666676, y: -1.8444439}
+      - {x: -3.8333333, y: -2.3222222}
+      - {x: -2.3316703, y: -2.5}
+      - {x: 2.7286072, y: -1.2583991}
+      - {x: 5.9333344, y: 0.12222242}
+      - {x: 6.5, y: 0.70000005}
+      - {x: 6.5, y: 1.3740826}
+      - {x: 5.544445, y: 2.0555553}

@@ -23,7 +23,7 @@ public class ChangeScene : MonoBehaviour{
                 SceneManager.LoadScene("종류");
                 break;
             case 2:
-                SceneManager.LoadScene("지도");
+                SceneManager.LoadScene("World map(upgrade)");
                 break;
             case 3:
                 SceneManager.LoadScene("참깨-과일");

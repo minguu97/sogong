@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,92 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: republic_of_the_congoSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 690402a9efebebf439e985bba04509ee
+        width: 669
+        height: 876
+      spriteID: 5e262ffdfd5416b48b785c7eea72e53f
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: -104.155685, y: -411}
+      - {x: -95.14221, y: -394}
+      - {x: -53.07934, y: -377}
+      - {x: -46.068863, y: -425}
+      - {x: -38.056885, y: -436}
+      - {x: 4.005988, y: -421}
+      - {x: 24.035929, y: -386}
+      - {x: 54.080837, y: -363}
+      - {x: 99.1482, y: -323}
+      - {x: 115.17216, y: -287}
+      - {x: 120.17964, y: -258}
+      - {x: 123.18413, y: -159}
+      - {x: 153.22903, y: -125}
+      - {x: 181.27095, y: -70}
+      - {x: 235.35179, y: -26}
+      - {x: 258.38623, y: 10}
+      - {x: 271.4057, y: 126}
+      - {x: 285.42664, y: 220}
+      - {x: 287.42963, y: 272}
+      - {x: 333.4985, y: 363}
+      - {x: 334.5, y: 370}
+      - {x: 334.5, y: 421}
+      - {x: 320.47903, y: 434}
+      - {x: 289.43265, y: 438}
+      - {x: 202.3024, y: 438}
+      - {x: 165.24701, y: 432}
+      - {x: 149.22305, y: 419}
+      - {x: 139.20808, y: 394}
+      - {x: 113.16916, y: 304}
+      - {x: 98.146706, y: 265}
+      - {x: 106.15868, y: 246}
+      - {x: 41.06138, y: 277}
+      - {x: -5.007485, y: 284}
+      - {x: -75.112274, y: 290}
+      - {x: -140.20958, y: 288}
+      - {x: -155.23204, y: 253}
+      - {x: -158.23653, y: 238}
+      - {x: -152.22754, y: 184}
+      - {x: -69.103294, y: 203}
+      - {x: -43.064373, y: 157}
+      - {x: -75.112274, y: 129}
+      - {x: -93.13922, y: 91}
+      - {x: -93.13922, y: 53}
+      - {x: -90.13473, y: 38}
+      - {x: -64.09581, y: 19}
+      - {x: -37.05539, y: 9}
+      - {x: -45.067364, y: -31}
+      - {x: -51.076347, y: -93}
+      - {x: -82.12276, y: -183}
+      - {x: -96.143715, y: -149}
+      - {x: -99.1482, y: -144}
+      - {x: -102.152695, y: -145}
+      - {x: -126.18862, y: -177}
+      - {x: -155.23204, y: -168}
+      - {x: -174.26048, y: -131}
+      - {x: -201.3009, y: -111}
+      - {x: -215.32185, y: -110}
+      - {x: -255.38173, y: -165}
+      - {x: -301.4506, y: -166}
+      - {x: -299.4476, y: -218}
+      - {x: -285.42664, y: -257}
+      - {x: -268.40118, y: -284}
+      - {x: -304.45508, y: -282}
+      - {x: -334.5, y: -314}
+      - {x: -334.5, y: -335}
+      - {x: -297.4446, y: -370}
+      - {x: -274.4102, y: -433}
+      - {x: -264.3952, y: -438}
+      - {x: -241.36078, y: -438}
+      - {x: -180.26945, y: -382}
+      - {x: -164.24551, y: -403}
+      - {x: -129.19312, y: -429}

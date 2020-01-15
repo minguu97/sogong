@@ -10,16 +10,16 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
-  generatePhysicsShape: 0
+  generatePhysicsShape: 1
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,33 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 1
     SpriteRect:
-      name: 
+      name: maldivesSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 2e51ce59a0f368d45b56680c4303d756
+        width: 13
+        height: 16
+      spriteID: 78b389ee0de0e844db0c128c46739693
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: -1.9689493, y: 8}
+      - {x: -4.94243, y: 8}
+      - {x: -6.5, y: 7.5575705}
+      - {x: -3.536841, y: 5.9130583}
+      - {x: -0.6445117, y: 3.6317549}
+      - {x: 2.0946627, y: 0.53709316}
+      - {x: 3.5477066, y: -1.2887301}
+      - {x: 5.031554, y: -4.099697}
+      - {x: 6.5, y: -8}
+      - {x: 6.5, y: -3.3745456}
+      - {x: 5.695616, y: 0.9716711}
+      - {x: 4.183627, y: 4.1735287}
+      - {x: 1.5587444, y: 6.7724075}

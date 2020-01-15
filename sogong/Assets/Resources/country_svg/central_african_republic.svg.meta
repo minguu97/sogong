@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,103 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: central_african_republicSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 3d51db42c73df8048a8b51b9c900b649
+        width: 1162
+        height: 886
+      spriteID: ff6ae6a7545ebbf4aab357ce09daf69b
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: -270, y: -310.85086}
+      - {x: -208, y: -315.8565}
+      - {x: -203, y: -313.85425}
+      - {x: -200, y: -264.79886}
+      - {x: -197, y: -225.7548}
+      - {x: -190, y: -220.74916}
+      - {x: -106, y: -151.67119}
+      - {x: -54, y: -196.72203}
+      - {x: -36, y: -226.75594}
+      - {x: 30, y: -234.76497}
+      - {x: 113, y: -250.78305}
+      - {x: 137, y: -257.79095}
+      - {x: 159, y: -217.74576}
+      - {x: 184, y: -186.71074}
+      - {x: 211, y: -203.72995}
+      - {x: 225, y: -202.72882}
+      - {x: 293, y: -177.70056}
+      - {x: 341, y: -176.69943}
+      - {x: 387, y: -164.68588}
+      - {x: 423, y: -139.65762}
+      - {x: 494, y: -163.68475}
+      - {x: 530, y: -158.6791}
+      - {x: 560, y: -147.66667}
+      - {x: 581, y: -161.68248}
+      - {x: 581, y: -149.66893}
+      - {x: 580, y: -147.66667}
+      - {x: 574, y: -138.6565}
+      - {x: 563, y: -100.61356}
+      - {x: 558, y: -84.59548}
+      - {x: 523, y: -60.568363}
+      - {x: 498, y: -36.541245}
+      - {x: 487, y: 7.508475}
+      - {x: 442, y: 54.56158}
+      - {x: 382, y: 94.60678}
+      - {x: 388, y: 125.64181}
+      - {x: 339, y: 165.68701}
+      - {x: 293, y: 206.73334}
+      - {x: 279, y: 215.7435}
+      - {x: 232, y: 243.77515}
+      - {x: 246, y: 281.81808}
+      - {x: 242, y: 339.8836}
+      - {x: 220, y: 373.92203}
+      - {x: 163, y: 441.99887}
+      - {x: 160, y: 443}
+      - {x: 122, y: 443}
+      - {x: 114, y: 439.9966}
+      - {x: 67, y: 408.96158}
+      - {x: 56, y: 367.91525}
+      - {x: 31, y: 346.89154}
+      - {x: -40, y: 268.8034}
+      - {x: -90, y: 250.78305}
+      - {x: -177, y: 246.77853}
+      - {x: -191, y: 220.74916}
+      - {x: -167, y: 206.73334}
+      - {x: -204, y: 157.67796}
+      - {x: -273, y: 143.66216}
+      - {x: -315, y: 136.65424}
+      - {x: -371, y: 104.61808}
+      - {x: -389, y: 129.64633}
+      - {x: -395, y: 132.64972}
+      - {x: -414, y: 111.62599}
+      - {x: -456, y: 93.60565}
+      - {x: -496, y: 88.6}
+      - {x: -507, y: 69.57853}
+      - {x: -553, y: -23.526554}
+      - {x: -581, y: -47.553673}
+      - {x: -581, y: -69.57853}
+      - {x: -567, y: -106.62034}
+      - {x: -574, y: -123.63955}
+      - {x: -563, y: -184.70848}
+      - {x: -551, y: -205.73221}
+      - {x: -534, y: -220.74916}
+      - {x: -522, y: -271.8068}
+      - {x: -502, y: -307.84747}
+      - {x: -466, y: -347.89267}
+      - {x: -434, y: -373.92203}
+      - {x: -430, y: -418.97287}
+      - {x: -423, y: -443}
+      - {x: -419, y: -443}
+      - {x: -413, y: -435.9921}
+      - {x: -394, y: -399.95142}
+      - {x: -384, y: -324.86667}
+      - {x: -329, y: -307.84747}

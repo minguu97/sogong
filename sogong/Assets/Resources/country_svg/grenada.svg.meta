@@ -10,16 +10,16 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
-  generatePhysicsShape: 0
+  generatePhysicsShape: 1
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -38,17 +38,30 @@ ScriptedImporter:
   spriteData:
     TessellationDetail: 0
     SpriteRect:
-      name: 
+      name: grenadaSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: fcadf28c197eb634f92b6b9ed6df1fc6
+        width: 13
+        height: 24
+      spriteID: b8f36a39e08f0564c80dfcbfb5952fe8
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 1.9668684, y: 10.554218}
+      - {x: -3.36747, y: 5.8180523}
+      - {x: -6.5, y: -0.6481142}
+      - {x: -6.5, y: -5.0140033}
+      - {x: -5.2148595, y: -8.86747}
+      - {x: -2.4446964, y: -12}
+      - {x: 2.4484692, y: -8.221913}
+      - {x: 4.9367476, y: -3.7269077}
+      - {x: 6.5, y: 1.9738064}
+      - {x: 6.5, y: 6.480774}
+      - {x: 5.818719, y: 9.943245}
+      - {x: 4.973896, y: 12}

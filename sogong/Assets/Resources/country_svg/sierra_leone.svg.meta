@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,52 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: sierra_leoneSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: d1b813b54eb01704a9e794427b4f695f
+        width: 268
+        height: 309
+      spriteID: 6c14e569d6ed83844ae776632405199f
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 134, y: 1.5}
+      - {x: 131.99251, y: 2.5}
+      - {x: 112.92135, y: -5.5}
+      - {x: 116.93633, y: 16.5}
+      - {x: 111.9176, y: 57.5}
+      - {x: 103.88764, y: 83.5}
+      - {x: 59.722847, y: 151.5}
+      - {x: 52.696632, y: 154.5}
+      - {x: -14.554308, y: 154.5}
+      - {x: -59.722847, y: 144.5}
+      - {x: -90.83895, y: 86.5}
+      - {x: -134, y: 65.5}
+      - {x: -134, y: -20.5}
+      - {x: -111.9176, y: -37.5}
+      - {x: -100.8764, y: -67.5}
+      - {x: -68.75655, y: -105.5}
+      - {x: -46.67416, y: -128.5}
+      - {x: 14.554308, y: -154.5}
+      - {x: 33.62547, y: -154.5}
+      - {x: 87.82772, y: -92.5}
+      - {x: 103.88764, y: -68.5}
+      - {x: 134, y: -32.5}
+    - Vertices:
+      - {x: -72.77154, y: -85.5}
+      - {x: -100.8764, y: -85.5}
+      - {x: -102.883896, y: -89.5}
+      - {x: -102.883896, y: -96.5}
+      - {x: -80.8015, y: -105.5}
+      - {x: -66.74907, y: -105.5}
+      - {x: -64.74158, y: -102.5}
+      - {x: -63.73783, y: -94.5}
+      - {x: -64.74158, y: -91.5}

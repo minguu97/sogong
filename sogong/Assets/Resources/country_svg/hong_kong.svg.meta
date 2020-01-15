@@ -10,16 +10,16 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
-  generatePhysicsShape: 0
+  generatePhysicsShape: 1
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,66 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 1
     SpriteRect:
-      name: 
+      name: hong_kongSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 24c952f01b8f28e4e9baa67f64c23440
+        width: 46
+        height: 35
+      spriteID: e778d3644581a6845b7c28e6a35a5166
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: -5.6222224, y: -5.147059}
+      - {x: -1.5333333, y: -6.1764708}
+      - {x: -0.5111111, y: -7.2058825}
+      - {x: 6.6444445, y: -8.235294}
+      - {x: 4.6, y: -10.294118}
+      - {x: 4.6, y: -13.382353}
+      - {x: 8.688889, y: -17.5}
+      - {x: 12.777778, y: -17.5}
+      - {x: 13.8, y: -16.470589}
+      - {x: 13.8, y: -14.411765}
+      - {x: 8.688889, y: -9.264706}
+      - {x: 14.822222, y: -10.294118}
+      - {x: 16.866667, y: -7.2058825}
+      - {x: 14.822222, y: -4.117647}
+      - {x: 14.822222, y: -2.0588236}
+      - {x: 16.866667, y: -1.0294118}
+      - {x: 18.911112, y: -1.0294118}
+      - {x: 23, y: 1.0294118}
+      - {x: 23, y: 6.1764708}
+      - {x: 20.955555, y: 9.264706}
+      - {x: 17.88889, y: 10.294118}
+      - {x: 13.8, y: 10.294118}
+      - {x: 14.822222, y: 11.323529}
+      - {x: 14.822222, y: 13.382353}
+      - {x: 11.755555, y: 16.470589}
+      - {x: 10.733334, y: 16.470589}
+      - {x: 9.711111, y: 17.5}
+      - {x: -6.6444445, y: 17.5}
+      - {x: -7.6666665, y: 16.470589}
+      - {x: -11.755555, y: 15.441176}
+      - {x: -17.88889, y: 9.264706}
+      - {x: -18.911112, y: 5.147059}
+      - {x: -17.88889, y: 2.0588236}
+      - {x: -13.8, y: -1.0294118}
+      - {x: -12.777778, y: -1.0294118}
+      - {x: -9.711111, y: -3.0882354}
+      - {x: -11.755555, y: -4.117647}
+      - {x: -15.844444, y: -5.147059}
+      - {x: -17.88889, y: -7.2058825}
+      - {x: -18.911112, y: -7.2058825}
+      - {x: -23, y: -11.323529}
+      - {x: -23, y: -17.5}
+      - {x: -13.8, y: -17.5}
+      - {x: -10.733334, y: -16.470589}
+      - {x: -6.6444445, y: -12.3529415}
+      - {x: -5.6222224, y: -9.264706}

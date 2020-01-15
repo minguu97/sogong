@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,55 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: ugandaSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 074d8e74efa084049b6a4d2fbbf0c8df
+        width: 485
+        height: 572
+      spriteID: 677f3b8268a88814ca7833400d99aa04
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 147.5, y: -241.92294}
+      - {x: 148.5, y: -198.84764}
+      - {x: 169.5, y: -81.64273}
+      - {x: 186.5, y: -64.61296}
+      - {x: 190.5, y: -55.5972}
+      - {x: 219.5, y: -24.542908}
+      - {x: 229.5, y: -8.514886}
+      - {x: 242.5, y: 47.583187}
+      - {x: 242.5, y: 93.66375}
+      - {x: 236.5, y: 117.70578}
+      - {x: 193.5, y: 195.84238}
+      - {x: 196.5, y: 227.89842}
+      - {x: 170.5, y: 256.94922}
+      - {x: 156.5, y: 286}
+      - {x: 146.5, y: 286}
+      - {x: 100.5, y: 243.92645}
+      - {x: 73.5, y: 254.94571}
+      - {x: -8.5, y: 238.9177}
+      - {x: -41.5, y: 248.93521}
+      - {x: -70.5, y: 239.91945}
+      - {x: -107.5, y: 248.93521}
+      - {x: -131.5, y: 223.89142}
+      - {x: -141.5, y: 94.6655}
+      - {x: -92.5, y: 69.62172}
+      - {x: -168.5, y: -13.523643}
+      - {x: -210.5, y: -51.590195}
+      - {x: -226.5, y: -124.71804}
+      - {x: -237.5, y: -156.77408}
+      - {x: -242.5, y: -221.88792}
+      - {x: -242.5, y: -286}
+      - {x: -196.5, y: -286}
+      - {x: -163.5, y: -258.95273}
+      - {x: -134.5, y: -242.9247}
+      - {x: -56.5, y: -245.92995}
+      - {x: 146.5, y: -244.92819}

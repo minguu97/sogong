@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1.0788497mm"
-   height="0.99507791mm"
-   viewBox="0 0 1.0788495 0.99507795"
+   width="107.9mm"
+   height="99.5mm"
+   viewBox="0 0 107.89998 99.500004"
    version="1.1"
    id="svg7070"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.6"
-     inkscape:cx="7.8874727"
-     inkscape:cy="16.432799"
+     inkscape:cx="-15.596652"
+     inkscape:cy="16.431538"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -52,17 +52,18 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-179.70762,-28.96514)">
+     transform="translate(-179.70814,69.540116)">
     <g
-       transform="matrix(0.26458333,0,0,0.26458333,8.5539548,-87.218747)"
-       id="bn">
+       transform="matrix(26.462021,0,0,26.456261,-16938.044,-11687.019)"
+       id="bn"
+       style="fill:#ffffff">
       <path
-         style="fill:#aaaaaa"
+         style="fill:#ffffff"
          inkscape:connector-curvature="0"
          id="path6824"
          d="m 646.88,440.734 c 1.278,-0.033 1.721,-1.166 2.794,-1.58 0.479,-0.186 0.266,0.449 0.062,0.613 -0.474,0.381 -0.563,0.453 -0.482,1.115 0.007,0.053 0.31,2.455 -0.452,1.922 -0.288,-0.201 -0.933,-0.646 -1.127,-0.959 -0.281,-0.449 -0.152,-0.974 -0.795,-1.111 z" />
       <path
-         style="fill:#aaaaaa"
+         style="fill:#ffffff"
          inkscape:connector-curvature="0"
          id="path6826"
          d="m 649.965,440.193 c -0.098,-0.584 0.217,-0.193 0.379,-0.668 0.463,0.592 0.661,1.451 0.604,2.191 -0.733,-0.164 -0.944,-0.857 -0.983,-1.523 z" />

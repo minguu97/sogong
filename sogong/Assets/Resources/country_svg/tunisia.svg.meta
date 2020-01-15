@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,81 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: tunisiaSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: aab000413d482324cac5533b308e48d5
+        width: 340
+        height: 716
+      spriteID: 59672d92cc65e644090e7060ee344fb5
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 86, y: -208}
+      - {x: 123, y: -167}
+      - {x: 159, y: -149}
+      - {x: 170, y: -141}
+      - {x: 170, y: -57}
+      - {x: 147, y: -44}
+      - {x: 130, y: -7}
+      - {x: 105, y: -9}
+      - {x: 83, y: 0}
+      - {x: 56, y: 6}
+      - {x: 49, y: 45}
+      - {x: 90, y: 74}
+      - {x: 120, y: 106}
+      - {x: 134, y: 131}
+      - {x: 132, y: 183}
+      - {x: 89, y: 216}
+      - {x: 88, y: 260}
+      - {x: 130, y: 296}
+      - {x: 135, y: 326}
+      - {x: 122, y: 333}
+      - {x: 108, y: 329}
+      - {x: 73, y: 301}
+      - {x: 58, y: 343}
+      - {x: 46, y: 351}
+      - {x: 29, y: 352}
+      - {x: 28, y: 349}
+      - {x: 28, y: 355}
+      - {x: 24, y: 358}
+      - {x: 1, y: 358}
+      - {x: -24, y: 352}
+      - {x: -77, y: 325}
+      - {x: -85, y: 303}
+      - {x: -116, y: 276}
+      - {x: -111, y: 227}
+      - {x: -108, y: 165}
+      - {x: -97, y: 147}
+      - {x: -115, y: 85}
+      - {x: -134, y: 73}
+      - {x: -170, y: 37}
+      - {x: -170, y: -5}
+      - {x: -161, y: -52}
+      - {x: -117, y: -80}
+      - {x: -100, y: -128}
+      - {x: -53, y: -170}
+      - {x: -38, y: -196}
+      - {x: -5, y: -355}
+      - {x: -2, y: -358}
+      - {x: 10, y: -358}
+      - {x: 37, y: -343}
+      - {x: 70, y: -298}
+      - {x: 61, y: -227}
+    - Vertices:
+      - {x: 127, y: 12}
+      - {x: 99, y: 12}
+      - {x: 97, y: 11}
+      - {x: 97, y: -8}
+      - {x: 108, y: -15}
+      - {x: 118, y: -15}
+      - {x: 127, y: -2}
+      - {x: 128, y: 5}
+      - {x: 128, y: 10}

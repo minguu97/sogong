@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,48 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.29
     SpriteRect:
-      name: 
+      name: comorosSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: b2870a20573a13f408c3a580d6c351ad
+        width: 115
+        height: 103
+      spriteID: 131c41fec097b2c4db17a69f57d47483
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: -22.192984, y: -36.352943}
+      - {x: -25.2193, y: -39.382355}
+      - {x: -25.2193, y: -47.460785}
+      - {x: -18.157894, y: -51.5}
+      - {x: -3.026316, y: -51.5}
+      - {x: -3.026316, y: -44.431374}
+      - {x: -14.1228075, y: -36.352943}
+    - Vertices:
+      - {x: 32.2807, y: -29.284315}
+      - {x: 30.263159, y: -30.294119}
+      - {x: 30.263159, y: -32.313725}
+      - {x: 31.27193, y: -34.333336}
+      - {x: 53.464912, y: -51.5}
+      - {x: 55.482456, y: -51.5}
+      - {x: 57.5, y: -49.480392}
+      - {x: 57.5, y: -31.303923}
+      - {x: 52.456142, y: -29.284315}
+    - Vertices:
+      - {x: -38.333332, y: 23.22549}
+      - {x: -40.350876, y: 51.5}
+      - {x: -53.464912, y: 51.5}
+      - {x: -57.5, y: 44.431374}
+      - {x: -57.5, y: 6.0588236}
+      - {x: -39.342106, y: -7.068628}
+      - {x: -36.31579, y: -7.068628}
+      - {x: -33.289474, y: -4.0392156}
+      - {x: -33.289474, y: 5.04902}
+      - {x: -34.298244, y: 10.09804}

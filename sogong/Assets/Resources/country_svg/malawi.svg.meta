@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,68 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: malawiSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 91f3d4f7474d6c5449201f3b7db309c8
+        width: 270
+        height: 781
+      spriteID: 4bcfb8e44d3560e4e8a22daf5469a0be
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 118.94052, y: -290.3718}
+      - {x: 135, y: -267.34232}
+      - {x: 135, y: -132.16924}
+      - {x: 126.97026, y: -117.15}
+      - {x: 73.77323, y: -43.05513}
+      - {x: 28.605947, y: -8.010257}
+      - {x: 27.60223, y: 34.04359}
+      - {x: 15.557621, y: 93.11923}
+      - {x: 39.64684, y: 167.21411}
+      - {x: 63.73606, y: 168.2154}
+      - {x: 65.74349, y: 180.23077}
+      - {x: 59.72119, y: 191.24487}
+      - {x: 36.63569, y: 218.2795}
+      - {x: 41.654274, y: 250.32051}
+      - {x: 37.639404, y: 312.4}
+      - {x: 22.583643, y: 354.45386}
+      - {x: -17.565056, y: 390.5}
+      - {x: -18.568773, y: 390.5}
+      - {x: -69.75836, y: 379.4859}
+      - {x: -91.84015, y: 390.5}
+      - {x: -114.92565, y: 390.5}
+      - {x: -114.92565, y: 379.4859}
+      - {x: -107.89963, y: 369.47308}
+      - {x: -79.79554, y: 347.4449}
+      - {x: -81.80298, y: 322.4128}
+      - {x: -54.702602, y: 277.35513}
+      - {x: -90.83643, y: 242.31026}
+      - {x: -90.83643, y: 114.14616}
+      - {x: -78.791824, y: 92.11795}
+      - {x: -117.936806, y: 60.076923}
+      - {x: -120.94796, y: 45.057693}
+      - {x: -111.9145, y: 7.0089746}
+      - {x: -135, y: -35.044872}
+      - {x: -135, y: -60.076923}
+      - {x: -97.86246, y: -90.11539}
+      - {x: -58.717472, y: -135.17308}
+      - {x: -9.535316, y: -119.152565}
+      - {x: 16.561338, y: -145.1859}
+      - {x: 0.5018587, y: -213.27309}
+      - {x: -14.553904, y: -272.34872}
+      - {x: 7.527881, y: -315.40384}
+      - {x: 56.710037, y: -361.46283}
+      - {x: 53.698887, y: -388.49744}
+      - {x: 54.702602, y: -390.5}
+      - {x: 81.80298, y: -390.5}
+      - {x: 83.81041, y: -364.46667}
+      - {x: 73.77323, y: -325.4167}
+      - {x: 85.81785, y: -296.3795}

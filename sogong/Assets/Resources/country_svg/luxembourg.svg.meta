@@ -10,16 +10,16 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
-  generatePhysicsShape: 0
+  generatePhysicsShape: 1
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,68 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 1
     SpriteRect:
-      name: 
+      name: luxembourgSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 6302f60868ed7fa449314bee4596fd73
+        width: 59
+        height: 70
+      spriteID: 1c27b97e6ceded842aca8c3b191a311e
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 27.5, y: -19.78261}
+      - {x: 29.5, y: -14.710145}
+      - {x: 29.5, y: -3.5507247}
+      - {x: 22.5, y: 3.5507247}
+      - {x: 21.5, y: 3.5507247}
+      - {x: 19.5, y: 5.5797105}
+      - {x: 18.5, y: 5.5797105}
+      - {x: 14.5, y: 9.637681}
+      - {x: 10.5, y: 11.666667}
+      - {x: 5.5, y: 16.73913}
+      - {x: 3.5, y: 19.78261}
+      - {x: 3.5, y: 21.811594}
+      - {x: 2.5, y: 22.826088}
+      - {x: 1.5, y: 30.94203}
+      - {x: -1.5, y: 35}
+      - {x: -14.5, y: 35}
+      - {x: -19.5, y: 28.913044}
+      - {x: -19.5, y: 27.898552}
+      - {x: -22.5, y: 23.84058}
+      - {x: -22.5, y: 21.811594}
+      - {x: -27.5, y: 12.68116}
+      - {x: -29.5, y: 9.637681}
+      - {x: -29.5, y: 0.5072464}
+      - {x: -28.5, y: -2.536232}
+      - {x: -24.5, y: -6.594203}
+      - {x: -23.5, y: -10.652174}
+      - {x: -21.5, y: -11.666667}
+      - {x: -21.5, y: -13.695653}
+      - {x: -20.5, y: -14.710145}
+      - {x: -20.5, y: -20.797102}
+      - {x: -21.5, y: -21.811594}
+      - {x: -25.5, y: -26.884058}
+      - {x: -25.5, y: -27.898552}
+      - {x: -23.5, y: -29.927538}
+      - {x: -19.5, y: -29.927538}
+      - {x: -18.5, y: -30.94203}
+      - {x: -9.5, y: -30.94203}
+      - {x: -8.5, y: -31.956522}
+      - {x: 3.5, y: -31.956522}
+      - {x: 4.5, y: -32.971016}
+      - {x: 9.5, y: -32.971016}
+      - {x: 10.5, y: -33.985508}
+      - {x: 13.5, y: -33.985508}
+      - {x: 14.5, y: -35}
+      - {x: 19.5, y: -35}
+      - {x: 19.5, y: -31.956522}
+      - {x: 20.5, y: -30.94203}
+      - {x: 21.5, y: -26.884058}

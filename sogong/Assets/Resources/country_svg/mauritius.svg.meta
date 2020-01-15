@@ -10,16 +10,16 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
-  generatePhysicsShape: 0
+  generatePhysicsShape: 1
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,35 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: mauritiusSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 05bd5bb2e985d75499dc9078515023ce
+        width: 542
+        height: 85
+      spriteID: ef57f9d7bf7f5cd4781dfd4ba291f94f
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: -248.95934, y: 11.5}
+      - {x: -262.18542, y: -7.6949234}
+      - {x: -271, y: -25.696695}
+      - {x: -271, y: -42.5}
+      - {x: -252.7475, y: -42.5}
+      - {x: -236.3309, y: -27.899292}
+      - {x: -235.13126, y: 3.5005913}
+      - {x: -242.93109, y: 10.300354}
+    - Vertices:
+      - {x: 261.98337, y: 42.5}
+      - {x: 261.98337, y: 38.5}
+      - {x: 267.99445, y: 35.5}
+      - {x: 269.99814, y: 35.5}
+      - {x: 271, y: 36.5}
+      - {x: 271, y: 42.5}

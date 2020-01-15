@@ -23,28 +23,33 @@ public class CameraMapMove : MonoBehaviour
 
     private Vector3 MouseStart;
     private Camera myCamera;
+    private bool isStartOverUI;
 
     void Start()
     {
         myCamera = GetComponent<Camera>();
+        isStartOverUI = false;
     }
 
     void Update()
     {
         // 마우스가 UI(scroll view 등) 위이면 클릭, 휠 등 작동 안되게
         if (EventSystem.current.IsPointerOverGameObject())
-        {
+        { 
+            isStartOverUI = true;
             return;
-        }
+        } 
 
         // 마우스 드래그 이동
+        // 마우스 왼쪽 클릭
         if (Input.GetMouseButtonDown(0))
         {
             MouseStart = new Vector3(Input.mousePosition.x, Input.mousePosition.y, z);
             MouseStart = Camera.main.ScreenToWorldPoint(MouseStart);
             MouseStart.z = transform.position.z;
         }
-        else if (Input.GetMouseButton(0))
+        // 마우스 왼쪽 클릭 중             드래그 시작점이 UI 위가 아니어야 함.
+        else if (Input.GetMouseButton(0) && !isStartOverUI)
         {
             var MouseMove = new Vector3(Input.mousePosition.x, Input.mousePosition.y, z);
             MouseMove = Camera.main.ScreenToWorldPoint(MouseMove);
@@ -59,6 +64,11 @@ public class CameraMapMove : MonoBehaviour
             if (newPosition.y < outerBottom) newPosition.y = outerBottom;
 
             transform.position = newPosition;
+        }
+        // 마우스 왼쪽 클릭 끝
+        else if (Input.GetMouseButtonUp(0))
+        {
+            isStartOverUI = false;
         }
 
         // 마우스 휠 줌

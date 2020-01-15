@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,50 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: togoSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: e10634ffbe5745f40862c16d2cdbce09
+        width: 171
+        height: 508
+      spriteID: 0bc9804c503f4004dac6de302a33ccea
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 67.39412, y: -21}
+      - {x: 66.38824, y: 50}
+      - {x: 51.3, y: 98}
+      - {x: 49.288235, y: 145}
+      - {x: 6.035294, y: 175}
+      - {x: 6.035294, y: 200}
+      - {x: 13.07647, y: 247}
+      - {x: -22.129412, y: 243}
+      - {x: -71.41765, y: 254}
+      - {x: -84.49412, y: 254}
+      - {x: -84.49412, y: 224}
+      - {x: -82.48235, y: 210}
+      - {x: -43.25294, y: 149}
+      - {x: -62.364704, y: 79}
+      - {x: -35.205883, y: 78}
+      - {x: -40.235294, y: 17}
+      - {x: -42.24706, y: 12}
+      - {x: -37.217648, y: 4}
+      - {x: -19.111765, y: -39}
+      - {x: -23.135294, y: -48}
+      - {x: -32.188236, y: -120}
+      - {x: -28.164705, y: -182}
+      - {x: -11.064706, y: -221}
+      - {x: 27.158823, y: -254}
+      - {x: 42.24706, y: -254}
+      - {x: 85.5, y: -243}
+      - {x: 85.5, y: -217}
+      - {x: 72.42353, y: -168}
+      - {x: 75.44118, y: -160}
+      - {x: 76.44706, y: -117}

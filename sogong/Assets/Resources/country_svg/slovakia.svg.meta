@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,46 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: slovakiaSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 531606093c660e34fa9b37162e4a4b24
+        width: 432
+        height: 181
+      spriteID: 2f786220f3fb1b34abbe6d1edd14a363
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 134, y: -14.5}
+      - {x: 182.92343, y: -36.2}
+      - {x: 195.9536, y: -23.127779}
+      - {x: 210.9884, y: 14.077778}
+      - {x: 216, y: 27.15}
+      - {x: 216, y: 45.25}
+      - {x: 204.97447, y: 51.283333}
+      - {x: 134.81206, y: 81.450005}
+      - {x: 100.73318, y: 78.433334}
+      - {x: 42.598606, y: 77.42778}
+      - {x: 6.515081, y: 72.4}
+      - {x: -17.540604, y: 90.5}
+      - {x: -39.59165, y: 90.5}
+      - {x: -84.69605, y: 84.46667}
+      - {x: -115.76798, y: 70.38889}
+      - {x: -143.83295, y: 32.177776}
+      - {x: -202.96983, y: 18.1}
+      - {x: -216, y: 9.05}
+      - {x: -216, y: -45.25}
+      - {x: -200.9652, y: -63.350002}
+      - {x: -150.84918, y: -90.5}
+      - {x: -79.684456, y: -90.5}
+      - {x: -59.63805, y: -86.477776}
+      - {x: -9.522041, y: -49.272224}
+      - {x: 46.607887, y: -54.3}
+      - {x: 71.66589, y: -15.083334}

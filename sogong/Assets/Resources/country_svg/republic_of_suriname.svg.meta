@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,57 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: republic_of_surinameSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 9e4c5a59c8b6356469005065db60dc57
+        width: 351
+        height: 419
+      spriteID: 772f14915d4bd8147a176e09954ce0a4
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 105.5, y: -160.38277}
+      - {x: 123.5, y: -167.39952}
+      - {x: 156.5, y: -123.29426}
+      - {x: 160.5, y: -92.22009}
+      - {x: 175.5, y: -40.09569}
+      - {x: 175.5, y: -29.069378}
+      - {x: 150.5, y: 4.009569}
+      - {x: 137.5, y: 82.196175}
+      - {x: 175.5, y: 156.3732}
+      - {x: 175.5, y: 190.45454}
+      - {x: 169.5, y: 193.46172}
+      - {x: 158.5, y: 199.47607}
+      - {x: 117.5, y: 209.5}
+      - {x: 16.5, y: 209.5}
+      - {x: 7.5, y: 194.46411}
+      - {x: -28.5, y: 206.49283}
+      - {x: -74.5, y: 209.5}
+      - {x: -83.5, y: 209.5}
+      - {x: -99.5, y: 199.47607}
+      - {x: -123.5, y: 139.33253}
+      - {x: -138.5, y: 110.26316}
+      - {x: -158.5, y: 104.2488}
+      - {x: -168.5, y: 96.22967}
+      - {x: -175.5, y: 82.196175}
+      - {x: -175.5, y: -6.014354}
+      - {x: -170.5, y: -24.057417}
+      - {x: -148.5, y: -65.1555}
+      - {x: -127.5, y: -59.141148}
+      - {x: -116.5, y: -116.27751}
+      - {x: -84.5, y: -177.42345}
+      - {x: -72.5, y: -193.46172}
+      - {x: -35.5, y: -209.5}
+      - {x: -2.5, y: -209.5}
+      - {x: 2.5, y: -208.4976}
+      - {x: 5.5, y: -193.46172}
+      - {x: -10.5, y: -166.39713}
+      - {x: 89.5, y: -149.35646}

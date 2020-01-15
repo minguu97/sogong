@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,91 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: fijiSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 52f094f7795617a4ab551023a37cd4bd
+        width: 281
+        height: 302
+      spriteID: f7e75c1a8a953224bb8e7f018fd79ab1
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: -82.5, y: -127.92359}
+      - {x: -96.5, y: -134.94685}
+      - {x: -107.5, y: -145.9834}
+      - {x: -107.5, y: -151}
+      - {x: -88.5, y: -151}
+      - {x: -60.5, y: -139.96346}
+      - {x: -60.5, y: -134.94685}
+      - {x: -67.5, y: -127.92359}
+    - Vertices:
+      - {x: 75.5, y: -88.79402}
+      - {x: 71.5, y: -92.80731}
+      - {x: 71.5, y: -97.82392}
+      - {x: 73.5, y: -99.83057}
+      - {x: 75.5, y: -99.83057}
+      - {x: 80.5, y: -95.817276}
+      - {x: 82.5, y: -90.80067}
+      - {x: 80.5, y: -88.79402}
+    - Vertices:
+      - {x: -94.5, y: 31.604652}
+      - {x: -140.5, y: -5.5182724}
+      - {x: -140.5, y: -46.654488}
+      - {x: -111.5, y: -61.70432}
+      - {x: -79.939095, y: -66.75786}
+      - {x: -14.5, y: -37.476837}
+      - {x: -14.5, y: 14.548173}
+      - {x: -33.5, y: 31.604652}
+    - Vertices:
+      - {x: 35.5, y: -26.58804}
+      - {x: 30.5, y: -26.58804}
+      - {x: 30.5, y: -34.61462}
+      - {x: 31.5, y: -43.64452}
+      - {x: 36.5, y: -46.654488}
+      - {x: 39.5, y: -46.654488}
+      - {x: 41.5, y: -42.641197}
+      - {x: 42.5, y: -35.61794}
+      - {x: 42.5, y: -30.60133}
+    - Vertices:
+      - {x: -5.5, y: 3.511628}
+      - {x: -6.5, y: -0.5016611}
+      - {x: -6.5, y: -9.531562}
+      - {x: -0.5, y: -9.531562}
+      - {x: 2.5, y: -8.528239}
+      - {x: 6.5, y: -2.5083058}
+      - {x: 6.5, y: 0.5016611}
+      - {x: 2.5, y: 3.511628}
+    - Vertices:
+      - {x: -127.5, y: 59.697674}
+      - {x: -129.5, y: 54.681065}
+      - {x: -129.5, y: 49.66445}
+      - {x: -125.5, y: 49.66445}
+      - {x: -118.5, y: 54.681065}
+      - {x: -118.5, y: 58.694355}
+      - {x: -121.5, y: 59.697674}
+    - Vertices:
+      - {x: 117.5, y: 151}
+      - {x: 46.5, y: 135.95016}
+      - {x: -5.5, y: 101.83721}
+      - {x: -5.5, y: 72.74087}
+      - {x: -3.5, y: 66.72093}
+      - {x: 24.5, y: 66.72093}
+      - {x: 116.45715, y: 96.84276}
+      - {x: 140.5, y: 116.88705}
+      - {x: 140.5, y: 151}
+    - Vertices:
+      - {x: -97.5, y: 87.7907}
+      - {x: -97.5, y: 86.78738}
+      - {x: -95.5, y: 84.78073}
+      - {x: -94.5, y: 84.78073}
+      - {x: -87.5, y: 91.803986}
+      - {x: -87.5, y: 93.81063}
+      - {x: -90.5, y: 94.81396}

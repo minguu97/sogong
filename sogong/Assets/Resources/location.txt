@@ -14,7 +14,7 @@ bahrain 727.214 327.304
 bangladesh 850.576 308.215
 barbados 361.852 278.674
 belarus 632.744 423.608
-belgium 575.633 421.700
+belgium 573.33 417.00
 belize 264.052 289.504
 benin 564.004 252.594
 bhutan 851.890 330.751
@@ -140,7 +140,7 @@ poland 606.764 415.291
 portugal 473.386 353.431
 qatar 728.402 322.642
 republic_of_cote_divoire 532.275 245.531
-republic_of_korea 960.440 355.557
+republic_of_korea 958 355.557
 republic_of_south_africa 615.974 96.065
 republic_of_south_sudan 642.425 242.176
 republic_of_suriname 366.056 235.965

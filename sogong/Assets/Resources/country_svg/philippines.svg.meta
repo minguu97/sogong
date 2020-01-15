@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,102 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.001
     SpriteRect:
-      name: 
+      name: philippinesSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: f4f9bb19155326b4fa94d81559a94b99
+        width: 860
+        height: 1558
+      spriteID: f3860ceaaf6c49845983e9e69b20e774
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: -140.66356, y: -748}
+      - {x: -161.688, y: -766}
+      - {x: -161.688, y: -779}
+      - {x: -150.6752, y: -779}
+      - {x: -123.64377, y: -768}
+      - {x: -120.640274, y: -761}
+      - {x: -120.640274, y: -751}
+      - {x: -124.644936, y: -748}
+    - Vertices:
+      - {x: 284, y: -1}
+      - {x: 154, y: 150}
+      - {x: 2, y: 174}
+      - {x: -40, y: 241}
+      - {x: -94, y: 244}
+      - {x: -98, y: 321}
+      - {x: -38, y: 343}
+      - {x: -27, y: 450}
+      - {x: -73, y: 503}
+      - {x: -61, y: 582}
+      - {x: -115, y: 779}
+      - {x: -147, y: 779}
+      - {x: -235, y: 585}
+      - {x: -271, y: 344}
+      - {x: -202, y: 82}
+      - {x: -224, y: -45}
+      - {x: -269, y: -235}
+      - {x: -430, y: -435}
+      - {x: -430, y: -514}
+      - {x: -405, y: -485}
+      - {x: -168, y: -213}
+      - {x: -151, y: -50}
+      - {x: -14, y: -121}
+      - {x: -10, y: -245}
+      - {x: 36, y: -219}
+      - {x: 3, y: -639}
+      - {x: 51, y: -644}
+      - {x: 63, y: -546}
+      - {x: 197, y: -586}
+      - {x: 214, y: -662}
+      - {x: 303, y: -708}
+      - {x: 332, y: -754}
+      - {x: 342, y: -746}
+      - {x: 365, y: -662}
+      - {x: 404, y: -655}
+      - {x: 408, y: -607}
+      - {x: 430, y: -566}
+      - {x: 430, y: -454}
+    - Vertices:
+      - {x: -67.578575, y: -675}
+      - {x: -67.578575, y: -696}
+      - {x: -38.54482, y: -699}
+      - {x: -31.53667, y: -699}
+      - {x: -23.527357, y: -694}
+      - {x: -23.527357, y: -681}
+      - {x: -26.53085, y: -675}
+    - Vertices:
+      - {x: 8.509895, y: -674}
+      - {x: 7.508731, y: -676}
+      - {x: 7.508731, y: -680}
+      - {x: 10.512223, y: -684}
+      - {x: 22.526194, y: -684}
+      - {x: 22.526194, y: -679}
+      - {x: 11.513388, y: -674}
+    - Vertices:
+      - {x: -101.61816, y: -644}
+      - {x: -104.62165, y: -646}
+      - {x: -104.62165, y: -655}
+      - {x: -103.62048, y: -660}
+      - {x: -98.61466, y: -660}
+      - {x: -96.612335, y: -659}
+      - {x: -96.612335, y: -648}
+      - {x: -100.617, y: -644}
+    - Vertices:
+      - {x: -290.83817, y: -574}
+      - {x: -294.84283, y: -578}
+      - {x: -294.84283, y: -582}
+      - {x: -287.8347, y: -586}
+      - {x: -283.83002, y: -586}
+      - {x: -282.82886, y: -585}
+      - {x: -281.8277, y: -581}
+      - {x: -281.8277, y: -575}
+      - {x: -285.83237, y: -574}

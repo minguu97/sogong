@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,63 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.51
     SpriteRect:
-      name: 
+      name: palesteinSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: 051d7c0498c1b5448b61752932dcec30
+        width: 110
+        height: 133
+      spriteID: f55f50f74e943874c8346f3e6a436564
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: -33, y: -27.5}
+      - {x: -34, y: -27.5}
+      - {x: -37, y: -30.5}
+      - {x: -41, y: -36.5}
+      - {x: -48, y: -45.5}
+      - {x: -55, y: -53.5}
+      - {x: -55, y: -61.5}
+      - {x: -54, y: -65.5}
+      - {x: -52, y: -66.5}
+      - {x: -47, y: -66.5}
+      - {x: -35, y: -50.5}
+      - {x: -30, y: -40.5}
+      - {x: -30, y: -30.5}
+    - Vertices:
+      - {x: 50, y: -35.5}
+      - {x: 54, y: -26.5}
+      - {x: 55, y: -21.5}
+      - {x: 55, y: 41.5}
+      - {x: 53, y: 50.5}
+      - {x: 43, y: 59.5}
+      - {x: 35, y: 64.5}
+      - {x: 31, y: 66.5}
+      - {x: 15, y: 66.5}
+      - {x: 7, y: 57.5}
+      - {x: 4, y: 44.5}
+      - {x: 1, y: 36.5}
+      - {x: 1, y: 24.5}
+      - {x: 3, y: 24.5}
+      - {x: 3, y: -5.5}
+      - {x: 5, y: -8.5}
+      - {x: 8, y: -9.5}
+      - {x: 20, y: -10.5}
+      - {x: 15, y: -18.5}
+      - {x: 8, y: -33.5}
+      - {x: 6, y: -40.5}
+      - {x: 6, y: -44.5}
+      - {x: 7, y: -49.5}
+      - {x: 13, y: -54.5}
+      - {x: 17, y: -54.5}
+      - {x: 24, y: -53.5}
+      - {x: 31, y: -50.5}
+      - {x: 37, y: -46.5}
+      - {x: 45, y: -40.5}

@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
@@ -18,8 +18,8 @@ ScriptedImporter:
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,105 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: mauritaniaSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: cb233660309f58746a0bfd07a2ba4611
+        width: 1082
+        height: 1267
+      spriteID: 0bd2aedefb6d8b44a8fb5739cc1746b1
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: -21, y: -598.5}
+      - {x: -17, y: -596.5}
+      - {x: 28, y: -566.5}
+      - {x: 58, y: -572.5}
+      - {x: 78, y: -571.5}
+      - {x: 90, y: -569.5}
+      - {x: 102, y: -564.5}
+      - {x: 111, y: -556.5}
+      - {x: 143, y: -562.5}
+      - {x: 186, y: -563.5}
+      - {x: 423, y: -558.5}
+      - {x: 424, y: -559.5}
+      - {x: 456, y: -558.5}
+      - {x: 464, y: -545.5}
+      - {x: 479, y: -490.5}
+      - {x: 471, y: -464.5}
+      - {x: 452, y: -430.5}
+      - {x: 444, y: -294.5}
+      - {x: 413, y: 130.5}
+      - {x: 405, y: 232.5}
+      - {x: 396, y: 334.5}
+      - {x: 390, y: 396.5}
+      - {x: 389, y: 400.5}
+      - {x: 540, y: 400.5}
+      - {x: 541, y: 401.5}
+      - {x: 541, y: 405.5}
+      - {x: 450, y: 472.5}
+      - {x: 349, y: 545.5}
+      - {x: 222, y: 633.5}
+      - {x: 212, y: 633.5}
+      - {x: 208, y: 510.5}
+      - {x: 191, y: 505.5}
+      - {x: -26, y: 505.5}
+      - {x: -49, y: 513.5}
+      - {x: -84, y: 504.5}
+      - {x: -88, y: 395.5}
+      - {x: -90, y: 260.5}
+      - {x: -118, y: 240.5}
+      - {x: -161, y: 224.5}
+      - {x: -190, y: 191.5}
+      - {x: -192, y: 178.5}
+      - {x: -187, y: 39.5}
+      - {x: -226, y: 34.5}
+      - {x: -458, y: 35.5}
+      - {x: -500, y: 39.5}
+      - {x: -529, y: 34.5}
+      - {x: -541, y: 13.5}
+      - {x: -541, y: -31.5}
+      - {x: -529, y: -1.5}
+      - {x: -513, y: -37.5}
+      - {x: -494, y: -51.5}
+      - {x: -475, y: -96.5}
+      - {x: -491, y: -139.5}
+      - {x: -502, y: -156.5}
+      - {x: -501, y: -172.5}
+      - {x: -482, y: -193.5}
+      - {x: -474, y: -224.5}
+      - {x: -467, y: -326.5}
+      - {x: -483, y: -388.5}
+      - {x: -510, y: -456.5}
+      - {x: -514, y: -479.5}
+      - {x: -515, y: -501.5}
+      - {x: -509, y: -504.5}
+      - {x: -491, y: -463.5}
+      - {x: -427, y: -461.5}
+      - {x: -325, y: -444.5}
+      - {x: -276, y: -491.5}
+      - {x: -247, y: -497.5}
+      - {x: -222, y: -547.5}
+      - {x: -187, y: -594.5}
+      - {x: -154, y: -628.5}
+      - {x: -137, y: -633.5}
+      - {x: -108, y: -633.5}
+      - {x: -99, y: -626.5}
+      - {x: -77, y: -554.5}
+      - {x: -59, y: -556.5}
+    - Vertices:
+      - {x: -493, y: -121.5}
+      - {x: -494, y: -125.5}
+      - {x: -494, y: -142.5}
+      - {x: -493, y: -143.5}
+      - {x: -484, y: -143.5}
+      - {x: -482, y: -131.5}
+      - {x: -482, y: -116.5}
+      - {x: -485, y: -116.5}

@@ -10,16 +10,16 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
-  generatePhysicsShape: 0
+  generatePhysicsShape: 1
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,35 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 0.1
     SpriteRect:
-      name: 
+      name: saint_vincent_and_the_grenadinesSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: f89198751fa52784390c1542d0687dd5
+        width: 63
+        height: 139
+      spriteID: a97454ffbc77d0548bd3c15e18487fb7
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: -23.370968, y: -44.5}
+      - {x: -31.5, y: -49.5}
+      - {x: -31.5, y: -69.5}
+      - {x: -18.290323, y: -69.5}
+      - {x: -17.274193, y: -62.5}
+      - {x: -17.274193, y: -44.5}
+    - Vertices:
+      - {x: 24.387096, y: 69.5}
+      - {x: 17.274193, y: 57.5}
+      - {x: 17.274193, y: 46.5}
+      - {x: 19.306452, y: 42.5}
+      - {x: 27.435484, y: 42.5}
+      - {x: 31.5, y: 47.5}
+      - {x: 31.5, y: 68.5}
+      - {x: 30.483871, y: 69.5}

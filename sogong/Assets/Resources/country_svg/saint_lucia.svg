@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="0.16772634mm"
-   height="0.32755399mm"
-   viewBox="0 0 0.1677263 0.32755402"
+   width="16.799995mm"
+   height="32.799999mm"
+   viewBox="0 0 16.799992 32.800002"
    version="1.1"
    id="svg7070"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.6"
-     inkscape:cx="1.5826513"
+     inkscape:cx="-21.899514"
      inkscape:cy="-13.244979"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -52,11 +52,11 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-181.11238,-23.136453)">
+     transform="translate(-181.11239,9.335993)">
     <path
-       style="opacity:1;vector-effect:none;fill:#aaaaaa;fill-opacity:1;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke-width:26.49792862;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:connector-curvature="0"
        id="lc"
-       d="m 181.20501,23.464007 c -0.16219,-0.06456 -0.0778,-0.230981 0,-0.327554 0.11959,0.06323 0.0786,0.249502 0,0.327554 z" />
+       d="m 190.39015,23.464007 c -16.24546,-6.464791 -7.79269,-23.12955055 0,-32.8 11.97851,6.3316094 7.87282,24.984172 0,32.8 z" />
   </g>
 </svg>

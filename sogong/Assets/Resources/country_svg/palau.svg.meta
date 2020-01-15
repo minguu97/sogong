@@ -10,16 +10,16 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
   svgType: 0
   texturedSpriteMeshType: 0
-  svgPixelsPerUnit: 100
+  svgPixelsPerUnit: 10000
   gradientResolution: 128
   alignment: 6
   customPivot: {x: 0, y: 0}
-  generatePhysicsShape: 0
+  generatePhysicsShape: 1
   viewportOptions: 0
   preserveViewport: 0
   advancedMode: 0
-  predefinedResolutionIndex: 1
-  targetResolution: 1080
+  predefinedResolutionIndex: 2
+  targetResolution: 720
   resolutionMultiplier: 1
   stepDistance: 10
   samplingStepDistance: 100
@@ -36,19 +36,30 @@ ScriptedImporter:
   sampleCount: 4
   preserveSVGImageAspect: 0
   spriteData:
-    TessellationDetail: 0
+    TessellationDetail: 1
     SpriteRect:
-      name: 
+      name: palauSprite
       originalName: 
       pivot: {x: 0, y: 0}
-      alignment: 0
+      alignment: 6
       border: {x: 0, y: 0, z: 0, w: 0}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
-      spriteID: b13698fd471f9ec4ca3354e76302d33c
+        width: 13
+        height: 34
+      spriteID: aee8125bc8b51f74a8ef2161420f5b92
       internalID: 0
-    PhysicsOutlines: []
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 2.963747, y: -8.342397}
+      - {x: 6.5, y: 2.4185982}
+      - {x: 6.5, y: 10.065121}
+      - {x: 5.64493, y: 14.48909}
+      - {x: 3.7645187, y: 17}
+      - {x: -2.2807994, y: 8.320578}
+      - {x: -6.5, y: -1.9348774}
+      - {x: -6.5, y: -8.466928}
+      - {x: -5.47281, y: -13.516281}
+      - {x: -2.6213493, y: -17}
