@@ -50,7 +50,7 @@ public class NationController : MonoBehaviour
             rect.localScale = new Vector3(Constants.SCALE, Constants.SCALE, 1f); // Scale 설정
             rect.localPosition = n.getLocation();   // location을 x, y좌표 설정
 
-            // 현재 객체 부모로 설정.
+            // 현재 객체(Unity GameObject ocean)를 부모로 설정.
             newCountry.transform.SetParent(this.transform); 
 
 
