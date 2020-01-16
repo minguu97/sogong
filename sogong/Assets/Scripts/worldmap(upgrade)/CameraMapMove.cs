@@ -9,7 +9,7 @@ public class CameraMapMove : MonoBehaviour
     public float zoomSpeed = 0.5f;
 
     // 확대 축소 제한
-    public float orthographicSizeMin = 0.5f;
+    public float orthographicSizeMin = 0.05f;
     public float orthographicSizeMax = 12f;
 
     // 카메라 이동 제한
