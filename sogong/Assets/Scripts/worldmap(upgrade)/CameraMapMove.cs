@@ -33,17 +33,16 @@ public class CameraMapMove : MonoBehaviour
 
     void Update()
     {
-        // 마우스가 UI(scroll view 등) 위이면 클릭, 휠 등 작동 안되게
-        if (EventSystem.current.IsPointerOverGameObject())
-        { 
-            isStartOverUI = true;
-            return;
-        } 
-
         // 마우스 드래그 이동
         // 마우스 왼쪽 클릭
         if (Input.GetMouseButtonDown(0))
         {
+            // 첫 클릭이 UI 위인가, 지도 위인가
+            if (EventSystem.current.IsPointerOverGameObject())
+            {
+                isStartOverUI = true;
+                return;
+            }
             MouseStart = new Vector3(Input.mousePosition.x, Input.mousePosition.y, z);
             MouseStart = Camera.main.ScreenToWorldPoint(MouseStart);
             MouseStart.z = transform.position.z;

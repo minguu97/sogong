@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.IO;
 
 static class Constants
 {
@@ -95,7 +96,6 @@ public class NationController : MonoBehaviour
 
         }
 
-
         /************************* 국가 검색 버튼 리스너 설정 *************************/
         GameObject searchBtn = GameObject.Find("SearchButton");
         searchBtn.GetComponent<Button>().onClick.AddListener(() => { searchOnClick(list); });
@@ -116,61 +116,49 @@ public class NationController : MonoBehaviour
     // nation : n에 해당하는 unity GameObject
     void taskOnClick(Nation n, GameObject nation)
     {
-        if (n == null || nation == null)
-        {
-            Debug.Log("Error: Something is null...");
-            return;
-        }
-
         Debug.Log(n.getKoreanName() + " is clicked");
 
-        if (clickedNation && clickedNation.name == nation.name)  // 같은 버튼을 두번 클릭한 경우
+        // 같은 버튼을 두번 클릭한 경우
+        if (clickedNation && clickedNation.name == nation.name)  
         {
             againClick = true;
         }
 
-        /******************* 선택된 국가 색깔 변화 *************************/
+        GameObject flag = GameObject.Find("Flag");
         if (againClick)
         {
             clickedNation.GetComponent<SpriteRenderer>().color = NATION_DEFAULT;
             clickedNation = null;
+            flag.GetComponent<SVGImage>().sprite = UnityEditor.AssetDatabase.GetBuiltinExtraResource<Sprite>("UI/Skin/UIMask.psd");
+            flag.transform.Find("NationNameText").GetComponent<Text>().text = "";
         }
         else
         {
             // 전에 선택 중이던 버튼이 있으면 되돌려 놓고
             if (clickedNation != null)
+            {
                 clickedNation.GetComponent<SpriteRenderer>().color = NATION_DEFAULT;
+            }
 
-            // 색깔 변화
+            // 1. 색깔 변화
             var sprite = nation.GetComponent<SpriteRenderer>();
             sprite.color = NATION_CLICKED;
+
+            // 2. 국기 렌더링
+            flag.GetComponent<SVGImage>().sprite = Resources.Load<Sprite>("flags/" + n.getName());
+            flag.transform.Find("NationNameText").GetComponent<Text>().text = n.getKoreanName();
+            flag.GetComponent<Button>().onClick.AddListener(() => { flagOnClick(n.getName()); });
+
             clickedNation = nation;
         }
 
 
-        /******************* 선택된 국가 위로 카메라 위치 이동 *************************/
+        // 3. 카메라 이동
         Vector3 nationPos = nation.GetComponent<RectTransform>().anchoredPosition;
         nationPos.x -= 15;  // ocean 크기에 따라 달라짐.
         nationPos.y -= 7;   // ocean 크기에 따라 달라짐.
         nationPos.z = -10;
         GameObject.Find("Main Camera").transform.position = nationPos;
-
-
-        /******************* 국기 렌더링 *************************/
-        GameObject flag = GameObject.Find("Flag");
-        var svgimage = flag.GetComponent<SVGImage>();
-        if (againClick)
-        {
-            // 다시 클릭이면 국기 없애
-            svgimage.sprite = UnityEditor.AssetDatabase.GetBuiltinExtraResource<Sprite>("UI/Skin/UIMask.psd");
-            flag.transform.Find("NationNameText").GetComponent<Text>().text = "";
-        }
-        else
-        {
-            // 국기 sprite 설정
-            svgimage.sprite = Resources.Load<Sprite>("flags/" + n.getName());
-            flag.transform.Find("NationNameText").GetComponent<Text>().text = n.getKoreanName();
-        }
 
         againClick = false;
     }
@@ -192,5 +180,47 @@ public class NationController : MonoBehaviour
                 return;
             }
         }
+    }
+
+    void flagOnClick(string n)
+    {
+        string capital;
+        string language;
+        string[] features;
+        string attraction1;
+        string attraction2;
+
+        // 국가 정보를 txt 파일로부터 읽어내서 저장.
+        Debug.Log("Reading the information of [" + n + "] from txt file...");
+
+        n = "guatemala";    // TEST
+        TextAsset nation_info = Resources.Load<TextAsset>("nation_info/" + n + "/info");
+        StringReader buffer = new StringReader(nation_info.text);
+
+        capital = buffer.ReadLine();
+        language = buffer.ReadLine();
+        int fCount = System.Convert.ToInt32(buffer.ReadLine());
+        features = new string[fCount];
+        for (int i=0; i< fCount; i++)
+        {
+            features[i] = buffer.ReadLine();
+        }
+        attraction1 = buffer.ReadLine(); 
+        attraction2 = buffer.ReadLine();
+
+        // 국가 정보 panel을 만들어
+        GameObject infoPrefab = Resources.Load<GameObject>("Prefabs/NationInfo");
+        GameObject infoPanel = Instantiate<GameObject>(infoPrefab);
+        infoPanel.name = "NationInfo";
+        infoPanel.transform.SetParent(GameObject.Find("Canvas").transform, false);
+
+        // 데이터를 Unity UI에 할당해줘
+        infoPanel.transform.Find("capital").Find("Capital").GetComponent<Text>().text = capital;
+        infoPanel.transform.Find("language").Find("Language").GetComponent<Text>().text = language;
+        infoPanel.transform.Find("feature").Find("Panel").Find("Feature").GetComponent<Text>().text = features[0];     // 일단은
+        infoPanel.transform.Find("Attraction1").Find("Description1").GetComponent<Text>().text = attraction1;
+        infoPanel.transform.Find("Attraction2").Find("Description2").GetComponent<Text>().text = attraction2;
+        infoPanel.transform.Find("Attraction1").GetComponent<Image>().sprite = Resources.Load<Sprite>("nation_info/" + n + "/attraction1");
+        infoPanel.transform.Find("Attraction2").GetComponent<Image>().sprite = Resources.Load<Sprite>("nation_info/" + n + "/attraction2");
     }
 }
