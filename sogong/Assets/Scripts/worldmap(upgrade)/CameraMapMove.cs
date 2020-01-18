@@ -24,6 +24,7 @@ public class CameraMapMove : MonoBehaviour
     private Vector3 MouseStart;
     private Camera myCamera;
     private bool isStartOverUI;
+    
 
     void Start()
     {
@@ -43,6 +44,7 @@ public class CameraMapMove : MonoBehaviour
                 isStartOverUI = true;
                 return;
             }
+
             MouseStart = new Vector3(Input.mousePosition.x, Input.mousePosition.y, z);
             MouseStart = Camera.main.ScreenToWorldPoint(MouseStart);
             MouseStart.z = transform.position.z;
@@ -71,13 +73,19 @@ public class CameraMapMove : MonoBehaviour
         }
 
         // 마우스 휠 줌
-        if (Input.GetAxis("Mouse ScrollWheel") < 0)
+        if (Input.GetAxis("Mouse ScrollWheel") < 0 )
         {
+            if (EventSystem.current.IsPointerOverGameObject())
+                return;
+
             myCamera.orthographicSize += zoomSpeed;
             myCamera.orthographicSize = Mathf.Clamp(myCamera.orthographicSize, orthographicSizeMin, orthographicSizeMax);
         }
-        if (Input.GetAxis("Mouse ScrollWheel") > 0)
+        if (Input.GetAxis("Mouse ScrollWheel") > 0 )
         {
+            if (EventSystem.current.IsPointerOverGameObject())
+                return;
+
             myCamera.orthographicSize -= zoomSpeed;
             myCamera.orthographicSize = Mathf.Clamp(myCamera.orthographicSize, orthographicSizeMin, orthographicSizeMax);
         }

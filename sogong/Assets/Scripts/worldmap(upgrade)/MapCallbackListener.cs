@@ -20,6 +20,7 @@ public class MapCallbackListener : MonoBehaviour
         ;   
     }
 
+
     private void OnMouseDown()
     {
         mousePosition = Input.mousePosition;
@@ -27,6 +28,17 @@ public class MapCallbackListener : MonoBehaviour
     }
     private void OnMouseUp()
     {
+        //// UI 위에서 클릭은 지도가 클릭 안되도록 추가
+        PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
+        eventDataCurrentPosition.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+        List<RaycastResult> results = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
+        if (results.Count > 0)
+        {
+            return;
+        }
+        ////
+
         if (Input.mousePosition != mousePosition)
         {
             isClicked = false;
