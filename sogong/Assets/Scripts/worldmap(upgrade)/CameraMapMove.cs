@@ -8,6 +8,10 @@ public class CameraMapMove : MonoBehaviour
     // 줌 속도
     public float zoomSpeed = 0.5f;
 
+    // 줌 가속/ 카메라 가속 속도
+    private float zoomAccSpeed;
+    private float cameraAccSpeed;
+
     // 확대 축소 제한
     public float orthographicSizeMin = 0.05f;
     public float orthographicSizeMax = 12f;
@@ -34,6 +38,8 @@ public class CameraMapMove : MonoBehaviour
         isStartOverUI = false;
         cameraTargetZoomSize = myCamera.orthographicSize;
         cameraTargetZoomPosition = myCamera.transform.position;
+        zoomAccSpeed = Time.deltaTime * 5f;
+        cameraAccSpeed = Time.deltaTime * 5f;
     }
 
     void Update()
@@ -89,8 +95,8 @@ public class CameraMapMove : MonoBehaviour
                 return;
             cameraTargetZoomSize = Mathf.Clamp(cameraTargetZoomSize - zoomSpeed, orthographicSizeMin, orthographicSizeMax);
         }
-        myCamera.orthographicSize = Mathf.Lerp(myCamera.orthographicSize, cameraTargetZoomSize, Time.deltaTime * 5f);
-        myCamera.transform.position = Vector3.Lerp(myCamera.transform.position, cameraTargetZoomPosition, Time.deltaTime * 5f);
+        myCamera.orthographicSize = Mathf.Lerp(myCamera.orthographicSize, cameraTargetZoomSize, zoomAccSpeed);
+        myCamera.transform.position = Vector3.Lerp(myCamera.transform.position, cameraTargetZoomPosition, cameraAccSpeed);
     }
     public void setTarget(Vector3 target)
     {
