@@ -13,9 +13,9 @@ public class CameraMapMove : MonoBehaviour
     private float cameraAccSpeed;
 
     // 확대 축소 제한
-    public float orthographicSizeMin = 0.5f;
+    public float orthographicSizeMin = 0.05f;
     public float orthographicSizeMax = 12f;
-
+    
     // 카메라 이동 제한
     private float outerLeft = -13f;
     private float outerRight = 13f;
@@ -87,13 +87,19 @@ public class CameraMapMove : MonoBehaviour
         {
             if (EventSystem.current.IsPointerOverGameObject())
                 return;
-            cameraTargetZoomSize = Mathf.Clamp(cameraTargetZoomSize + zoomSpeed, orthographicSizeMin, orthographicSizeMax);
+            cameraTargetZoomSize = Mathf.Clamp(cameraTargetZoomSize < 0.5 ? cameraTargetZoomSize + 0.3f : cameraTargetZoomSize + zoomSpeed, orthographicSizeMin, orthographicSizeMax);
+            MouseStart = new Vector3(Input.mousePosition.x, Input.mousePosition.y, z);
+            MouseStart = Camera.main.ScreenToWorldPoint(MouseStart);
+            cameraTargetZoomPosition = Vector3.Lerp(MouseStart, cameraTargetZoomPosition, 0.8f);
         }
         if (Input.GetAxis("Mouse ScrollWheel") > 0 )
         {
             if (EventSystem.current.IsPointerOverGameObject())
                 return;
-            cameraTargetZoomSize = Mathf.Clamp(cameraTargetZoomSize - zoomSpeed, orthographicSizeMin, orthographicSizeMax);
+            cameraTargetZoomSize = Mathf.Clamp(cameraTargetZoomSize > 1 ? cameraTargetZoomSize - zoomSpeed : cameraTargetZoomSize - 0.3f, orthographicSizeMin, orthographicSizeMax);
+            MouseStart = new Vector3(Input.mousePosition.x, Input.mousePosition.y, z);
+            MouseStart = Camera.main.ScreenToWorldPoint(MouseStart);
+            cameraTargetZoomPosition = Vector3.Lerp(MouseStart, cameraTargetZoomPosition, 0.8f);
         }
         myCamera.orthographicSize = Mathf.Lerp(myCamera.orthographicSize, cameraTargetZoomSize, zoomAccSpeed);
         myCamera.transform.position = Vector3.Lerp(myCamera.transform.position, cameraTargetZoomPosition, cameraAccSpeed);
