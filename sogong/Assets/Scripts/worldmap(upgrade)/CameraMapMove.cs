@@ -68,7 +68,7 @@ public class CameraMapMove : MonoBehaviour
             if (newPosition.y > outerTop) newPosition.y = outerTop;
             if (newPosition.y < outerBottom) newPosition.y = outerBottom;
 
-            transform.position = newPosition;
+            cameraTargetZoomPosition = newPosition;
         }
         // 마우스 왼쪽 클릭 끝
         else if (Input.GetMouseButtonUp(0))
