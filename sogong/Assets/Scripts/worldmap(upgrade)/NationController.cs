@@ -159,13 +159,16 @@ public class NationController : MonoBehaviour
             clickedNation = nation;
         }
 
-
         // 3. 카메라 이동
+
         Vector3 nationPos = nation.GetComponent<RectTransform>().anchoredPosition;
         nationPos.x -= 15;  // ocean 크기에 따라 달라짐.
         nationPos.y -= 7;   // ocean 크기에 따라 달라짐.
         nationPos.z = -10;
-        GameObject.Find("Main Camera").transform.position = nationPos;
+
+        // Camera로부터 cameramapmove를 획득한 뒤에 목표 target과 목표 zoom을 변경한다.
+        CameraMapMove target = GameObject.Find("Main Camera").GetComponent<CameraMapMove>();
+        target.setTarget(nationPos);
 
         againClick = false;
     }

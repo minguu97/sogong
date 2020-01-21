@@ -24,12 +24,16 @@ public class CameraMapMove : MonoBehaviour
     private Vector3 MouseStart;
     private Camera myCamera;
     private bool isStartOverUI;
-    
+
+    private float cameraTargetZoomSize;
+    private Vector3 cameraTargetZoomPosition;
 
     void Start()
     {
         myCamera = GetComponent<Camera>();
         isStartOverUI = false;
+        cameraTargetZoomSize = myCamera.orthographicSize;
+        cameraTargetZoomPosition = myCamera.transform.position;
     }
 
     void Update()
@@ -77,17 +81,19 @@ public class CameraMapMove : MonoBehaviour
         {
             if (EventSystem.current.IsPointerOverGameObject())
                 return;
-
-            myCamera.orthographicSize += zoomSpeed;
-            myCamera.orthographicSize = Mathf.Clamp(myCamera.orthographicSize, orthographicSizeMin, orthographicSizeMax);
+            cameraTargetZoomSize = Mathf.Clamp(cameraTargetZoomSize + zoomSpeed, orthographicSizeMin, orthographicSizeMax);
         }
         if (Input.GetAxis("Mouse ScrollWheel") > 0 )
         {
             if (EventSystem.current.IsPointerOverGameObject())
                 return;
-
-            myCamera.orthographicSize -= zoomSpeed;
-            myCamera.orthographicSize = Mathf.Clamp(myCamera.orthographicSize, orthographicSizeMin, orthographicSizeMax);
+            cameraTargetZoomSize = Mathf.Clamp(cameraTargetZoomSize - zoomSpeed, orthographicSizeMin, orthographicSizeMax);
         }
+        myCamera.orthographicSize = Mathf.Lerp(myCamera.orthographicSize, cameraTargetZoomSize, Time.deltaTime * 5f);
+        myCamera.transform.position = Vector3.Lerp(myCamera.transform.position, cameraTargetZoomPosition, Time.deltaTime * 5f);
+    }
+    public void setTarget(Vector3 target)
+    {
+        cameraTargetZoomPosition = target;
     }
 }
