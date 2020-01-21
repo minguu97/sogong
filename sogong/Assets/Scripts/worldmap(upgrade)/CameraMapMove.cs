@@ -13,7 +13,7 @@ public class CameraMapMove : MonoBehaviour
     private float cameraAccSpeed;
 
     // 확대 축소 제한
-    public float orthographicSizeMin = 0.05f;
+    public float orthographicSizeMin = 0.5f;
     public float orthographicSizeMax = 12f;
 
     // 카메라 이동 제한
@@ -98,8 +98,9 @@ public class CameraMapMove : MonoBehaviour
         myCamera.orthographicSize = Mathf.Lerp(myCamera.orthographicSize, cameraTargetZoomSize, zoomAccSpeed);
         myCamera.transform.position = Vector3.Lerp(myCamera.transform.position, cameraTargetZoomPosition, cameraAccSpeed);
     }
-    public void setTarget(Vector3 target)
+    public void setTarget(Vector3 targetCameraPos, float targetZoom)
     {
-        cameraTargetZoomPosition = target;
+        cameraTargetZoomSize = targetZoom;
+        cameraTargetZoomPosition = targetCameraPos;
     }
 }
