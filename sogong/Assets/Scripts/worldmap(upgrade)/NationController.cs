@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
+using UnityEngine.EventSystems;
 
 static class Constants
 {
@@ -17,6 +18,8 @@ public class NationController : MonoBehaviour
 {
     Color NATION_DEFAULT = new Color(0, 0.6603774f, 0.4322661f, 1);             // 국가 색 기본값
     Color NATION_CLICKED = new Color(1, 0.1745283f, 0.3235905f, 1);    // 국가 선택시 색
+
+    private Button searchBtn;
 
     // "앉아서 세계속으로"의 전반적인 기능을 맡음.
     // 1. 파일로부터 국가 리스트 만들기
@@ -98,8 +101,15 @@ public class NationController : MonoBehaviour
         }
 
         /************************* 국가 검색 버튼 리스너 설정 *************************/
-        GameObject searchBtn = GameObject.Find("SearchButton");
-        searchBtn.GetComponent<Button>().onClick.AddListener(() => { searchOnClick(list); });
+        searchBtn = GameObject.Find("SearchButton").GetComponent<Button>();
+        searchBtn.onClick.AddListener(() => { searchOnClick(list); });
+    }
+
+    // 엔터 키 입력 시 검색 버튼 이벤트 발생
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Return))
+            ExecuteEvents.Execute(searchBtn.gameObject, new BaseEventData(EventSystem.current), ExecuteEvents.submitHandler);
     }
 
 
