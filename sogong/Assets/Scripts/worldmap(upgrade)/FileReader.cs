@@ -6,6 +6,11 @@ using UnityEngine;
 
 public class FileReader
 {
+    public int compare(Nation x, Nation y)
+    {
+        return x.getKoreanName().CompareTo(y.getKoreanName());
+    }
+
     public List<Nation> parse()
     {
         List<Nation> countryList = new List<Nation>() ;
@@ -59,6 +64,8 @@ public class FileReader
 
         Debug.Log("File Read Complete...");
         sr.Close();
+
+        countryList.Sort(compare);
 
         return countryList;
     }
