@@ -119,7 +119,7 @@ public class NationController : MonoBehaviour
     // 3. 카메라 이동
 
     // 같은 버튼 두 번 클릭에 대한 처리를 추가함.
-    GameObject clickedNation = null;    // 전에 클릭 중이던 국가
+    public GameObject clickedNation = null;    // 전에 클릭 중이던 국가
     bool againClick = false;
 
     //taskOnClickMap(Nation n, GameObject nation)
@@ -206,13 +206,14 @@ public class NationController : MonoBehaviour
         }
     }
 
-    string clickedFlag = null;
+    public string clickedFlag = null;
     // n : 클릭된 국기(국가)의 이름
     void flagOnClick(string n)
     {
         // 국기 두 번 클릭시 처리
         if (clickedFlag != null && clickedFlag == n)
         {
+            Debug.Log("Close the information");
             Destroy(GameObject.Find("NationInfo"));
             clickedFlag = null;
             return;
@@ -256,7 +257,17 @@ public class NationController : MonoBehaviour
             // 읽은 데이터를 Unity UI에 할당해줘
             infoPanel.transform.Find("capital").Find("Capital").GetComponent<Text>().text = capital;
             infoPanel.transform.Find("language").Find("Language").GetComponent<Text>().text = language;
-            infoPanel.transform.Find("feature").Find("Panel").Find("Feature").GetComponent<Text>().text = features[0];     // 일단은
+            // 특징 문자열 생성
+            var sb = new System.Text.StringBuilder();
+            for (int i=0; i<fCount; i++)
+            {
+                if (i == fCount-1)
+                    sb.Append("●  " + features[i]);
+                else 
+                    sb.AppendLine("●  " + features[i] + "\n");
+            }
+            
+            infoPanel.transform.Find("feature").Find("Panel").Find("Feature").GetComponent<Text>().text = sb.ToString();  
             infoPanel.transform.Find("Attraction1").Find("Description1").GetComponent<Text>().text = attraction1;
             infoPanel.transform.Find("Attraction2").Find("Description2").GetComponent<Text>().text = attraction2;
             infoPanel.transform.Find("Attraction1").GetComponent<Image>().sprite = Resources.Load<Sprite>("nation_info/" + n + "/attraction1");

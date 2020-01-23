@@ -16,5 +16,6 @@ public class CloseButton : MonoBehaviour
     {
         Debug.Log("Close the information");
         Destroy(gameObject);
+        GameObject.Find("ocean").GetComponent<NationController>().clickedFlag = null;
     }
 }
