@@ -76,6 +76,12 @@ public class ChamGameVer2 : MonoBehaviour
         UnSelectButton();
     }
 
+    public void UpdateImage()
+    {
+        --folderIndex;
+        GetNextAnimal();
+    }
+
     //정답 보기
     public void Answer() {
         animalObj.GetComponent<Image>().sprite = animalImages[0];
@@ -86,7 +92,7 @@ public class ChamGameVer2 : MonoBehaviour
     }
 
     //배열 셔플
-    private ArrayList ShuffleArrayList(ArrayList source) {
+    public ArrayList ShuffleArrayList(ArrayList source) {
         ArrayList sortedList = new ArrayList();
         System.Random generator = new System.Random();
 
@@ -97,6 +103,11 @@ public class ChamGameVer2 : MonoBehaviour
         }
 
         return sortedList;
+    }
+
+    public void ShuffleList()
+    {
+        folderNames = ShuffleArrayList(folderNames);
     }
 
     //동물 이미지 배열에 로딩

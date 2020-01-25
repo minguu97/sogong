@@ -10,6 +10,7 @@ public class Option : MonoBehaviour
     public GameObject option;
     public GameObject chamgameScript;
     public Toggle silhouetteTogle;
+    public string CurrentAnimalBtnText;
     bool isEnable = false;
 
     // Start is called before the first frame update
@@ -17,7 +18,7 @@ public class Option : MonoBehaviour
     {
         animalButtonPrefab = Resources.Load<GameObject>("Prefabs/AnimalList_prefab");
         DisableOption();
-        CreateListButtons();
+        UpdateListButtons();
 
         if (animalButtonPrefab == null)
         {
@@ -25,8 +26,18 @@ public class Option : MonoBehaviour
         }
     }
 
-    public void CreateListButtons()
+    public void UpdateImage()
     {
+        GameObject.Find("gameScript").GetComponent<ChamGameVer2>().UpdateImage();
+    }
+
+    public void UpdateListButtons()
+    {
+        foreach (Transform child in content.transform)
+        {
+            GameObject.Destroy(child.gameObject);
+        }
+
         ArrayList list =
             GameObject.Find("gameScript").GetComponent<ChamGameVer2>().GetFolderNames();
 
@@ -37,6 +48,13 @@ public class Option : MonoBehaviour
             GameObject btText = button.transform.GetChild(0).gameObject;
             btText.GetComponent<Text>().text = (string)list[i];
         }
+    }
+
+    public void ShuffleList()
+    {
+        GameObject.Find("gameScript").GetComponent<ChamGameVer2>().ShuffleList();
+        UpdateListButtons();
+        UpdateImage();
     }
 
     public void OptionBtnClick()
@@ -55,6 +73,7 @@ public class Option : MonoBehaviour
     {
         option.GetComponent<Canvas>().enabled = true;
         isEnable = true;
+        UpdateListButtons();
         chamgameScript.GetComponent<ChamGameVer2>().DisableButtons();
     }
 
@@ -75,5 +94,10 @@ public class Option : MonoBehaviour
         {
             GameObject.Find("Silhouette").SetActive(false);
         }
+    }
+
+    public void ClickAnimalBtn()
+    {
+
     }
 }
