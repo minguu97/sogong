@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class Option : MonoBehaviour
 {
@@ -48,6 +49,8 @@ public class Option : MonoBehaviour
             GameObject btText = button.transform.GetChild(0).gameObject;
             btText.GetComponent<Text>().text = (string)list[i];
         }
+
+        AddButtonEventListener();
     }
 
     public void ShuffleList()
@@ -96,8 +99,21 @@ public class Option : MonoBehaviour
         }
     }
 
-    public void ClickAnimalBtn()
+    public void AddButtonEventListener()
     {
+        // Add event listeners to all buttons in the canvas
+        Button[] buttons = content.gameObject.GetComponentsInChildren<Button>();
+        for (int i = 0; i < buttons.Length; i++)
+        {
+            string identifier = buttons[i].name;
+            buttons[i].onClick.AddListener(delegate { OnButtonClicked(identifier); });
+        }
+    }
 
+    public void OnButtonClicked(string identifier)
+    {
+        GameObject btn = EventSystem.current.currentSelectedGameObject;
+        string name = btn.transform.GetChild(0).gameObject.GetComponent<Text>().text;
+        GameObject.Find("gameScript").GetComponent<ChamGameVer2>().OnButtonClicked(name);
     }
 }

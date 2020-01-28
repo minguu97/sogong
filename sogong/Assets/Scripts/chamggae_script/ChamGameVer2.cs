@@ -168,6 +168,12 @@ public class ChamGameVer2 : MonoBehaviour
         GameObject.Find("UI").transform.Find("answer_bt").gameObject.SetActive(true);
     }
 
+    public void OnButtonClicked(string name)
+    {
+        folderIndex = folderNames.IndexOf(name) + 1;
+        UpdateImage();
+    }
+
 #if (BUILD)
     //동물 폴더 리스트 TXT 생성 (빌드때만실행)
     public void makeFolderListTxt() {
