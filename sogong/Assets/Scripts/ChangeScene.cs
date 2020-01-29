@@ -32,6 +32,9 @@ public class ChangeScene : MonoBehaviour{
                 SceneManager.LoadScene("참깨-동물");
                 break;
             case 5:
+                SceneManager.LoadScene("World Quiz");
+                break;
+            case 6:
                 Application.Quit();
                 break;
         }
