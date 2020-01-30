@@ -38,8 +38,11 @@ public class CameraMapMove : MonoBehaviour
         isStartOverUI = false;
         cameraTargetZoomSize = myCamera.orthographicSize;
         cameraTargetZoomPosition = myCamera.transform.position;
-        zoomAccSpeed = Time.deltaTime * 5f;
-        cameraAccSpeed = Time.deltaTime * 5f;
+        zoomAccSpeed = 0.1f;
+        cameraAccSpeed = 0.1f;
+        Debug.Log(zoomAccSpeed);
+        Debug.Log(cameraAccSpeed);
+
     }
 
     void Update()
