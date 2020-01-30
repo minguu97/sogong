@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class quizmgr : MonoBehaviour
 {
     public GameObject correcttext;
+    public GameObject wrongtext;
     public GameObject panel1;
     public GameObject panel2;
     public SVGImage imageo;
@@ -23,6 +24,7 @@ public class quizmgr : MonoBehaviour
         panel1.SetActive(true);
         panel2.SetActive(false);
         correcttext.SetActive(false);
+        wrongtext.SetActive(false);
     }
 
     // Update is called once per frame
@@ -132,6 +134,12 @@ public class quizmgr : MonoBehaviour
             panel2.SetActive(false);
             correcttext.SetActive(true);
         }
+        else
+        {
+            imageo.gameObject.SetActive(false);
+            wrongtext.SetActive(true);
+            Invoke("waitwrong", 2);
+        }
 
     }
     public void comfirmcorret2()
@@ -142,6 +150,13 @@ public class quizmgr : MonoBehaviour
             panel2.SetActive(false);
             correcttext.SetActive(true);
         }
+        else
+        {
+            image1.gameObject.SetActive(false);
+            wrongtext.SetActive(true);
+            Invoke("waitwrong", 2);
+
+        }
     }
     public void comfirmcorret3()
     {
@@ -149,12 +164,23 @@ public class quizmgr : MonoBehaviour
         {
             panel2.SetActive(false);
             correcttext.SetActive(true);
-      
+
+        }
+        else
+        {
+            image2.gameObject.SetActive(false);
+            wrongtext.SetActive(true);
+            Invoke("waitwrong", 2);
         }
     }
 
     public void backclick()
     {
         SceneManager.LoadScene("World map(upgrade)");
+    }
+
+    void waitwrong()
+    {
+        wrongtext.SetActive(false);
     }
 }
