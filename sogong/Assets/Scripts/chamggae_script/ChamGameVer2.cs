@@ -69,11 +69,19 @@ public class ChamGameVer2 : MonoBehaviour
             animalObj.SetActive(false);
             silhouette.SetActive(false);
             answerText.SetActive(false);
-            GameObject.Find("nextPart_bt").SetActive(false);
-            GameObject.Find("nextImg_bt").SetActive(false);
-            GameObject.Find("answer_bt").SetActive(false);
+            DisableButtons();
+            GameObject.Find("UI").transform.Find("option_bt").gameObject.SetActive(false);
+            GameObject.Find("Grid").transform.Find("Tilemap").gameObject.SetActive(false);
         }
         UnSelectButton();
+        try
+        {
+            GameObject.Find("Tilemap").GetComponent<Tile>().ResetTile();
+        }
+        catch(Exception)
+        {
+
+        }
     }
 
     public void UpdateImage()
@@ -156,9 +164,9 @@ public class ChamGameVer2 : MonoBehaviour
 
     public void DisableButtons()
     {
-        GameObject.Find("nextPart_bt").SetActive(false);
-        GameObject.Find("nextImg_bt").SetActive(false);
-        GameObject.Find("answer_bt").SetActive(false);
+        GameObject.Find("UI").transform.Find("nextPart_bt").gameObject.SetActive(false);
+        GameObject.Find("UI").transform.Find("nextImg_bt").gameObject.SetActive(false);
+        GameObject.Find("UI").transform.Find("answer_bt").gameObject.SetActive(false);
     }
 
     public void EnableButtons()
@@ -172,6 +180,37 @@ public class ChamGameVer2 : MonoBehaviour
     {
         folderIndex = folderNames.IndexOf(name) + 1;
         UpdateImage();
+    }
+
+    public void ChangeToNormalMode()
+    {
+        UpdateImage();
+        SetBlackSilhouette();
+        GameObject.Find("UI").transform.Find("nextPart_bt").gameObject.SetActive(true);
+        GameObject.Find("Grid").transform.Find("Tilemap").gameObject.SetActive(false);
+        GameObject.Find("Option").transform.Find("silhouetteBox").gameObject.SetActive(true);
+    }
+
+    public void ChangeToBrushMode()
+    {
+        UpdateImage();
+        GameObject.Find("UI").transform.Find("Silhouette").gameObject.SetActive(false);
+        GameObject.Find("UI").transform.Find("nextPart_bt").gameObject.SetActive(false);
+        GameObject.Find("Grid").transform.Find("Tilemap").gameObject.SetActive(true);
+        GameObject.Find("Option").transform.Find("silhouetteBox").gameObject.SetActive(false);
+        GameObject.Find("Tilemap").GetComponent<Tile>().ResetTile();
+    }
+
+    public void SetBlackSilhouette()
+    {
+        silhouette.GetComponent<Image>().color = new Color(0, 0, 0, 255);
+
+    }
+
+    public void SetColorSilhouette()
+    {
+        silhouette.GetComponent<Image>().color = new Color(255, 255, 255, 255);
+
     }
 
 #if (BUILD)

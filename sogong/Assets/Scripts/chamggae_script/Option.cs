@@ -11,6 +11,7 @@ public class Option : MonoBehaviour
     public GameObject option;
     public GameObject chamgameScript;
     public Toggle silhouetteTogle;
+    public Toggle modeTogle;
     public string CurrentAnimalBtnText;
     bool isEnable = false;
 
@@ -48,10 +49,12 @@ public class Option : MonoBehaviour
             button.transform.SetParent(content.transform);
             GameObject btText = button.transform.GetChild(0).gameObject;
             btText.GetComponent<Text>().text = (string)list[i];
+            button.transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
         }
 
         AddButtonEventListener();
     }
+    
 
     public void ShuffleList()
     {
@@ -65,10 +68,12 @@ public class Option : MonoBehaviour
         if (isEnable == false)
         {
             EnableOption();
+            GameObject.Find("Main Camera").GetComponent<Camera>().depth = 1;
         }
         else
         {
             DisableOption();
+            GameObject.Find("Main Camera").GetComponent<Camera>().depth = -1;
         }
     }
 
@@ -78,6 +83,8 @@ public class Option : MonoBehaviour
         isEnable = true;
         UpdateListButtons();
         chamgameScript.GetComponent<ChamGameVer2>().DisableButtons();
+        if (modeTogle.isOn)
+            GameObject.Find("UI").transform.Find("Silhouette").gameObject.SetActive(false);
     }
 
     private void DisableOption()
@@ -85,6 +92,13 @@ public class Option : MonoBehaviour
         option.GetComponent<Canvas>().enabled = false;
         isEnable = false;
         chamgameScript.GetComponent<ChamGameVer2>().EnableButtons();
+        if (silhouetteTogle.isOn || modeTogle.isOn)
+            GameObject.Find("UI").transform.Find("Silhouette").gameObject.SetActive(true);
+        if (modeTogle.isOn)
+        {
+            GameObject.Find("nextPart_bt").SetActive(false);
+            GameObject.Find("gameScript").GetComponent<ChamGameVer2>().SetColorSilhouette();
+        }
     }
 
     public void SetSilhouette()
@@ -95,7 +109,20 @@ public class Option : MonoBehaviour
         }
         else
         {
-            GameObject.Find("Silhouette").SetActive(false);
+            GameObject.Find("UI").transform.Find("Silhouette").gameObject.SetActive(false);
+        }
+    }
+
+    public void ChangeMode()
+    {
+        if (modeTogle.isOn)
+        {
+            GameObject.Find("gameScript").GetComponent<ChamGameVer2>().ChangeToBrushMode();
+        }
+        else
+        {
+            GameObject.Find("gameScript").GetComponent<ChamGameVer2>().ChangeToNormalMode();
+            silhouetteTogle.isOn = true;
         }
     }
 
